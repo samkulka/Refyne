@@ -1,0 +1,16 @@
+Order ID,Customer Name,email,order_date,Product,quantity,Price,Status,Region
+1001,John Smith,john@email.com,2024-01-15,Widget A,5,29.99,completed,North
+1002,Jane Doe,JANE@EMAIL.COM,15/01/2024,Widget B,3,49.99,Completed,south
+1003,Bob Johnson,bob.j@email,2024-01-16,Widget A,,29.99,pending,North
+1004,Alice Williams,alice@email.com,01-17-2024,Widget C,2,99.99,shipped,East
+1005,John Smith,john@email.com,2024-01-15,Widget A,5,29.99,completed,North
+1006,Charlie Brown,,2024/01/18,Widget B,1,49.99,cancelled,West
+1007,Diana Prince,diana@email.com,2024-01-19,Widget D,4,invalid,completed,north
+1008,Eve Anderson,eve@email.com,2024-01-20,Widget A,2,29.99,,South
+1009,Frank Miller,frank@email,2024-01-21,Widget B,-1,49.99,completed,East
+1010,Grace Lee,grace@email.com,invalid_date,Widget C,3,99.99,pending,
+1011,Henry Wilson,henry@email.com,2024-01-23,Widget A,2,29.99,completed,North
+1012,,lisa@email.com,2024-01-24,Widget B,5,49.99,shipped,West
+1013,Mike Davis,mike@email.com,2024-01-25,Widget E,1,199.99,completed,South
+1014,Nina Patel,nina@email.com,2024-01-26,Widget A,0,29.99,cancelled,East
+1015,Oscar Green,oscar@email,2024-01-27,Widget B,2,49.99,COMPLETED,north

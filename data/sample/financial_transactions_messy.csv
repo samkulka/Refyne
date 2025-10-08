@@ -1,0 +1,12 @@
+Transaction ID,Account Number,Customer Name,Transaction Date,Amount,Currency,Transaction Type,ISIN Code,Status,Country,Email,SSN
+TXN001,1234567890,John Smith,2024-01-15,$1,500.00,USD,BUY,US0378331005,completed,USA,john.smith@bank.com,123-45-6789
+TXN002,9876543210,Jane Doe,15/01/2024,€2500.50,EUR,SELL,IE00B4BNMY34,Pending,Ireland,JANE.DOE@INVESTMENT.COM,
+txn-003,1234567890,Bob Johnson,2024-01-16,"$3,200",USD,buy,US0378331005,COMPLETED,United States,bob@email,987-65-4321
+TXN004,ACC-998877,Alice Brown,1/17/2024,£750.25,GBP,TRANSFER,GB0002374006,failed,UK,alice.brown@finance.co.uk,
+TXN001,1234567890,John Smith,2024-01-15,$1,500.00,USD,BUY,US0378331005,completed,USA,john.smith@bank.com,123-45-6789
+TXN005,5544332211,Charlie Wilson,2024-01-18,4500,USD,BUY,,processing,USA,charlie@tradingfirm.com,111-22-3333
+TXN006,INVALID,David Lee,2024/01/19,"1,250.75",EUR,SELL,DE0005140008,completed,Germany,david.lee@hedgefund.de,
+TXN007,7788990011,Emma Davis,2024-01-20,$875.50,USD,DIVIDEND,US5949181045,pending,USA,,222-33-4444
+TXN008,2233445566,Frank Miller,21-01-2024,€3,100.00,EUR,BUY,FR0000120271,COMPLETED,France,frank.miller@asset.fr,333-44-5555
+TXN009,9988776655,Grace Taylor,2024-01-22,$2,750,USD,SELL,US02079K1079,completed,USA,grace@quant.com,
+TXN010,1122334455,Henry Anderson,2024-01-23,1500.50,GBP,BUY,GB00BH4HKS39,pending,United Kingdom,henry.anderson@bank.uk,444-55-6666

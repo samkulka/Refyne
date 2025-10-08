@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pricing - Refyne</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .pricing-card { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border: 2px solid #e2e8f0; transition: transform 0.2s; }
+        .pricing-card:hover { transform: translateY(-5px); border-color: #6366f1; }
+        .pricing-card.featured { border-color: #6366f1; position: relative; }
+        .pricing-card.featured::before { content: 'POPULAR'; position: absolute; top: -12px; right: 20px; background: #6366f1; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; font-weight: 700; }
+        .price { font-size: 3rem; font-weight: 700; color: #1e293b; margin: 1rem 0; }
+        .price-period { font-size: 1rem; color: #64748b; font-weight: 400; }
+        .feature-list { list-style: none; margin: 2rem 0; }
+        .feature-list li { padding: 0.75rem 0; border-bottom: 1px solid #f1f5f9; }
+        .feature-list li:last-child { border: none; }
+        .cta-btn { width: 100%; padding: 1rem; background: #6366f1; color: white; border: none; border-radius: 8px; font-size: 1.125rem; font-weight: 600; cursor: pointer; }
+        .cta-btn:hover { background: #4f46e5; }
+        .enterprise-cta { background: #10b981; }
+        .enterprise-cta:hover { background: #059669; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 Simple, Transparent Pricing</h1>
+            <p class="tagline">Built for Finance & ML Teams</p>
+        </header>
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h2>Starter</h2>
+                <div class="price">$99<span class="price-period">/mo</span></div>
+                <ul class="feature-list">
+                    <li>✓ 1,000 rows/month</li>
+                    <li>✓ Basic cleaning</li>
+                    <li>✓ CSV/Excel support</li>
+                    <li>✓ Email support</li>
+                    <li>✓ Web interface</li>
+                </ul>
+                <button class="cta-btn" onclick="window.location.href='/#signup'">Start Free Trial</button>
+            </div>
+            <div class="pricing-card featured">
+                <h2>Professional</h2>
+                <div class="price">$499<span class="price-period">/mo</span></div>
+                <ul class="feature-list">
+                    <li>✓ 100,000 rows/month</li>
+                    <li>✓ All cleaning operations</li>
+                    <li>✓ All file formats</li>
+                    <li>✓ API access (10k calls/mo)</li>
+                    <li>✓ Schema validation</li>
+                    <li>✓ Audit logs</li>
+                    <li>✓ Priority support</li>
+                </ul>
+                <button class="cta-btn" onclick="window.location.href='/#signup'">Start Free Trial</button>
+            </div>
+            <div class="pricing-card">
+                <h2>Enterprise</h2>
+                <div class="price">Custom</div>
+                <ul class="feature-list">
+                    <li>✓ Unlimited rows</li>
+                    <li>✓ Dedicated infrastructure</li>
+                    <li>✓ SOX/GDPR compliance</li>
+                    <li>✓ SSO/SAML</li>
+                    <li>✓ Audit logs & lineage</li>
+                    <li>✓ SLA guarantees</li>
+                    <li>✓ White-label option</li>
+                </ul>
+                <button class="cta-btn enterprise-cta" onclick="window.location.href='mailto:sales@refyne.ai'">Contact Sales</button>
+            </div>
+        </div>
+        <footer><p><a href="/">← Back to Home</a> | Made with ❤️ by Refyne</p></footer>
+    </div>
+</body>
+</html>

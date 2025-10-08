@@ -1,0 +1,50 @@
+Order ID,Customer Name,email,phone,order_date,Product,quantity,Price,Status,Region,Notes
+1001,John Smith,john@email.com,555-1234,2024-01-15,Widget A,5,29.99,completed,North,
+1002,JANE DOE,JANE@EMAIL.COM,555.5678,15/01/2024,Widget B,3,49.99,Completed,south,"Customer called, urgent"
+1003,Bob Johnson,bob.j@email,"(555) 910-1112",2024-01-16,Widget A,,29.99,pending,North,
+1004,,alice@email.com,5559999,01-17-2024,Widget C,2,99.99,shipped,East,
+1005,John Smith,john@email.com,555-1234,2024-01-15,Widget A,5,29.99,completed,North,duplicate row
+1006,Charlie Brown,,555-0000,2024/01/18,Widget B,1,49.99,cancelled,West,
+1007,Diana Prince,diana@email.com,555.2468,2024-01-19,Widget D,4,invalid,completed,north,
+1008,Eve Anderson,eve@email.com,,2024-01-20,Widget A,2,29.99,,South,
+1009,Frank Miller,frank@email,555-1357,2024-01-21,Widget B,-1,49.99,completed,East,negative quantity!!!
+1010,Grace Lee,grace@email.com,555-2020,invalid_date,Widget C,3,99.99,pending,,missing region
+1011,Henry Wilson,henry@email.com,555-3030,2024-01-23,Widget A,2,29.99,completed,North,
+1012,,lisa@email.com,555-4040,2024-01-24,Widget B,5,49.99,shipped,West,missing name
+1013,Mike Davis,mike@email.com,555-5050,2024-01-25,Widget E,1,199.99,completed,South,
+1014,Nina Patel,nina@email.com,555-6060,2024-01-26,Widget A,0,29.99,cancelled,East,zero quantity
+1015,Oscar Green,oscar@email,555-7070,2024-01-27,Widget B,2,49.99,COMPLETED,north,
+1016,   Extra Spaces   ,spaces@email.com,555-8080,2024-01-28,Widget A,3,29.99,pending,  North  ,leading/trailing spaces
+1017,MixedCase NAME,mixedcase@EMAIL.com,555-9090,2024-01-29,Widget C,1,99.99,SHIPPED,WEST,
+1018,Special@Char$,special!@email.com,555-0101,2024-01-30,Widget D,2,149.99,completed,East,special characters in name
+1019,John Smith,john@email.com,555-1234,2024-01-15,Widget A,5,29.99,completed,North,another duplicate
+1020,Émilie François,emilie@email.fr,+33-1-2345,31/01/2024,Widget B,2,€49.99,completed,International,unicode chars
+1021,李明,liming@email.cn,+86-123-4567,2024-02-01,Widget A,1,$29.99,shipped,Asia,non-latin chars
+1022,José García,jose@email.es,,01-02-2024,Widget C,3,49.99USD,pending,Spain,
+1023,NULL,null@email.com,555-1111,2024-02-02,Widget A,NULL,29.99,NULL,North,nulls as strings
+1024,N/A,na@email.com,N/A,2024-02-03,Widget B,n/a,49.99,completed,N/A,N/A values
+1025,TBD,tbd@email.com,TBD,2024-02-04,Widget C,TBD,99.99,TBD,TBD,TBD everywhere
+1026,--,dash@email.com,--,2024-02-05,Widget A,--,29.99,--,--,dashes as nulls
+1027,Unknown,unknown@email.com,000-0000,2024-02-06,Widget B,?,49.99,pending,Unknown,question mark
+1028,Test User,test@test.test,123,2024-02-07,Widget A,999999,0.01,completed,Test,extreme values
+1029,A,a@b.c,1,2024-02-08,X,1,9999999.99,x,Z,minimal data
+1030,VeryLongNameThatGoesOnAndOnAndNeverSeemsToEndBecauseItJustKeepsGoingAndGoing,toolong@verylongemailaddressthatprobablyshouldnotexist.com,555-9999,2024-02-09,Widget With Spaces,10,29.99,completed,North,very long values
+1031,  ,whitespace@email.com,555-0000,2024-02-10,Widget A,1,29.99,completed,North,empty name (spaces)
+1032,John
+Smith,multiline@email.com,555-1212,2024-02-11,Widget B,2,49.99,completed,South,newline in name
+1033,Tab	Name,tab@email.com,555-1313,2024-02-12,Widget C,1,99.99,pending,East,tab character
+1034,"Quoted, Name",quoted@email.com,555-1414,2024-02-13,Widget A,3,29.99,completed,West,comma in quotes
+1035,O'Brien,obrien@email.com,555-1515,2024-02-14,Widget B,2,49.99,shipped,North,apostrophe
+1036,Same,same@email.com,555-1616,2024-02-15,Widget A,5,29.99,completed,North,
+1036,Same,same@email.com,555-1616,2024-02-15,Widget A,5,29.99,completed,North,exact duplicate ID
+1037,Mixed,mixed@email.com,555-1717,02/15/2024,Widget B,3.5,49.99,completed,South,decimal quantity
+1038,DateTest,date@email.com,555-1818,15-Feb-2024,Widget C,2,99.99,pending,East,month name format
+1039,TimeIncluded,time@email.com,555-1919,2024-02-16 14:30:00,Widget A,1,29.99,completed,West,datetime not just date
+1040,Future Order,future@email.com,555-2020,2025-12-31,Widget B,10,49.99,pending,North,future date
+1041,Ancient Order,ancient@email.com,555-2121,1990-01-01,Widget A,1,29.99,completed,South,very old date
+1042,Bad Email Format,notanemail,555-2222,2024-02-17,Widget C,2,99.99,shipped,East,invalid email
+1043,Multiple@@Signs,multi@@email.com,555-2323,2024-02-18,Widget A,1,29.99,completed,North,
+1044,No Domain,nodomain@,555-2424,2024-02-19,Widget B,3,49.99,pending,West,
+1045,Trailing Comma,trailing@email.com,555-2525,2024-02-20,Widget A,1,29.99,completed,South,
+,,,,,,,,,
+1046,After Blank Row,blank@email.com,555-2626,2024-02-21,Widget B,2,49.99,completed,North,row after blank

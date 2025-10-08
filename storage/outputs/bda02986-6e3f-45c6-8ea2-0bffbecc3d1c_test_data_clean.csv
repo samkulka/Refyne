@@ -1,0 +1,4 @@
+order_id,customer_name,email,order_date,product,quantity,price,status,region
+1001,John Smith,john@email.com,,Widget A,5.0,29.99,completed,north
+1002,Jane Doe,jane@email.com,15012024.0,Widget B,3.0,49.99,completed,south
+1003,Bob Johnson,,,Widget A,4.0,29.99,pending,north

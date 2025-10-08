@@ -1,0 +1,80 @@
+version: '3.8'
+
+services:
+  # Refyne API
+  api:
+    build: .
+    container_name: refyne-api
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - DATABASE_URL=postgresql://refyne:refyne_password@postgres:5432/refyne
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./storage:/app/storage
+      - ./src:/app/src
+      - ./api:/app/api
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - refyne-network
+    restart: unless-stopped
+
+  # PostgreSQL Database (Optional - for production)
+  postgres:
+    image: postgres:15-alpine
+    container_name: refyne-postgres
+    environment:
+      - POSTGRES_USER=refyne
+      - POSTGRES_PASSWORD=refyne_password
+      - POSTGRES_DB=refyne
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - refyne-network
+    restart: unless-stopped
+
+  # Redis (Optional - for caching and job queue)
+  redis:
+    image: redis:7-alpine
+    container_name: refyne-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - refyne-network
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+
+  # Celery Worker (Optional - for async jobs)
+  # worker:
+  #   build: .
+  #   container_name: refyne-worker
+  #   command: celery -A api.tasks worker --loglevel=info
+  #   environment:
+  #     - DATABASE_URL=postgresql://refyne:refyne_password@postgres:5432/refyne
+  #     - REDIS_URL=redis://redis:6379/0
+  #   volumes:
+  #     - ./storage:/app/storage
+  #     - ./src:/app/src
+  #     - ./api:/app/api
+  #   depends_on:
+  #     - postgres
+  #     - redis
+  #   networks:
+  #     - refyne-network
+  #   restart: unless-stopped
+
+volumes:
+  postgres-data:
+  redis-data:
+
+networks:
+  refyne-network:
+    driver: bridge

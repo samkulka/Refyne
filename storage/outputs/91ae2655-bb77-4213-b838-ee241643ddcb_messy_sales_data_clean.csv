@@ -1,0 +1,16 @@
+order_id,customer_name,email,order_date,product,quantity,price,status,region
+1001,John Smith,john@email.com,,Widget A,5.0,29.99,completed,north
+1002,Jane Doe,jane@email.com,15012024.0,Widget B,3.0,49.99,completed,south
+1003,Bob Johnson,,,Widget A,2.0,29.99,pending,north
+1004,Alice Williams,alice@email.com,,Widget C,2.0,79.99000000000001,shipped,east
+1005,John Smith,john@email.com,,Widget A,5.0,29.99,completed,north
+1006,Charlie Brown,john@email.com,20240118.0,Widget B,1.0,49.99,cancelled,west
+1007,Diana Prince,diana@email.com,,Widget D,4.0,,completed,north
+1008,Eve Anderson,eve@email.com,,Widget A,2.0,29.99,completed,south
+1009,Frank Miller,,,Widget B,-1.0,49.99,completed,east
+1010,Grace Lee,grace@email.com,,Widget C,3.0,79.99000000000001,pending,north
+1011,Henry Wilson,henry@email.com,,Widget A,2.0,29.99,completed,north
+1012,John Smith,lisa@email.com,,Widget B,5.0,49.99,shipped,west
+1013,Mike Davis,mike@email.com,,Widget E,1.0,79.99000000000001,completed,south
+1014,Nina Patel,nina@email.com,,Widget A,0.0,29.99,cancelled,east
+1015,Oscar Green,,,Widget B,2.0,49.99,completed,north

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refyne - Data Cleanser</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧹 Refyne Data Cleanser</h1>
+            <p class="tagline">Transform messy data into AI-ready datasets in seconds</p>
+        </header>
+
+        <main>
+            <!-- Step 1: Upload -->
+            <section class="card" id="upload-section">
+                <h2>📤 Step 1: Upload Your Data</h2>
+                <div class="upload-area" id="upload-area">
+                    <input type="file" id="file-input" accept=".csv,.xlsx,.xls,.json,.parquet" hidden>
+                    <div class="upload-prompt">
+                        <span class="upload-icon">📁</span>
+                        <p>Click to browse or drag & drop your file</p>
+                        <small>Supports: CSV, Excel, JSON, Parquet</small>
+                    </div>
+                </div>
+                <div id="file-info" class="file-info hidden"></div>
+            </section>
+
+            <!-- Step 2: Profile Results -->
+            <section class="card hidden" id="profile-section">
+                <h2>📊 Step 2: Data Quality Report</h2>
+                <div id="profile-results"></div>
+            </section>
+
+            <!-- Step 3: Clean -->
+            <section class="card hidden" id="clean-section">
+                <h2>✨ Step 3: Clean Your Data</h2>
+                <div class="clean-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="aggressive-mode">
+                        <span>Aggressive Mode (Remove high-null columns & cap outliers)</span>
+                    </label>
+                </div>
+                <button class="btn btn-primary btn-large" id="clean-btn">
+                    🧹 Clean Data
+                </button>
+            </section>
+
+            <!-- Step 4: Results & Download -->
+            <section class="card hidden" id="results-section">
+                <h2>✅ Step 4: Download Cleaned Data</h2>
+                <div id="clean-results"></div>
+                <button class="btn btn-success btn-large" id="download-btn">
+                    ⬇️ Download Cleaned File
+                </button>
+                <button class="btn btn-secondary" id="reset-btn">
+                    🔄 Clean Another File
+                </button>
+            </section>
+
+            <!-- Loading Spinner -->
+            <div class="loading hidden" id="loading">
+                <div class="spinner"></div>
+                <p id="loading-text">Processing...</p>
+            </div>
+
+            <!-- Error Display -->
+            <div class="alert alert-error hidden" id="error-alert">
+                <span class="alert-icon">⚠️</span>
+                <span id="error-message"></span>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ by Refyne | <a href="/docs">API Docs</a></p>
+        </footer>
+    </div>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
