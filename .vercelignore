@@ -1,0 +1,10 @@
+# Ignore Python API files - only deploy Next.js UI
+api/
+src/
+*.py
+requirements.txt
+requirements-api.txt
+pyproject.toml
+setup.py
+Dockerfile
+docker-compose.yml
