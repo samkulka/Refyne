@@ -5,7 +5,8 @@
       "Bash(python3:*)",
       "Bash(FILE_ID=\"3c143cda-1f4d-4ec0-a996-26351a6878ae\")",
       "Bash(curl -X POST http://localhost:8000/api/v1/profile -H \"Content-Type: application/json\" -d \"{\"\"file_id\"\": \"\"$FILE_ID\"\"}\")",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(cp:*)"
     ],
     "deny": [],
     "ask": []
