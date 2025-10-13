@@ -81,29 +81,33 @@ def validate_api_key(api_key: str) -> bool:
 async def get_api_key(api_key: Optional[str] = Security(api_key_header)) -> str:
     """
     Dependency to validate API key from request header
-    
+
     Args:
         api_key: API key from X-API-Key header
-        
+
     Returns:
         Validated API key
-        
+
     Raises:
         HTTPException: If API key is missing or invalid
     """
+    # Skip auth in development if disabled
+    if settings.disable_auth:
+        return "dev-bypass"
+
     if not api_key:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="API key required. Include 'X-API-Key' header.",
             headers={"WWW-Authenticate": "ApiKey"},
         )
-    
+
     if not validate_api_key(api_key):
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Invalid API key",
         )
-    
+
     return api_key
 
 

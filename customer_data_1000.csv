@@ -1,0 +1,1001 @@
+customer_id,first_name,last_name,email,phone,company,city,account_value,last_active,num_accounts,growth_rate,status
+CUST-00001,Michelle,Moore,michelle.moore@business.net,+1-868-465-8439,Digital Media Co,"Los Angeles, CA",65631.0,2025-04-24,1,18.3,pending
+CUST-00002,Amanda,Anderson,amanda.anderson@company.com,+1-336-751-6983,Web Services LLC,"New York, NY",50312.54,2025-08-06,3,2.3,churned
+CUST-00003,David,Gonzalez,david.gonzalez@outlook.com,+1-258-244-7438,Web Services LLC,"Chicago, IL",46332.06,2025-09-28,1,23.8,pending
+CUST-00004,Amanda,Williams,amanda.williams@outlook.com,+1-296-911-5723,Data Systems Inc,"Nashville, TN",74532.33,2025-05-06,3,-7.6,inactive
+CUST-00005,Andrew,Thomas,andrew.thomas@yahoo.com,+1-339-989-5079,AI Innovations,"Charlotte, NC",57049.76,2025-09-20,2,-4.8,churned
+CUST-00006,Amanda,Taylor,amanda.taylor@yahoo.com,,Network Solutions,"Portland, OR",97688.87,2025-09-26,2,19.5,pending
+CUST-00007,Michelle,Garcia,michelle.garcia@outlook.com,+1-992-550-9919,AI Innovations,"Chicago, IL",47475.31,2025-07-22,2,21.2,inactive
+CUST-00008,Ashley,Martinez,ashley.martinez@business.net,+1-612-272-5445,Cloud Solutions,"New York, NY",29533.79,2025-09-18,1,1.3,pending
+CUST-00009,Stephanie,Lopez,stephanie.lopez@business.net,+1-787-455-9380,Tech Corp,"New York, NY",43975.79,2025-06-16,5,13.1,inactive
+CUST-00010,Nicole,Smith,nicole.smith@gmail.com,+1-683-597-4225,Tech Corp,"Denver, CO",95169.7,2025-09-15,4,-2.5,pending
+CUST-00011,Sarah,Gonzalez,sarah.gonzalez@business.net,,Digital Media Co,"Seattle, WA",84987.41,2025-07-17,5,4.6,inactive
+CUST-00012,Robert,Davis,robert.davis@company.com,,Analytics Group,"Charlotte, NC",97074.16,2025-09-20,1,22.4,inactive
+CUST-00013,Sarah,Thomas,sarah.thomas@outlook.com,,Analytics Group,"Charlotte, NC",61112.56,2025-04-28,1,6.8,pending
+CUST-00014,Ashley,Davis,ashley.davis@company.com,+1-444-676-6503,Analytics Group,"Atlanta, GA",18521.7,2025-06-19,4,21.3,pending
+CUST-00015,Joshua,Hernandez,joshua.hernandez@company.com,+1-244-843-9787,AI Innovations,"Atlanta, GA",35964.89,2025-04-12,5,-9.9,inactive
+CUST-00016,Michael,Thomas,michael.thomas@company.com,+1-772-671-8337,Network Solutions,"Seattle, WA",26537.63,2025-09-29,1,-1.0,pending
+CUST-00017,Michael,Lopez,michael.lopez@yahoo.com,+1-270-512-2202,Web Services LLC,"Nashville, TN",61658.55,2025-08-19,1,20.0,churned
+CUST-00018,Christopher,Smith,christopher.smith@business.net,+1-495-980-8979,Data Systems Inc,"Austin, TX",80771.82,2025-08-17,1,16.8,pending
+CUST-00019,Michael,Thomas,michael.thomas@business.net,+1-960-858-9517,Web Services LLC,"Nashville, TN",27564.24,2025-07-12,4,17.4,inactive
+CUST-00020,Jessica,Martin,jessica.martin@business.net,+1-237-485-9184,Network Solutions,"Boston, MA",33342.71,2025-06-04,2,-5.6,pending
+CUST-00021,Stephanie,Taylor,stephanie.taylor@business.net,+1-598-225-1927,Digital Media Co,"Austin, TX",51994.14,2025-09-04,3,-2.3,inactive
+CUST-00022,Christopher,Smith,christopher.smith@business.net,+1-392-718-8076,,"San Diego, CA",31726.34,2025-06-05,4,-3.7,churned
+CUST-00023,Joshua,Miller,joshua.miller@company.com,+1-439-759-2534,Cloud Solutions,"Denver, CO",33770.64,2025-07-30,2,14.6,pending
+CUST-00024,David,Taylor,david.taylor@gmail.com,+1-824-314-1611,Digital Media Co,"New York, NY",54208.51,2025-05-22,3,2.4,active
+CUST-00025,Christopher,Jackson,christopher.jackson@gmail.com,+1-729-318-9405,Tech Corp,"Los Angeles, CA",88480.21,2025-07-31,3,-2.4,churned
+CUST-00026,Jessica,Anderson,jessica.anderson@outlook.com,+1-212-461-6744,Analytics Group,"Austin, TX",7036.58,2025-07-11,3,13.4,pending
+CUST-00027,Matthew,Wilson,matthew.wilson@yahoo.com,+1-571-219-4511,Tech Corp,"Miami, FL",63940.6,2025-06-17,5,19.5,churned
+CUST-00028,Sarah,Hernandez,sarah.hernandez@outlook.com,+1-393-515-7561,Web Services LLC,"San Diego, CA",38301.02,2025-05-26,5,-5.6,churned
+CUST-00029,Emily,Wilson,emily.wilson@yahoo.com,+1-814-593-7910,Platform Inc,"Atlanta, GA",20043.35,2025-08-16,1,2.5,pending
+CUST-00030,Robert,Johnson,robert.johnson@company.com,,Network Solutions,"Nashville, TN",11629.95,2025-10-06,4,13.5,churned
+CUST-00031,Ashley,Johnson,ashley.johnson@business.net,+1-845-671-1792,Data Systems Inc,"San Diego, CA",8590.34,2025-05-10,3,8.5,churned
+CUST-00032,Stephanie,Miller,,+1-307-308-1185,Digital Media Co,"Charlotte, NC",59421.88,2025-10-01,3,9.4,active
+CUST-00033,Ashley,Miller,ashley.miller@company.com,+1-536-413-7251,Web Services LLC,"Phoenix, AZ",22756.18,2025-09-05,3,5.1,inactive
+CUST-00034,Matthew,Smith,matthew.smith@company.com,+1-306-990-7354,AI Innovations,"Atlanta, GA",72164.72,2025-08-13,4,-6.1,pending
+CUST-00035,Joshua,Thomas,joshua.thomas@company.com,,Tech Corp,"Los Angeles, CA",84094.83,2025-06-16,2,7.3,pending
+CUST-00036,Sarah,Jones,sarah.jones@gmail.com,+1-541-755-3775,Cloud Solutions,"New York, NY",36945.77,2025-05-25,3,-8.3,active
+CUST-00037,Daniel,Williams,daniel.williams@yahoo.com,+1-848-172-3200,Network Solutions,"San Diego, CA",23003.37,2025-08-01,2,18.8,inactive
+CUST-00038,Jennifer,Anderson,jennifer.anderson@company.com,+1-647-588-2566,Data Systems Inc,"Denver, CO",81384.59,2025-07-24,2,23.7,churned
+CUST-00039,Amanda,Jackson,amanda.jackson@outlook.com,+1-543-984-6033,Data Systems Inc,"Miami, FL",46539.83,2025-08-07,4,19.1,active
+CUST-00040,Lisa,Gonzalez,lisa.gonzalez@company.com,+1-890-539-6311,Digital Media Co,"Austin, TX",53320.97,2025-10-05,2,7.3,active
+CUST-00041,Amanda,Smith,amanda.smith@business.net,+1-725-195-4502,Digital Media Co,"Chicago, IL",99205.91,2025-04-26,4,-8.7,churned
+CUST-00042,Sarah,Anderson,sarah.anderson@outlook.com,+1-420-945-3909,Analytics Group,"Miami, FL",84962.49,2025-07-15,1,7.6,inactive
+CUST-00043,Nicole,Jackson,nicole.jackson@yahoo.com,+1-803-382-7601,Network Solutions,"Nashville, TN",76799.37,2025-08-25,1,6.4,active
+CUST-00044,Joshua,Anderson,joshua.anderson@yahoo.com,+1-949-222-5852,AI Innovations,"Miami, FL",4349.66,2025-05-06,4,-3.1,churned
+CUST-00045,Jennifer,Taylor,jennifer.taylor@gmail.com,+1-718-740-3720,Network Solutions,"Atlanta, GA",55825.83,2025-05-31,1,16.8,churned
+CUST-00046,Amanda,Moore,amanda.moore@gmail.com,+1-958-578-6790,Platform Inc,"Portland, OR",37029.76,2025-07-05,4,21.7,inactive
+CUST-00047,William,Martinez,william.martinez@company.com,+1-469-163-8820,AI Innovations,"Seattle, WA",22948.45,2025-09-24,2,-3.7,churned
+CUST-00048,Robert,Wilson,,+1-415-789-5836,,"Charlotte, NC",58607.22,2025-04-12,5,2.8,churned
+CUST-00049,Andrew,Davis,andrew.davis@business.net,+1-799-204-3844,Network Solutions,"Portland, OR",10144.86,2025-09-30,2,12.1,active
+CUST-00050,Jennifer,Thomas,jennifer.thomas@company.com,+1-361-759-8908,Network Solutions,"San Diego, CA",5538.57,2025-09-07,4,13.5,pending
+CUST-00051,Andrew,Lopez,andrew.lopez@company.com,+1-535-867-5270,Cloud Solutions,"Portland, OR",84157.66,2025-07-16,5,1.9,pending
+CUST-00052,Daniel,Miller,daniel.miller@gmail.com,+1-875-511-5206,Digital Media Co,"Chicago, IL",82379.62,2025-07-13,1,11.2,pending
+CUST-00053,Stephanie,Davis,stephanie.davis@company.com,+1-380-288-7640,Software Partners,"Seattle, WA",31987.41,2025-08-20,2,-7.2,pending
+CUST-00054,David,Brown,david.brown@business.net,+1-540-350-3036,Network Solutions,"Phoenix, AZ",5366.94,2025-05-13,2,11.3,inactive
+CUST-00055,Joshua,Martin,joshua.martin@outlook.com,+1-618-213-9450,Platform Inc,"Charlotte, NC",33148.94,2025-08-07,5,-1.8,pending
+CUST-00056,Joshua,Williams,joshua.williams@company.com,+1-660-682-7580,Data Systems Inc,"Phoenix, AZ",91785.29,2025-08-20,1,16.2,active
+CUST-00057,Emily,Rodriguez,emily.rodriguez@outlook.com,+1-506-414-7767,Data Systems Inc,"Charlotte, NC",59505.64,2025-06-13,4,12.4,pending
+CUST-00058,Matthew,Hernandez,,+1-217-225-8811,Digital Media Co,"Phoenix, AZ",91208.34,2025-07-28,2,5.6,pending
+CUST-00059,Jennifer,Jones,jennifer.jones@business.net,+1-928-180-9243,AI Innovations,"Charlotte, NC",80512.19,2025-05-10,3,5.5,pending
+CUST-00060,Nicole,Williams,nicole.williams@yahoo.com,+1-681-110-9984,Software Partners,"San Diego, CA",76081.07,2025-07-16,3,19.8,active
+CUST-00061,Nicole,Johnson,nicole.johnson@gmail.com,+1-443-142-8290,Digital Media Co,"Los Angeles, CA",82475.1,2025-06-16,3,-6.2,churned
+CUST-00062,Matthew,Rodriguez,matthew.rodriguez@yahoo.com,+1-661-448-3233,Software Partners,"Atlanta, GA",91434.91,2025-09-29,4,-1.7,inactive
+CUST-00063,Ashley,Anderson,ashley.anderson@business.net,+1-675-667-7841,Data Systems Inc,"Nashville, TN",63034.24,2025-06-30,5,-8.9,active
+CUST-00064,Jessica,Johnson,jessica.johnson@outlook.com,+1-870-720-2639,Analytics Group,"San Diego, CA",42821.53,2025-07-08,2,-1.2,churned
+CUST-00065,Matthew,Anderson,matthew.anderson@business.net,+1-811-492-9781,Software Partners,"Austin, TX",91747.47,2025-08-16,5,10.8,churned
+CUST-00066,Amanda,Wilson,amanda.wilson@business.net,+1-340-840-9418,Analytics Group,"Portland, OR",77093.96,2025-06-02,1,-6.7,inactive
+CUST-00067,Joshua,Jackson,joshua.jackson@gmail.com,+1-336-467-1755,AI Innovations,"Atlanta, GA",51885.89,2025-07-01,1,9.6,active
+CUST-00068,Christopher,Gonzalez,christopher.gonzalez@yahoo.com,+1-424-274-3338,Cloud Solutions,"Atlanta, GA",32199.42,2025-05-27,5,-6.9,pending
+CUST-00069,Matthew,Williams,matthew.williams@gmail.com,+1-544-152-2906,Web Services LLC,"Boston, MA",76942.17,2025-08-01,5,22.9,churned
+CUST-00070,Stephanie,Taylor,stephanie.taylor@company.com,+1-556-527-6034,Cloud Solutions,"Chicago, IL",57579.17,2025-06-16,5,5.6,pending
+CUST-00071,Daniel,Taylor,daniel.taylor@outlook.com,+1-207-992-7400,Cloud Solutions,"Atlanta, GA",34885.68,2025-07-14,1,18.1,active
+CUST-00072,Amanda,Hernandez,amanda.hernandez@gmail.com,+1-766-556-6628,Digital Media Co,"Boston, MA",94903.53,2025-04-16,5,18.2,inactive
+CUST-00073,Nicole,Moore,nicole.moore@gmail.com,+1-893-322-4575,Analytics Group,"Nashville, TN",69805.64,2025-08-18,3,-8.2,churned
+CUST-00074,Andrew,Lopez,andrew.lopez@company.com,+1-798-472-6084,Software Partners,"Portland, OR",74258.3,2025-09-07,4,23.4,inactive
+CUST-00075,James,Jones,james.jones@business.net,,Software Partners,"Austin, TX",78906.54,2025-09-04,5,10.9,active
+CUST-00076,Michelle,Jones,michelle.jones@outlook.com,+1-717-682-3448,,"Miami, FL",91713.91,2025-04-13,1,11.3,inactive
+CUST-00077,David,Moore,david.moore@company.com,,Software Partners,"Portland, OR",82263.7,2025-06-01,5,7.5,churned
+CUST-00078,Michelle,Rodriguez,michelle.rodriguez@company.com,+1-573-243-8820,Data Systems Inc,"Portland, OR",23443.66,2025-08-10,5,19.8,inactive
+CUST-00079,Robert,Jackson,robert.jackson@gmail.com,+1-811-642-9260,Analytics Group,"Charlotte, NC",74594.96,2025-06-21,1,-9.9,inactive
+CUST-00080,David,Smith,david.smith@yahoo.com,+1-359-623-7190,Analytics Group,"Atlanta, GA",72789.58,2025-07-16,3,12.6,active
+CUST-00081,Michelle,Jones,michelle.jones@gmail.com,+1-997-643-8716,AI Innovations,"Austin, TX",3806.49,2025-05-21,1,24.7,inactive
+CUST-00082,Matthew,Jones,matthew.jones@gmail.com,+1-646-933-1151,AI Innovations,"Boston, MA",52948.69,2025-05-11,1,19.6,inactive
+CUST-00083,Jennifer,Moore,jennifer.moore@yahoo.com,+1-919-117-6410,Digital Media Co,"Nashville, TN",39692.01,2025-07-03,5,-6.4,inactive
+CUST-00084,Joshua,Taylor,joshua.taylor@company.com,+1-718-307-4266,Data Systems Inc,"Miami, FL",86575.55,2025-05-01,1,-1.4,pending
+CUST-00085,Joshua,Gonzalez,joshua.gonzalez@outlook.com,,Platform Inc,"Portland, OR",62537.78,2025-09-25,4,4.9,inactive
+CUST-00086,Amanda,Jackson,amanda.jackson@yahoo.com,+1-993-555-3511,Network Solutions,"Portland, OR",72804.97,2025-07-05,4,16.4,inactive
+CUST-00087,Jessica,Hernandez,jessica.hernandez@gmail.com,+1-405-766-1459,Tech Corp,"Atlanta, GA",17570.71,2025-05-22,5,13.8,inactive
+CUST-00088,Daniel,Moore,daniel.moore@outlook.com,+1-317-685-4912,Platform Inc,"Chicago, IL",26638.06,2025-05-13,1,-0.1,inactive
+CUST-00089,Matthew,Smith,matthew.smith@gmail.com,+1-684-720-5620,AI Innovations,"Phoenix, AZ",8710.16,2025-10-05,4,-6.2,pending
+CUST-00090,Jessica,Johnson,jessica.johnson@gmail.com,+1-325-995-2088,Data Systems Inc,"Seattle, WA",45802.09,2025-07-18,2,24.2,pending
+CUST-00091,William,Jackson,william.jackson@outlook.com,+1-887-529-4415,Platform Inc,"Phoenix, AZ",66909.99,2025-06-10,2,-7.0,active
+CUST-00092,Jessica,Williams,,+1-595-282-1767,Data Systems Inc,"Charlotte, NC",52068.48,2025-09-09,1,23.1,inactive
+CUST-00093,Andrew,Garcia,andrew.garcia@outlook.com,+1-873-812-3454,Data Systems Inc,"Boston, MA",26725.71,2025-07-29,3,-1.1,churned
+CUST-00094,Jennifer,Williams,jennifer.williams@gmail.com,+1-739-922-6127,AI Innovations,"New York, NY",9260.47,2025-06-09,5,17.2,pending
+CUST-00095,Matthew,Lopez,matthew.lopez@company.com,+1-764-990-1748,Data Systems Inc,"Los Angeles, CA",55332.83,2025-08-02,2,6.1,active
+CUST-00096,Daniel,Garcia,daniel.garcia@gmail.com,+1-910-931-3136,Platform Inc,"Charlotte, NC",9550.27,2025-09-22,1,12.6,pending
+CUST-00097,Lisa,Hernandez,lisa.hernandez@outlook.com,+1-297-255-2825,Tech Corp,"Nashville, TN",89062.17,2025-07-30,5,22.1,churned
+CUST-00098,Joshua,Taylor,joshua.taylor@company.com,+1-283-944-7783,Network Solutions,"Seattle, WA",7136.35,2025-08-16,5,24.5,churned
+CUST-00099,James,Thomas,james.thomas@gmail.com,+1-850-898-2956,Network Solutions,"Boston, MA",58490.89,2025-08-29,1,23.7,active
+CUST-00100,Michelle,Lopez,michelle.lopez@business.net,+1-307-911-8993,Platform Inc,"Chicago, IL",98948.55,2025-07-23,4,10.5,pending
+CUST-00101,Jessica,Thomas,jessica.thomas@company.com,+1-218-934-2628,Analytics Group,"Nashville, TN",15532.86,2025-06-04,2,18.1,pending
+CUST-00102,James,Johnson,james.johnson@company.com,+1-698-701-1848,Analytics Group,"Chicago, IL",1052.39,2025-07-31,2,20.4,inactive
+CUST-00103,David,Brown,david.brown@company.com,+1-212-686-3097,Analytics Group,"Miami, FL",82357.4,2025-04-30,5,6.1,active
+CUST-00104,David,Martin,david.martin@outlook.com,+1-571-379-6243,AI Innovations,"Nashville, TN",63329.4,2025-06-09,3,7.6,churned
+CUST-00105,Stephanie,Martin,stephanie.martin@gmail.com,+1-467-331-7052,Network Solutions,"New York, NY",59030.68,2025-05-02,3,-3.7,inactive
+CUST-00106,Andrew,Wilson,andrew.wilson@yahoo.com,+1-760-352-1979,Software Partners,"Charlotte, NC",16453.97,2025-09-18,2,24.2,churned
+CUST-00107,Michelle,Jones,michelle.jones@yahoo.com,+1-725-596-4955,Data Systems Inc,"Miami, FL",86482.6,2025-07-15,5,11.8,inactive
+CUST-00108,Emily,Wilson,emily.wilson@business.net,+1-392-223-1437,Cloud Solutions,"Atlanta, GA",93033.89,2025-07-08,3,-9.1,churned
+CUST-00109,Ashley,Smith,ashley.smith@yahoo.com,+1-574-880-6292,Web Services LLC,"San Diego, CA",19861.16,2025-09-15,3,0.7,churned
+CUST-00110,Michelle,Garcia,michelle.garcia@gmail.com,+1-636-152-9506,Cloud Solutions,"Chicago, IL",80012.63,2025-10-08,2,20.4,inactive
+CUST-00111,Sarah,Gonzalez,sarah.gonzalez@company.com,+1-424-101-2189,Data Systems Inc,"Los Angeles, CA",50101.66,2025-08-14,2,12.4,churned
+CUST-00112,Michelle,Davis,michelle.davis@outlook.com,,Software Partners,"Seattle, WA",71495.96,2025-06-08,5,-2.7,active
+CUST-00113,Amanda,Jones,amanda.jones@business.net,+1-243-663-3087,Tech Corp,"Nashville, TN",13011.05,2025-06-15,2,-4.9,inactive
+CUST-00114,Lisa,Rodriguez,lisa.rodriguez@gmail.com,+1-298-311-5970,Web Services LLC,"Miami, FL",79493.42,2025-06-20,4,-6.9,inactive
+CUST-00115,Matthew,Gonzalez,matthew.gonzalez@yahoo.com,+1-218-781-3071,Cloud Solutions,"Atlanta, GA",91654.85,2025-04-28,2,9.2,active
+CUST-00116,Lisa,Hernandez,lisa.hernandez@gmail.com,,Analytics Group,"Denver, CO",69371.09,2025-08-12,4,10.6,churned
+CUST-00117,Daniel,Thomas,daniel.thomas@yahoo.com,+1-818-926-1281,Digital Media Co,"New York, NY",48568.01,2025-09-21,3,16.2,inactive
+CUST-00118,Daniel,Jones,daniel.jones@yahoo.com,+1-491-371-3203,Network Solutions,"Atlanta, GA",32789.84,2025-08-23,1,15.4,churned
+CUST-00119,Michelle,Hernandez,michelle.hernandez@business.net,+1-330-159-1951,Platform Inc,"San Diego, CA",59700.44,2025-09-14,4,-7.5,active
+CUST-00120,James,Garcia,james.garcia@business.net,+1-549-388-3142,Platform Inc,"Phoenix, AZ",60623.11,2025-06-07,3,5.4,active
+CUST-00121,Sarah,Garcia,sarah.garcia@company.com,+1-689-463-4454,Web Services LLC,"Seattle, WA",97202.41,2025-06-11,5,-3.4,inactive
+CUST-00122,Sarah,Davis,,+1-503-469-7205,Network Solutions,"New York, NY",75680.61,2025-07-17,3,-4.6,pending
+CUST-00123,James,Anderson,james.anderson@yahoo.com,+1-347-131-4230,Platform Inc,"Charlotte, NC",5023.44,2025-05-28,5,-6.8,churned
+CUST-00124,Michelle,Davis,michelle.davis@gmail.com,+1-710-479-4429,AI Innovations,"San Diego, CA",74919.46,2025-08-21,1,10.0,churned
+CUST-00125,Christopher,Taylor,christopher.taylor@yahoo.com,,Analytics Group,"Boston, MA",57786.28,2025-06-15,2,-7.8,pending
+CUST-00126,Andrew,Hernandez,andrew.hernandez@outlook.com,+1-600-924-3670,AI Innovations,"Nashville, TN",40665.64,2025-07-30,4,-6.4,pending
+CUST-00127,David,Wilson,david.wilson@outlook.com,+1-206-449-4912,Software Partners,"Denver, CO",67356.01,2025-07-13,5,2.7,inactive
+CUST-00128,David,Smith,david.smith@outlook.com,+1-991-168-6510,Platform Inc,"Atlanta, GA",9112.21,2025-05-13,5,-1.3,churned
+CUST-00129,Ashley,Garcia,ashley.garcia@business.net,+1-745-206-2527,Data Systems Inc,"Boston, MA",49419.8,2025-06-20,2,16.9,active
+CUST-00130,Michael,Brown,michael.brown@company.com,+1-274-413-1611,AI Innovations,"Atlanta, GA",75372.36,2025-09-17,4,4.7,churned
+CUST-00131,Amanda,Taylor,amanda.taylor@business.net,+1-458-526-5088,Software Partners,"Chicago, IL",3421.48,2025-06-09,2,23.5,churned
+CUST-00132,Lisa,Johnson,lisa.johnson@outlook.com,+1-819-885-4371,Analytics Group,"Los Angeles, CA",7061.93,2025-07-01,5,-3.5,inactive
+CUST-00133,Joshua,Garcia,joshua.garcia@yahoo.com,+1-782-808-3958,Platform Inc,"New York, NY",5345.94,2025-07-19,5,18.2,inactive
+CUST-00134,Stephanie,Johnson,stephanie.johnson@yahoo.com,+1-206-581-2724,Platform Inc,"Miami, FL",48990.41,2025-07-04,5,-4.0,inactive
+CUST-00135,Amanda,Gonzalez,amanda.gonzalez@yahoo.com,+1-586-890-3767,Web Services LLC,"Boston, MA",15486.16,2025-05-03,2,-6.2,inactive
+CUST-00136,Andrew,Hernandez,andrew.hernandez@gmail.com,+1-745-661-2923,Tech Corp,"New York, NY",47599.79,2025-05-10,3,20.6,active
+CUST-00137,Sarah,Smith,sarah.smith@gmail.com,+1-565-533-9517,Analytics Group,"Denver, CO",21088.03,2025-07-20,1,0.8,churned
+CUST-00138,Sarah,Martinez,sarah.martinez@company.com,+1-567-762-1135,Web Services LLC,"Los Angeles, CA",54337.38,2025-06-24,4,22.0,churned
+CUST-00139,Jennifer,Taylor,jennifer.taylor@business.net,+1-849-110-7684,Analytics Group,"Phoenix, AZ",76746.87,2025-05-14,3,9.6,pending
+CUST-00140,Michael,Smith,michael.smith@company.com,+1-225-586-1355,Web Services LLC,"Denver, CO",98396.88,2025-10-08,4,23.8,inactive
+CUST-00141,Joshua,Jackson,joshua.jackson@company.com,+1-996-334-3247,Data Systems Inc,"Nashville, TN",28305.3,2025-06-14,2,12.3,pending
+CUST-00142,Jennifer,Jackson,jennifer.jackson@gmail.com,+1-940-254-9855,Platform Inc,"Austin, TX",39489.43,2025-07-10,3,-9.7,inactive
+CUST-00143,Stephanie,Gonzalez,stephanie.gonzalez@yahoo.com,+1-861-897-6968,Digital Media Co,"New York, NY",63840.0,2025-06-26,3,5.6,churned
+CUST-00144,Robert,Jones,robert.jones@gmail.com,+1-232-696-3430,Cloud Solutions,"Denver, CO",94919.44,2025-07-08,1,11.6,inactive
+CUST-00145,Joshua,Davis,joshua.davis@company.com,,Digital Media Co,"Atlanta, GA",64220.13,2025-08-23,4,10.8,churned
+CUST-00146,Christopher,Moore,christopher.moore@business.net,+1-517-885-5452,Analytics Group,"Charlotte, NC",94305.28,2025-06-01,3,24.6,active
+CUST-00147,Lisa,Thomas,lisa.thomas@business.net,+1-573-759-3821,Tech Corp,"Nashville, TN",39103.91,2025-07-12,2,19.7,churned
+CUST-00148,David,Wilson,david.wilson@gmail.com,+1-308-118-8182,Cloud Solutions,"Los Angeles, CA",79739.93,2025-09-03,1,-5.5,inactive
+CUST-00149,Emily,Garcia,emily.garcia@gmail.com,+1-335-476-3568,Digital Media Co,"Denver, CO",79136.1,2025-05-06,3,2.8,active
+CUST-00150,Jessica,Williams,jessica.williams@yahoo.com,+1-755-809-3737,Cloud Solutions,"Los Angeles, CA",12369.48,2025-05-28,1,16.1,active
+CUST-00151,Michelle,Taylor,michelle.taylor@business.net,+1-314-454-1012,Software Partners,"New York, NY",7221.25,2025-09-11,3,7.7,active
+CUST-00152,James,Wilson,james.wilson@outlook.com,+1-867-504-1365,Web Services LLC,"Phoenix, AZ",1596.16,2025-07-29,3,12.8,inactive
+CUST-00153,Amanda,Anderson,amanda.anderson@company.com,+1-883-174-9061,Network Solutions,"Austin, TX",67985.44,2025-07-08,4,16.6,active
+CUST-00154,Sarah,Brown,sarah.brown@business.net,+1-589-377-1702,Web Services LLC,"Seattle, WA",96879.96,2025-05-09,5,11.4,active
+CUST-00155,Emily,Moore,emily.moore@business.net,+1-592-398-1039,Platform Inc,"Charlotte, NC",41152.11,2025-08-16,1,20.1,active
+CUST-00156,David,Jackson,david.jackson@yahoo.com,+1-991-972-1317,Network Solutions,"Charlotte, NC",16228.89,2025-06-15,2,23.8,active
+CUST-00157,Joshua,Jones,joshua.jones@business.net,+1-549-241-5325,AI Innovations,"Chicago, IL",46333.4,2025-08-16,1,18.2,pending
+CUST-00158,Jennifer,Martinez,jennifer.martinez@business.net,+1-696-632-6027,Analytics Group,"Austin, TX",55485.3,2025-09-25,3,15.1,inactive
+CUST-00159,Andrew,Anderson,andrew.anderson@company.com,+1-956-418-1190,Network Solutions,"San Diego, CA",82650.54,2025-10-08,2,14.6,pending
+CUST-00160,Amanda,Hernandez,amanda.hernandez@outlook.com,+1-419-859-5590,Platform Inc,"Phoenix, AZ",12082.09,2025-06-19,5,22.0,inactive
+CUST-00161,Jennifer,Smith,jennifer.smith@business.net,+1-983-130-1363,Analytics Group,"Nashville, TN",82265.85,2025-08-30,5,11.4,pending
+CUST-00162,Lisa,Brown,lisa.brown@outlook.com,+1-787-881-5279,,"Portland, OR",3198.76,2025-09-04,3,12.0,active
+CUST-00163,Michelle,Brown,,+1-458-792-1687,Software Partners,"Portland, OR",83698.62,2025-08-30,1,7.6,inactive
+CUST-00164,Amanda,Gonzalez,amanda.gonzalez@gmail.com,+1-589-960-7124,Cloud Solutions,"Atlanta, GA",25829.5,2025-05-03,5,5.7,active
+CUST-00165,Stephanie,Davis,stephanie.davis@outlook.com,+1-963-605-5162,Web Services LLC,"San Diego, CA",11981.83,2025-08-20,5,8.8,churned
+CUST-00166,Jennifer,Davis,,+1-889-500-9540,Analytics Group,"New York, NY",57287.88,2025-08-01,3,-9.7,inactive
+CUST-00167,Amanda,Johnson,amanda.johnson@outlook.com,+1-775-727-8192,Digital Media Co,"Nashville, TN",74251.38,2025-05-13,5,-7.6,pending
+CUST-00168,Amanda,Anderson,amanda.anderson@business.net,+1-290-196-2761,Web Services LLC,"New York, NY",13345.12,2025-07-30,2,1.7,churned
+CUST-00169,James,Moore,james.moore@gmail.com,+1-512-732-3233,Platform Inc,"Nashville, TN",60065.65,2025-09-28,1,18.3,inactive
+CUST-00170,Andrew,Gonzalez,andrew.gonzalez@yahoo.com,,Analytics Group,"Nashville, TN",73830.41,2025-06-11,4,8.7,pending
+CUST-00171,Joshua,Miller,joshua.miller@gmail.com,+1-814-296-3234,Data Systems Inc,"Chicago, IL",65855.62,2025-07-15,5,2.3,pending
+CUST-00172,Andrew,Anderson,andrew.anderson@outlook.com,+1-526-470-7598,Analytics Group,"Charlotte, NC",73983.34,2025-06-11,4,17.3,churned
+CUST-00173,Christopher,Johnson,,+1-953-151-5073,Tech Corp,"Chicago, IL",24040.81,2025-08-24,4,8.8,active
+CUST-00174,Lisa,Thomas,lisa.thomas@yahoo.com,+1-817-852-6134,,"Phoenix, AZ",18412.05,2025-07-05,3,8.0,active
+CUST-00175,Robert,Williams,robert.williams@outlook.com,+1-674-765-5380,Software Partners,"Charlotte, NC",90535.88,2025-04-18,5,-7.0,churned
+CUST-00176,Michael,Garcia,michael.garcia@gmail.com,+1-292-365-7236,,"Nashville, TN",64492.51,2025-09-08,5,18.0,active
+CUST-00177,David,Brown,david.brown@yahoo.com,+1-385-905-2987,Tech Corp,"Los Angeles, CA",57454.43,2025-08-03,5,24.6,active
+CUST-00178,James,Johnson,james.johnson@outlook.com,+1-950-608-2000,Cloud Solutions,"Seattle, WA",65262.89,2025-07-09,1,23.0,active
+CUST-00179,Christopher,Moore,christopher.moore@yahoo.com,+1-767-906-2306,Cloud Solutions,"Portland, OR",79518.97,2025-05-18,5,6.0,churned
+CUST-00180,Joshua,Gonzalez,joshua.gonzalez@business.net,+1-258-959-1971,AI Innovations,"San Diego, CA",27111.02,2025-08-09,3,11.6,inactive
+CUST-00181,Christopher,Jones,christopher.jones@gmail.com,+1-611-798-5624,AI Innovations,"Charlotte, NC",35128.1,2025-07-11,5,9.7,pending
+CUST-00182,Andrew,Rodriguez,andrew.rodriguez@company.com,+1-673-386-5383,,"Boston, MA",26149.88,2025-07-08,5,12.7,inactive
+CUST-00183,Lisa,Hernandez,lisa.hernandez@company.com,+1-474-597-1079,Software Partners,"Los Angeles, CA",67563.35,2025-08-09,3,-4.3,pending
+CUST-00184,Joshua,Jones,joshua.jones@yahoo.com,+1-316-749-3507,Platform Inc,"New York, NY",58915.46,2025-05-03,3,-2.9,active
+CUST-00185,Daniel,Jones,daniel.jones@gmail.com,+1-875-499-3509,AI Innovations,"Austin, TX",59796.39,2025-08-06,5,22.9,pending
+CUST-00186,Amanda,Jackson,amanda.jackson@outlook.com,+1-764-488-3641,Analytics Group,"Denver, CO",20428.97,2025-09-13,3,-1.9,inactive
+CUST-00187,Nicole,Thomas,nicole.thomas@business.net,+1-810-936-8290,AI Innovations,"Los Angeles, CA",18692.22,2025-06-16,1,-6.7,pending
+CUST-00188,Daniel,Garcia,daniel.garcia@gmail.com,,Web Services LLC,"Denver, CO",55450.03,2025-05-12,1,-7.3,active
+CUST-00189,Robert,Gonzalez,robert.gonzalez@company.com,+1-590-851-7379,Analytics Group,"Denver, CO",29995.22,2025-05-22,1,21.9,churned
+CUST-00190,Jennifer,Wilson,jennifer.wilson@business.net,,Tech Corp,"Denver, CO",13004.13,2025-06-12,2,17.3,churned
+CUST-00191,Stephanie,Jones,stephanie.jones@yahoo.com,+1-561-219-5068,Data Systems Inc,"Boston, MA",83547.9,2025-08-05,2,14.1,inactive
+CUST-00192,Nicole,Taylor,nicole.taylor@business.net,+1-231-761-9569,Network Solutions,"New York, NY",87512.27,2025-04-28,5,6.6,pending
+CUST-00193,Robert,Miller,robert.miller@yahoo.com,+1-903-820-8134,Web Services LLC,"Denver, CO",21445.49,2025-07-15,5,7.7,inactive
+CUST-00194,Michael,Hernandez,michael.hernandez@gmail.com,+1-943-541-6825,Web Services LLC,"New York, NY",55298.06,2025-07-05,1,18.3,active
+CUST-00195,Joshua,Brown,joshua.brown@business.net,+1-371-236-5233,,"Miami, FL",28385.1,2025-05-15,2,17.5,pending
+CUST-00196,Jessica,Thomas,jessica.thomas@company.com,+1-579-316-6119,Network Solutions,"Charlotte, NC",22090.43,2025-09-12,5,6.9,active
+CUST-00197,Amanda,Taylor,amanda.taylor@company.com,+1-912-670-7319,Cloud Solutions,"Boston, MA",76903.37,2025-05-22,4,23.9,pending
+CUST-00198,Andrew,Lopez,andrew.lopez@outlook.com,+1-441-173-4562,Platform Inc,"Denver, CO",31137.43,2025-08-23,5,8.9,pending
+CUST-00199,Jessica,Martin,jessica.martin@company.com,+1-965-173-3364,AI Innovations,"Chicago, IL",51979.25,2025-08-31,4,-9.5,churned
+CUST-00200,Daniel,Martin,daniel.martin@outlook.com,+1-949-389-4377,Digital Media Co,"Nashville, TN",17470.23,2025-04-14,4,-9.9,churned
+CUST-00201,Robert,Anderson,robert.anderson@yahoo.com,+1-700-493-5193,Web Services LLC,"Los Angeles, CA",13142.25,2025-05-08,2,-10.0,pending
+CUST-00202,Andrew,Davis,andrew.davis@outlook.com,+1-934-798-3057,Analytics Group,"Los Angeles, CA",25567.92,2025-07-31,1,8.6,active
+CUST-00203,Joshua,Gonzalez,joshua.gonzalez@company.com,+1-495-666-6291,Platform Inc,"San Diego, CA",19046.24,2025-05-01,3,8.8,inactive
+CUST-00204,Emily,Smith,,+1-561-263-4082,Analytics Group,"Nashville, TN",15817.76,2025-08-12,2,21.0,active
+CUST-00205,Sarah,Lopez,sarah.lopez@business.net,+1-917-725-4929,Digital Media Co,"Los Angeles, CA",35724.83,2025-06-24,1,13.4,active
+CUST-00206,Nicole,Wilson,nicole.wilson@outlook.com,+1-855-608-9329,Data Systems Inc,"San Diego, CA",83239.08,2025-08-20,5,7.7,active
+CUST-00207,Andrew,Moore,andrew.moore@yahoo.com,+1-957-871-1921,Tech Corp,"Seattle, WA",5353.64,2025-08-29,1,3.1,pending
+CUST-00208,Christopher,Hernandez,christopher.hernandez@business.net,,Network Solutions,"Portland, OR",72743.9,2025-06-30,2,-4.0,inactive
+CUST-00209,Stephanie,Hernandez,stephanie.hernandez@outlook.com,+1-393-733-8392,Data Systems Inc,"Nashville, TN",42897.22,2025-09-04,5,11.4,inactive
+CUST-00210,Michael,Davis,michael.davis@business.net,+1-211-592-4117,Software Partners,"Charlotte, NC",66672.86,2025-07-12,1,20.3,pending
+CUST-00211,Stephanie,Lopez,stephanie.lopez@company.com,+1-772-970-6938,Tech Corp,"Austin, TX",81203.06,2025-06-11,1,-9.0,inactive
+CUST-00212,Sarah,Brown,sarah.brown@business.net,+1-386-111-9311,Tech Corp,"Boston, MA",68696.33,2025-08-21,2,11.9,active
+CUST-00213,David,Lopez,david.lopez@yahoo.com,+1-724-656-2348,Platform Inc,"San Diego, CA",75989.24,2025-08-23,3,-1.5,pending
+CUST-00214,Christopher,Wilson,christopher.wilson@business.net,+1-420-638-1153,,"Chicago, IL",30291.95,2025-05-29,3,4.4,churned
+CUST-00215,Jennifer,Anderson,jennifer.anderson@company.com,+1-726-345-8796,Data Systems Inc,"Phoenix, AZ",95042.39,2025-08-29,5,23.6,churned
+CUST-00216,James,Martin,james.martin@yahoo.com,,Cloud Solutions,"Nashville, TN",55350.38,2025-07-18,4,11.3,active
+CUST-00217,Robert,Martin,robert.martin@yahoo.com,+1-652-640-9586,Web Services LLC,"Boston, MA",87214.75,2025-07-03,1,5.3,pending
+CUST-00218,Christopher,Lopez,christopher.lopez@yahoo.com,+1-741-654-5807,AI Innovations,"Portland, OR",51282.03,2025-08-14,3,-7.8,inactive
+CUST-00219,James,Williams,james.williams@outlook.com,+1-415-160-6604,AI Innovations,"New York, NY",53315.3,2025-08-18,2,21.9,pending
+CUST-00220,Jennifer,Thomas,jennifer.thomas@gmail.com,+1-402-342-8139,Software Partners,"Boston, MA",62646.46,2025-08-25,3,18.2,churned
+CUST-00221,Joshua,Anderson,joshua.anderson@business.net,+1-533-332-5780,Web Services LLC,"San Diego, CA",24585.68,2025-06-01,1,22.3,churned
+CUST-00222,Michelle,Anderson,michelle.anderson@business.net,,,"Seattle, WA",54411.86,2025-09-26,1,16.4,active
+CUST-00223,David,Garcia,david.garcia@outlook.com,+1-667-133-3465,Data Systems Inc,"Nashville, TN",48772.19,2025-08-16,2,13.9,active
+CUST-00224,Matthew,Wilson,matthew.wilson@yahoo.com,+1-395-612-4953,Tech Corp,"Portland, OR",14276.63,2025-07-25,2,24.2,active
+CUST-00225,William,Miller,william.miller@company.com,+1-657-693-4908,Data Systems Inc,"Portland, OR",25023.43,2025-06-04,3,24.6,inactive
+CUST-00226,William,Thomas,william.thomas@gmail.com,+1-529-584-9524,Data Systems Inc,"Chicago, IL",25770.6,2025-10-04,4,-2.3,churned
+CUST-00227,James,Martin,james.martin@outlook.com,+1-655-700-1874,Digital Media Co,"Boston, MA",45553.41,2025-04-24,5,16.3,churned
+CUST-00228,Michael,Lopez,michael.lopez@business.net,+1-227-414-1826,Software Partners,"Miami, FL",93219.57,2025-09-03,1,5.5,pending
+CUST-00229,Michael,Smith,michael.smith@company.com,,Tech Corp,"Denver, CO",86831.7,2025-05-07,3,17.8,pending
+CUST-00230,Michael,Brown,michael.brown@business.net,+1-569-311-3546,Network Solutions,"New York, NY",90162.97,2025-05-28,2,18.5,pending
+CUST-00231,Emily,Wilson,emily.wilson@company.com,+1-500-718-3881,Analytics Group,"Phoenix, AZ",79232.09,2025-09-06,1,7.7,active
+CUST-00232,Jennifer,Martin,jennifer.martin@business.net,+1-732-397-9348,Web Services LLC,"Los Angeles, CA",38185.3,2025-10-03,5,18.4,churned
+CUST-00233,Emily,Davis,emily.davis@yahoo.com,+1-687-113-7218,Data Systems Inc,"Portland, OR",68062.01,2025-07-31,3,18.7,pending
+CUST-00234,Jennifer,Williams,jennifer.williams@gmail.com,+1-310-140-3580,Web Services LLC,"Los Angeles, CA",98468.26,2025-07-28,4,19.6,active
+CUST-00235,Matthew,Gonzalez,matthew.gonzalez@gmail.com,+1-984-687-8824,Web Services LLC,"Los Angeles, CA",47197.03,2025-06-04,4,2.2,churned
+CUST-00236,Joshua,Davis,joshua.davis@company.com,+1-459-169-1757,Analytics Group,"Denver, CO",93589.96,2025-06-01,1,18.6,active
+CUST-00237,Michael,Gonzalez,michael.gonzalez@yahoo.com,+1-319-767-5471,Analytics Group,"Los Angeles, CA",73681.86,2025-07-17,4,0.5,pending
+CUST-00238,Jessica,Taylor,jessica.taylor@yahoo.com,+1-963-261-2823,Software Partners,"Chicago, IL",37340.87,2025-07-27,1,18.2,inactive
+CUST-00239,Joshua,Hernandez,joshua.hernandez@company.com,+1-827-889-3534,Data Systems Inc,"Nashville, TN",25764.63,2025-04-24,2,-2.1,inactive
+CUST-00240,James,Lopez,james.lopez@company.com,+1-560-175-2178,Web Services LLC,"Phoenix, AZ",84411.4,2025-07-14,2,7.9,inactive
+CUST-00241,Amanda,Smith,amanda.smith@yahoo.com,+1-446-668-6255,Data Systems Inc,"Atlanta, GA",69933.84,2025-08-20,5,8.8,active
+CUST-00242,Michelle,Williams,michelle.williams@outlook.com,+1-693-589-5094,Analytics Group,"Atlanta, GA",31567.0,2025-09-19,5,4.7,pending
+CUST-00243,Michael,Miller,michael.miller@business.net,+1-298-861-4940,Network Solutions,"Seattle, WA",2469.03,2025-05-13,2,23.0,pending
+CUST-00244,Michelle,Miller,michelle.miller@company.com,+1-240-669-1921,Tech Corp,"New York, NY",77400.85,2025-04-26,4,8.0,churned
+CUST-00245,Michael,Brown,michael.brown@company.com,+1-431-172-1590,Analytics Group,"Nashville, TN",48662.45,2025-05-16,3,18.9,churned
+CUST-00246,Stephanie,Jackson,stephanie.jackson@business.net,+1-847-218-9168,Network Solutions,"Austin, TX",56521.38,2025-09-25,1,-7.1,inactive
+CUST-00247,Robert,Lopez,robert.lopez@business.net,+1-932-758-4292,Web Services LLC,"Boston, MA",85164.1,2025-05-27,4,17.0,active
+CUST-00248,Lisa,Rodriguez,,,AI Innovations,"Chicago, IL",7077.66,2025-05-21,1,12.3,pending
+CUST-00249,Stephanie,Hernandez,stephanie.hernandez@gmail.com,+1-577-158-3633,,"Chicago, IL",89068.25,2025-07-06,5,-9.5,churned
+CUST-00250,Robert,Davis,robert.davis@business.net,+1-895-242-3091,Software Partners,"New York, NY",48615.72,2025-07-09,4,15.2,active
+CUST-00251,Joshua,Gonzalez,joshua.gonzalez@gmail.com,+1-314-267-4148,AI Innovations,"New York, NY",86386.23,2025-07-27,3,11.2,active
+CUST-00252,David,Brown,david.brown@yahoo.com,+1-574-180-6654,Platform Inc,"Seattle, WA",8323.32,2025-06-12,5,-2.6,churned
+CUST-00253,Michael,Jackson,michael.jackson@company.com,+1-741-225-5242,Data Systems Inc,"Phoenix, AZ",29103.84,2025-05-03,3,13.0,pending
+CUST-00254,Ashley,Wilson,ashley.wilson@business.net,+1-350-212-9995,Digital Media Co,"Phoenix, AZ",68497.25,2025-08-07,3,-8.6,active
+CUST-00255,Michael,Brown,michael.brown@business.net,+1-645-906-2377,Data Systems Inc,"Chicago, IL",27804.28,2025-10-01,1,-2.0,inactive
+CUST-00256,Amanda,Anderson,amanda.anderson@business.net,+1-732-895-1257,Platform Inc,"Miami, FL",63372.01,2025-06-11,2,-1.7,pending
+CUST-00257,Michelle,Martinez,michelle.martinez@company.com,+1-923-500-3343,Data Systems Inc,"Seattle, WA",99419.86,2025-06-19,5,-5.4,active
+CUST-00258,Michelle,Hernandez,michelle.hernandez@gmail.com,+1-681-394-5912,Cloud Solutions,"Charlotte, NC",94600.0,2025-04-15,5,-5.3,churned
+CUST-00259,Michelle,Thomas,michelle.thomas@business.net,+1-440-919-3258,Cloud Solutions,"San Diego, CA",43832.34,2025-04-25,2,22.0,churned
+CUST-00260,Lisa,Moore,lisa.moore@gmail.com,+1-921-836-8797,Network Solutions,"Charlotte, NC",31830.03,2025-07-22,3,18.9,active
+CUST-00261,Joshua,Miller,joshua.miller@company.com,+1-837-367-5358,Platform Inc,"Seattle, WA",5381.68,2025-06-20,4,-6.5,inactive
+CUST-00262,Sarah,Wilson,,+1-737-410-2902,Tech Corp,"Atlanta, GA",73868.87,2025-08-23,3,-8.7,pending
+CUST-00263,Ashley,Taylor,ashley.taylor@gmail.com,+1-384-365-5197,Platform Inc,"Boston, MA",46327.75,2025-09-06,2,-4.6,active
+CUST-00264,Christopher,Lopez,christopher.lopez@company.com,+1-308-805-3187,Cloud Solutions,"Denver, CO",69711.15,2025-07-03,2,-6.5,inactive
+CUST-00265,Stephanie,Thomas,stephanie.thomas@business.net,+1-398-444-9588,Digital Media Co,"Chicago, IL",72881.84,2025-04-25,3,18.6,pending
+CUST-00266,Michael,Rodriguez,michael.rodriguez@company.com,+1-671-508-9109,Platform Inc,"New York, NY",4550.98,2025-07-02,4,-8.4,active
+CUST-00267,Nicole,Jones,nicole.jones@business.net,,Data Systems Inc,"San Diego, CA",52324.64,2025-08-24,4,-3.6,inactive
+CUST-00268,Michelle,Miller,,,Network Solutions,"San Diego, CA",45181.99,2025-04-14,1,5.4,pending
+CUST-00269,Matthew,Thomas,matthew.thomas@business.net,+1-901-481-4411,Network Solutions,"Seattle, WA",59218.34,2025-04-25,4,18.9,inactive
+CUST-00270,Matthew,Jackson,matthew.jackson@business.net,,Web Services LLC,"Austin, TX",21713.63,2025-08-30,4,11.6,pending
+CUST-00271,Joshua,Hernandez,joshua.hernandez@company.com,,Analytics Group,"Boston, MA",68542.18,2025-09-17,4,0.6,inactive
+CUST-00272,William,Smith,william.smith@yahoo.com,+1-326-705-1233,Digital Media Co,"San Diego, CA",50067.78,2025-08-17,5,-1.5,churned
+CUST-00273,Ashley,Wilson,ashley.wilson@yahoo.com,+1-422-140-1471,Web Services LLC,"Chicago, IL",11883.48,2025-06-14,5,5.7,pending
+CUST-00274,Stephanie,Moore,stephanie.moore@gmail.com,+1-766-918-5191,Tech Corp,"Charlotte, NC",44092.45,2025-09-13,2,-8.7,active
+CUST-00275,Lisa,Jones,lisa.jones@yahoo.com,+1-747-975-4874,Cloud Solutions,"Atlanta, GA",85173.17,2025-04-11,4,-2.9,inactive
+CUST-00276,William,Lopez,william.lopez@gmail.com,+1-526-931-6465,Tech Corp,"Seattle, WA",97589.44,2025-09-26,5,3.0,churned
+CUST-00277,Jessica,Thomas,jessica.thomas@company.com,+1-287-163-6835,Data Systems Inc,"Miami, FL",31362.46,2025-08-18,5,4.0,pending
+CUST-00278,Matthew,Williams,matthew.williams@outlook.com,+1-720-933-6526,Software Partners,"Seattle, WA",59965.69,2025-08-08,3,13.2,active
+CUST-00279,Matthew,Smith,matthew.smith@business.net,+1-601-550-4871,Platform Inc,"Boston, MA",3368.56,2025-09-17,5,17.4,churned
+CUST-00280,Jessica,Hernandez,,+1-605-270-3781,Network Solutions,"Nashville, TN",51319.79,2025-04-18,1,-6.8,inactive
+CUST-00281,Amanda,Jackson,amanda.jackson@business.net,+1-742-539-1233,Data Systems Inc,"San Diego, CA",75417.35,2025-07-26,5,-8.5,active
+CUST-00282,Michelle,Wilson,michelle.wilson@business.net,+1-672-747-4833,Software Partners,"Charlotte, NC",82885.03,2025-09-30,4,21.2,active
+CUST-00283,David,Moore,david.moore@outlook.com,+1-912-127-4085,AI Innovations,"Chicago, IL",17283.13,2025-07-19,1,14.5,churned
+CUST-00284,Andrew,Rodriguez,andrew.rodriguez@gmail.com,+1-294-104-6851,AI Innovations,"Portland, OR",85789.39,2025-08-27,1,14.2,inactive
+CUST-00285,David,Anderson,david.anderson@gmail.com,+1-404-206-1819,Software Partners,"Seattle, WA",15187.75,2025-08-19,5,6.1,inactive
+CUST-00286,Robert,Davis,robert.davis@company.com,,Digital Media Co,"Denver, CO",27820.61,2025-07-05,3,-1.6,pending
+CUST-00287,Andrew,Martinez,andrew.martinez@outlook.com,,Web Services LLC,"Los Angeles, CA",67891.62,2025-09-09,5,14.8,active
+CUST-00288,Sarah,Thomas,sarah.thomas@yahoo.com,+1-389-438-5745,AI Innovations,"Boston, MA",17372.47,2025-07-07,3,-4.4,pending
+CUST-00289,Jessica,Jones,jessica.jones@gmail.com,,Analytics Group,"Chicago, IL",61393.22,2025-08-30,3,1.7,churned
+CUST-00290,Lisa,Taylor,lisa.taylor@business.net,+1-719-446-8347,Tech Corp,"Miami, FL",1334.24,2025-09-09,5,-8.2,pending
+CUST-00291,Jessica,Hernandez,jessica.hernandez@gmail.com,+1-471-123-4992,Platform Inc,"Boston, MA",91751.16,2025-06-22,2,22.1,churned
+CUST-00292,Amanda,Lopez,amanda.lopez@business.net,+1-255-110-8216,Web Services LLC,"Denver, CO",39745.05,2025-08-14,1,19.1,inactive
+CUST-00293,Amanda,Taylor,amanda.taylor@company.com,,AI Innovations,"New York, NY",9665.86,2025-05-12,1,8.7,active
+CUST-00294,Daniel,Thomas,daniel.thomas@business.net,+1-527-323-4053,Tech Corp,"Miami, FL",67326.64,2025-06-09,1,-2.8,churned
+CUST-00295,Michelle,Moore,michelle.moore@yahoo.com,+1-256-401-9996,Cloud Solutions,"Austin, TX",99704.1,2025-08-18,2,6.5,inactive
+CUST-00296,Michelle,Jones,michelle.jones@company.com,+1-633-868-3813,Digital Media Co,"Phoenix, AZ",18064.93,2025-08-03,2,21.9,active
+CUST-00297,Jennifer,Anderson,jennifer.anderson@gmail.com,+1-516-805-9802,Software Partners,"Los Angeles, CA",24280.44,2025-07-27,3,19.4,inactive
+CUST-00298,William,Brown,william.brown@business.net,+1-240-303-4671,Digital Media Co,"Boston, MA",93294.59,2025-06-27,1,0.5,pending
+CUST-00299,Joshua,Rodriguez,joshua.rodriguez@business.net,+1-372-552-7798,,"Seattle, WA",29917.7,2025-05-16,3,4.5,inactive
+CUST-00300,Nicole,Jones,nicole.jones@business.net,+1-702-753-1807,Digital Media Co,"Atlanta, GA",98759.76,2025-07-15,1,-4.2,inactive
+CUST-00301,Sarah,Jackson,sarah.jackson@company.com,+1-953-825-5677,Tech Corp,"Austin, TX",97643.1,2025-05-04,2,3.1,pending
+CUST-00302,Stephanie,Brown,stephanie.brown@business.net,+1-267-942-3966,Network Solutions,"Boston, MA",1035.78,2025-05-07,3,4.8,pending
+CUST-00303,James,Brown,james.brown@yahoo.com,+1-319-793-1749,Web Services LLC,"Chicago, IL",26653.13,2025-06-26,3,-2.9,pending
+CUST-00304,Robert,Thomas,robert.thomas@gmail.com,+1-933-250-8422,Digital Media Co,"Boston, MA",82763.9,2025-08-26,5,-3.2,churned
+CUST-00305,Matthew,Gonzalez,matthew.gonzalez@company.com,+1-664-758-1299,Tech Corp,"San Diego, CA",55545.26,2025-09-12,2,-4.9,pending
+CUST-00306,Nicole,Brown,nicole.brown@company.com,+1-768-363-1696,Platform Inc,"Seattle, WA",57609.3,2025-08-05,1,7.1,active
+CUST-00307,Lisa,Taylor,lisa.taylor@yahoo.com,+1-795-556-4784,Platform Inc,"Phoenix, AZ",38839.58,2025-06-23,5,3.0,active
+CUST-00308,David,Davis,david.davis@business.net,+1-532-775-2309,Analytics Group,"Los Angeles, CA",77353.87,2025-06-03,4,1.9,active
+CUST-00309,Joshua,Jackson,joshua.jackson@yahoo.com,+1-287-248-9699,Analytics Group,"Phoenix, AZ",95994.59,2025-10-04,2,4.5,churned
+CUST-00310,David,Jones,david.jones@outlook.com,+1-953-190-6790,Platform Inc,"Boston, MA",85520.62,2025-09-04,4,6.7,churned
+CUST-00311,Stephanie,Jackson,stephanie.jackson@outlook.com,+1-466-621-2401,Platform Inc,"Nashville, TN",57344.15,2025-05-17,5,2.0,inactive
+CUST-00312,William,Moore,william.moore@company.com,+1-202-812-2334,Cloud Solutions,"Denver, CO",19423.8,2025-04-20,5,-4.9,active
+CUST-00313,Daniel,Miller,daniel.miller@yahoo.com,+1-252-158-7162,,"Portland, OR",3370.68,2025-05-03,4,18.8,inactive
+CUST-00314,Andrew,Garcia,andrew.garcia@company.com,+1-422-948-9785,AI Innovations,"Denver, CO",92949.82,2025-09-04,5,16.9,pending
+CUST-00315,Robert,Smith,robert.smith@gmail.com,+1-616-933-1625,Data Systems Inc,"San Diego, CA",23941.08,2025-08-01,2,14.5,churned
+CUST-00316,Sarah,Wilson,sarah.wilson@outlook.com,+1-684-407-8448,Web Services LLC,"Seattle, WA",38096.43,2025-06-05,5,-6.6,active
+CUST-00317,David,Moore,david.moore@gmail.com,,Digital Media Co,"Charlotte, NC",8970.6,2025-07-18,1,-7.6,active
+CUST-00318,Ashley,Garcia,ashley.garcia@outlook.com,+1-970-273-8406,AI Innovations,"Denver, CO",16716.6,2025-08-12,3,13.7,active
+CUST-00319,James,Rodriguez,james.rodriguez@business.net,+1-726-822-7750,Cloud Solutions,"Miami, FL",42049.81,2025-05-25,4,-7.2,inactive
+CUST-00320,David,Wilson,david.wilson@yahoo.com,,Software Partners,"Nashville, TN",51267.93,2025-05-04,5,1.9,pending
+CUST-00321,William,Hernandez,,+1-795-390-8372,Web Services LLC,"Chicago, IL",41392.8,2025-05-05,2,13.2,active
+CUST-00322,Daniel,Taylor,daniel.taylor@gmail.com,+1-396-322-2672,Data Systems Inc,"Atlanta, GA",86472.81,2025-10-08,2,7.2,active
+CUST-00323,Christopher,Anderson,christopher.anderson@yahoo.com,+1-886-970-3231,Network Solutions,"Atlanta, GA",96213.7,2025-05-22,3,-2.0,churned
+CUST-00324,Jessica,Anderson,jessica.anderson@company.com,+1-911-257-8193,Tech Corp,"Atlanta, GA",93336.99,2025-07-14,2,-8.9,churned
+CUST-00325,Joshua,Brown,joshua.brown@business.net,+1-911-158-3084,Tech Corp,"San Diego, CA",75351.04,2025-07-30,5,15.5,inactive
+CUST-00326,Jennifer,Martinez,jennifer.martinez@outlook.com,+1-942-369-7782,Platform Inc,"San Diego, CA",1774.81,2025-07-17,3,19.7,churned
+CUST-00327,William,Williams,william.williams@outlook.com,+1-349-303-3898,Web Services LLC,"Seattle, WA",75286.83,2025-04-16,3,2.5,churned
+CUST-00328,Jennifer,Rodriguez,jennifer.rodriguez@company.com,+1-219-151-8969,Tech Corp,"New York, NY",94587.63,2025-04-17,4,0.9,active
+CUST-00329,Robert,Martin,robert.martin@business.net,+1-711-864-3535,Web Services LLC,"Atlanta, GA",81613.68,2025-08-24,4,5.3,pending
+CUST-00330,Matthew,Moore,matthew.moore@yahoo.com,+1-217-710-8354,Cloud Solutions,"Nashville, TN",43144.52,2025-06-26,4,-9.3,inactive
+CUST-00331,Nicole,Wilson,nicole.wilson@outlook.com,+1-756-210-2461,Platform Inc,"New York, NY",37642.17,2025-04-30,3,13.1,active
+CUST-00332,Sarah,Wilson,sarah.wilson@gmail.com,+1-702-347-5056,Network Solutions,"Atlanta, GA",68011.97,2025-08-02,4,10.7,churned
+CUST-00333,Sarah,Martin,sarah.martin@yahoo.com,+1-297-253-1803,Analytics Group,"Phoenix, AZ",55850.27,2025-04-24,5,5.9,churned
+CUST-00334,Amanda,Brown,amanda.brown@yahoo.com,+1-975-567-8004,Tech Corp,"Los Angeles, CA",53593.84,2025-08-24,1,-9.9,active
+CUST-00335,Michelle,Lopez,michelle.lopez@company.com,,Analytics Group,"Phoenix, AZ",52153.17,2025-08-19,2,11.3,inactive
+CUST-00336,James,Anderson,james.anderson@outlook.com,+1-837-306-7881,Analytics Group,"San Diego, CA",58840.49,2025-07-22,1,16.5,inactive
+CUST-00337,Lisa,Davis,lisa.davis@company.com,+1-487-706-6946,Network Solutions,"Phoenix, AZ",13185.92,2025-04-24,3,-8.8,churned
+CUST-00338,Emily,Williams,emily.williams@company.com,+1-554-135-4517,Tech Corp,"Charlotte, NC",44006.08,2025-08-30,3,21.8,inactive
+CUST-00339,David,Jones,david.jones@business.net,+1-880-707-5497,Data Systems Inc,"San Diego, CA",3501.83,2025-05-26,3,12.2,active
+CUST-00340,Lisa,Martin,lisa.martin@gmail.com,+1-582-449-8125,Network Solutions,"New York, NY",66677.45,2025-06-25,5,20.0,pending
+CUST-00341,Jessica,Lopez,,,Cloud Solutions,"Chicago, IL",99208.41,2025-05-02,2,-7.3,inactive
+CUST-00342,Nicole,Jones,nicole.jones@yahoo.com,+1-707-864-3100,Software Partners,"Atlanta, GA",16603.98,2025-06-04,4,-7.4,active
+CUST-00343,Sarah,Lopez,sarah.lopez@gmail.com,+1-281-381-3763,AI Innovations,"New York, NY",56043.83,2025-05-08,2,2.7,pending
+CUST-00344,David,Garcia,david.garcia@yahoo.com,+1-697-809-5626,Cloud Solutions,"Phoenix, AZ",87890.64,2025-07-12,5,7.2,pending
+CUST-00345,Christopher,Brown,christopher.brown@outlook.com,+1-559-887-6967,Digital Media Co,"Charlotte, NC",68217.04,2025-07-30,5,17.0,pending
+CUST-00346,Ashley,Johnson,ashley.johnson@yahoo.com,+1-821-264-7248,Cloud Solutions,"Atlanta, GA",20669.4,2025-06-26,3,8.5,active
+CUST-00347,Jennifer,Moore,jennifer.moore@yahoo.com,+1-564-766-9173,Platform Inc,"Portland, OR",74773.92,2025-07-05,3,6.2,pending
+CUST-00348,Lisa,Anderson,lisa.anderson@business.net,,Network Solutions,"Los Angeles, CA",41804.24,2025-05-08,1,-5.9,inactive
+CUST-00349,Ashley,Anderson,ashley.anderson@company.com,+1-288-152-8402,Data Systems Inc,"Phoenix, AZ",9388.96,2025-09-07,1,-2.3,active
+CUST-00350,Emily,Martinez,emily.martinez@outlook.com,+1-390-828-7532,Software Partners,"New York, NY",99832.08,2025-09-30,1,-7.2,pending
+CUST-00351,Michael,Garcia,michael.garcia@gmail.com,+1-399-536-2073,Data Systems Inc,"Nashville, TN",99517.28,2025-05-09,2,10.1,pending
+CUST-00352,Robert,Martin,robert.martin@gmail.com,+1-798-462-3503,Platform Inc,"Los Angeles, CA",84032.79,2025-06-14,5,-0.4,inactive
+CUST-00353,Joshua,Gonzalez,joshua.gonzalez@company.com,+1-464-192-6128,Data Systems Inc,"Atlanta, GA",85971.87,2025-08-12,5,22.0,inactive
+CUST-00354,Jennifer,Jones,jennifer.jones@company.com,+1-752-129-1410,Platform Inc,"Atlanta, GA",84627.67,2025-07-02,3,1.3,inactive
+CUST-00355,David,Rodriguez,david.rodriguez@yahoo.com,+1-463-643-4088,Network Solutions,"New York, NY",67450.55,2025-07-16,4,-8.0,pending
+CUST-00356,Emily,Martin,emily.martin@yahoo.com,+1-523-239-1972,Platform Inc,"Seattle, WA",89316.84,2025-05-19,4,-8.1,active
+CUST-00357,Jennifer,Taylor,jennifer.taylor@gmail.com,,Digital Media Co,"Austin, TX",44905.26,2025-06-19,2,-8.2,active
+CUST-00358,Amanda,Moore,amanda.moore@yahoo.com,+1-284-968-2454,Tech Corp,"San Diego, CA",84233.39,2025-07-11,4,3.0,pending
+CUST-00359,James,Martinez,james.martinez@business.net,+1-873-817-2745,Data Systems Inc,"Boston, MA",79981.59,2025-06-27,2,-2.0,active
+CUST-00360,James,Martinez,james.martinez@yahoo.com,+1-238-277-2232,Web Services LLC,"Austin, TX",57286.31,2025-05-29,4,5.6,pending
+CUST-00361,Ashley,Williams,ashley.williams@outlook.com,+1-567-995-2160,AI Innovations,"Seattle, WA",23122.48,2025-07-10,4,20.1,churned
+CUST-00362,Christopher,Hernandez,christopher.hernandez@company.com,,AI Innovations,"Denver, CO",37545.09,2025-09-23,3,-9.2,active
+CUST-00363,Stephanie,Anderson,stephanie.anderson@business.net,+1-539-266-4667,Digital Media Co,"Austin, TX",46550.41,2025-07-07,5,2.1,churned
+CUST-00364,James,Brown,james.brown@yahoo.com,+1-266-412-8758,Analytics Group,"Portland, OR",49647.61,2025-09-06,5,11.7,pending
+CUST-00365,Emily,Taylor,emily.taylor@outlook.com,+1-544-458-8824,,"Seattle, WA",89751.74,2025-08-28,3,10.9,inactive
+CUST-00366,Emily,Hernandez,emily.hernandez@company.com,,Cloud Solutions,"Atlanta, GA",80313.94,2025-07-09,1,-4.1,inactive
+CUST-00367,Jessica,Hernandez,jessica.hernandez@business.net,+1-793-482-7625,Software Partners,"Seattle, WA",87628.16,2025-10-01,1,24.1,inactive
+CUST-00368,William,Johnson,william.johnson@gmail.com,+1-967-181-5884,Network Solutions,"Miami, FL",14320.78,2025-06-11,5,16.4,active
+CUST-00369,Michael,Hernandez,michael.hernandez@gmail.com,+1-527-742-6071,Cloud Solutions,"Miami, FL",45287.63,2025-10-03,2,-5.1,pending
+CUST-00370,Daniel,Smith,,+1-618-583-5058,Tech Corp,"Nashville, TN",67179.66,2025-07-08,4,17.5,churned
+CUST-00371,Sarah,Thomas,sarah.thomas@company.com,+1-236-457-5042,Analytics Group,"Phoenix, AZ",73689.61,2025-10-05,3,-6.6,churned
+CUST-00372,Nicole,Taylor,nicole.taylor@company.com,,Platform Inc,"Chicago, IL",79131.22,2025-05-08,2,-4.9,active
+CUST-00373,Lisa,Gonzalez,lisa.gonzalez@company.com,+1-682-329-8744,Tech Corp,"Los Angeles, CA",8976.85,2025-07-28,1,17.6,pending
+CUST-00374,Lisa,Martin,lisa.martin@company.com,+1-304-459-6875,Digital Media Co,"Denver, CO",62351.85,2025-06-01,1,-7.5,active
+CUST-00375,James,Miller,james.miller@business.net,+1-955-245-5479,Analytics Group,"Portland, OR",97581.4,2025-04-23,5,5.4,inactive
+CUST-00376,Matthew,Thomas,matthew.thomas@company.com,+1-443-650-8917,Digital Media Co,"New York, NY",54464.7,2025-09-19,4,0.4,churned
+CUST-00377,Michael,Smith,michael.smith@business.net,+1-978-641-2684,AI Innovations,"Seattle, WA",15759.38,2025-05-18,3,1.2,active
+CUST-00378,Amanda,Rodriguez,amanda.rodriguez@company.com,+1-779-642-7252,,"Portland, OR",72221.34,2025-05-18,5,0.5,active
+CUST-00379,Daniel,Jackson,daniel.jackson@business.net,+1-359-411-5906,Analytics Group,"San Diego, CA",99726.42,2025-05-06,5,24.7,active
+CUST-00380,David,Davis,david.davis@yahoo.com,+1-338-710-7069,Cloud Solutions,"Boston, MA",86191.95,2025-07-28,2,5.4,pending
+CUST-00381,Robert,Jones,robert.jones@yahoo.com,+1-433-322-9769,AI Innovations,"Chicago, IL",65367.95,2025-06-25,4,-7.0,active
+CUST-00382,Daniel,Jones,daniel.jones@company.com,+1-907-735-5380,Data Systems Inc,"Miami, FL",78429.56,2025-08-23,4,10.4,active
+CUST-00383,Christopher,Martin,christopher.martin@gmail.com,+1-226-321-1805,Cloud Solutions,"Los Angeles, CA",13287.98,2025-04-28,1,17.5,pending
+CUST-00384,Lisa,Taylor,lisa.taylor@company.com,,Network Solutions,"Seattle, WA",62018.13,2025-06-02,3,20.4,active
+CUST-00385,Nicole,Rodriguez,nicole.rodriguez@business.net,+1-302-586-2015,AI Innovations,"Boston, MA",38428.74,2025-09-26,3,2.1,active
+CUST-00386,Robert,Hernandez,robert.hernandez@business.net,+1-798-295-4991,Web Services LLC,"Nashville, TN",56976.73,2025-08-10,3,17.8,active
+CUST-00387,Ashley,Moore,ashley.moore@gmail.com,+1-808-551-8501,Platform Inc,"San Diego, CA",85387.78,2025-07-20,3,14.6,inactive
+CUST-00388,William,Lopez,william.lopez@gmail.com,,AI Innovations,"Portland, OR",15146.93,2025-08-11,5,-6.4,churned
+CUST-00389,Emily,Wilson,,+1-503-499-9486,Platform Inc,"Nashville, TN",14488.41,2025-09-06,4,-8.7,churned
+CUST-00390,David,Johnson,,+1-386-502-6870,Analytics Group,"Austin, TX",97030.36,2025-07-16,3,10.9,inactive
+CUST-00391,Lisa,Hernandez,lisa.hernandez@outlook.com,+1-987-831-3588,Analytics Group,"New York, NY",56398.12,2025-06-15,1,-4.9,churned
+CUST-00392,Jessica,Thomas,jessica.thomas@yahoo.com,+1-495-734-4397,Data Systems Inc,"Phoenix, AZ",12609.11,2025-08-22,3,18.5,pending
+CUST-00393,Stephanie,Brown,stephanie.brown@gmail.com,+1-740-487-1270,Analytics Group,"Atlanta, GA",61372.25,2025-10-07,4,10.3,pending
+CUST-00394,Matthew,Anderson,matthew.anderson@outlook.com,+1-722-806-4759,Software Partners,"Miami, FL",35700.96,2025-05-20,4,3.3,active
+CUST-00395,Stephanie,Jones,,+1-933-406-6625,Analytics Group,"Portland, OR",79488.38,2025-08-15,5,6.7,active
+CUST-00396,Stephanie,Garcia,stephanie.garcia@company.com,+1-923-837-1105,Cloud Solutions,"Los Angeles, CA",97131.08,2025-04-24,2,2.7,active
+CUST-00397,Lisa,Garcia,lisa.garcia@outlook.com,+1-881-514-9256,Tech Corp,"Denver, CO",13577.93,2025-05-16,1,-2.9,inactive
+CUST-00398,Christopher,Miller,christopher.miller@gmail.com,+1-694-632-2838,Analytics Group,"Phoenix, AZ",84442.3,2025-05-26,4,13.5,active
+CUST-00399,Stephanie,Brown,stephanie.brown@gmail.com,+1-730-922-9205,Digital Media Co,"Denver, CO",94431.33,2025-08-29,4,18.5,inactive
+CUST-00400,Daniel,Davis,daniel.davis@outlook.com,,AI Innovations,"Phoenix, AZ",13625.03,2025-07-03,5,3.7,inactive
+CUST-00401,Christopher,Hernandez,christopher.hernandez@outlook.com,+1-259-868-8190,AI Innovations,"Austin, TX",28976.65,2025-08-10,3,7.9,churned
+CUST-00402,Jessica,Jackson,jessica.jackson@gmail.com,+1-847-919-4102,Network Solutions,"Nashville, TN",80790.87,2025-09-29,2,12.6,inactive
+CUST-00403,Sarah,Moore,sarah.moore@business.net,+1-608-863-6723,Analytics Group,"Charlotte, NC",22046.02,2025-08-05,3,16.5,pending
+CUST-00404,David,Davis,david.davis@gmail.com,+1-494-699-6748,Web Services LLC,"New York, NY",14135.62,2025-07-18,3,13.1,churned
+CUST-00405,James,Anderson,james.anderson@outlook.com,+1-222-479-7095,Platform Inc,"Boston, MA",23342.41,2025-06-30,2,7.5,inactive
+CUST-00406,Nicole,Williams,nicole.williams@company.com,,Software Partners,"Austin, TX",33830.13,2025-04-26,5,4.3,churned
+CUST-00407,Matthew,Smith,matthew.smith@business.net,+1-718-194-1572,Cloud Solutions,"Chicago, IL",87071.86,2025-05-10,2,-3.9,churned
+CUST-00408,Emily,Hernandez,,+1-687-879-8989,Digital Media Co,"Seattle, WA",62525.11,2025-06-12,5,8.6,active
+CUST-00409,Daniel,Hernandez,daniel.hernandez@business.net,+1-627-780-9977,Tech Corp,"Denver, CO",18178.13,2025-04-17,2,20.8,active
+CUST-00410,Ashley,Anderson,ashley.anderson@yahoo.com,+1-288-442-3916,AI Innovations,"Chicago, IL",31779.03,2025-09-17,5,20.8,inactive
+CUST-00411,Ashley,Taylor,ashley.taylor@business.net,+1-464-815-6281,Software Partners,"Miami, FL",13492.73,2025-09-13,3,22.3,pending
+CUST-00412,David,Anderson,david.anderson@outlook.com,+1-931-616-2713,Web Services LLC,"Los Angeles, CA",67802.22,2025-08-02,1,10.4,churned
+CUST-00413,Sarah,Williams,sarah.williams@outlook.com,,,"New York, NY",1112.12,2025-06-06,3,-1.7,pending
+CUST-00414,William,Martinez,william.martinez@business.net,+1-529-862-1223,Cloud Solutions,"Los Angeles, CA",98529.83,2025-06-30,3,18.2,inactive
+CUST-00415,James,Hernandez,james.hernandez@company.com,+1-932-407-6721,Data Systems Inc,"Miami, FL",57126.34,2025-09-13,5,4.9,inactive
+CUST-00416,Michelle,Johnson,michelle.johnson@gmail.com,+1-722-329-7851,AI Innovations,"San Diego, CA",1044.72,2025-08-08,4,-7.4,active
+CUST-00417,James,Garcia,james.garcia@outlook.com,+1-444-831-3303,Platform Inc,"Seattle, WA",59898.74,2025-05-05,1,-4.0,active
+CUST-00418,Michael,Williams,michael.williams@yahoo.com,+1-336-460-9868,Digital Media Co,"Seattle, WA",21854.42,2025-06-10,3,2.0,inactive
+CUST-00419,Matthew,Wilson,matthew.wilson@outlook.com,+1-245-425-4662,Tech Corp,"Chicago, IL",12688.99,2025-04-12,1,8.0,active
+CUST-00420,Christopher,Martin,christopher.martin@company.com,+1-710-401-6162,Analytics Group,"Portland, OR",50261.56,2025-09-29,2,7.3,inactive
+CUST-00421,Robert,Martin,robert.martin@company.com,+1-854-324-3574,Data Systems Inc,"Austin, TX",60433.56,2025-04-30,3,5.6,churned
+CUST-00422,Michelle,Taylor,michelle.taylor@gmail.com,+1-598-612-4801,Platform Inc,"Denver, CO",39811.97,2025-07-27,1,11.4,active
+CUST-00423,Sarah,Martinez,sarah.martinez@company.com,+1-243-786-1581,Tech Corp,"New York, NY",18565.27,2025-06-15,5,-8.0,pending
+CUST-00424,Christopher,Jones,christopher.jones@company.com,+1-734-614-1612,Platform Inc,"Charlotte, NC",7156.59,2025-09-18,1,-3.7,active
+CUST-00425,Emily,Martinez,emily.martinez@yahoo.com,+1-992-215-6912,Digital Media Co,"Nashville, TN",59907.9,2025-09-30,5,5.7,active
+CUST-00426,David,Jackson,,+1-948-459-7037,Software Partners,"Portland, OR",28165.26,2025-09-14,2,-0.4,active
+CUST-00427,William,Jones,william.jones@yahoo.com,+1-678-448-9594,Cloud Solutions,"Los Angeles, CA",71193.07,2025-07-04,4,5.9,inactive
+CUST-00428,Joshua,Brown,joshua.brown@outlook.com,+1-451-297-6723,Network Solutions,"San Diego, CA",79706.27,2025-06-02,1,-1.9,active
+CUST-00429,Ashley,Garcia,ashley.garcia@company.com,,Data Systems Inc,"Portland, OR",15132.27,2025-09-21,2,-5.7,pending
+CUST-00430,Ashley,Hernandez,ashley.hernandez@yahoo.com,+1-203-461-4598,Cloud Solutions,"Atlanta, GA",15895.5,2025-10-06,4,13.5,inactive
+CUST-00431,Jessica,Martin,jessica.martin@outlook.com,+1-619-981-9021,Web Services LLC,"Charlotte, NC",91948.72,2025-04-19,1,11.2,inactive
+CUST-00432,Christopher,Hernandez,christopher.hernandez@business.net,+1-548-343-6949,Cloud Solutions,"Los Angeles, CA",51060.92,2025-07-23,1,7.1,pending
+CUST-00433,Daniel,Garcia,daniel.garcia@company.com,+1-414-747-7790,AI Innovations,"Phoenix, AZ",99299.2,2025-09-27,1,18.3,pending
+CUST-00434,Jennifer,Miller,jennifer.miller@company.com,+1-321-643-2844,Cloud Solutions,"Miami, FL",61610.96,2025-06-01,3,20.8,active
+CUST-00435,Jessica,Lopez,jessica.lopez@outlook.com,+1-284-956-9319,Software Partners,"Los Angeles, CA",53320.93,2025-07-21,1,16.2,inactive
+CUST-00436,Michelle,Wilson,,+1-437-841-8033,Cloud Solutions,"Miami, FL",74607.4,2025-07-18,1,13.6,active
+CUST-00437,Michael,Gonzalez,michael.gonzalez@yahoo.com,,Software Partners,"Boston, MA",30720.47,2025-09-08,2,24.9,inactive
+CUST-00438,Jessica,Miller,jessica.miller@gmail.com,+1-663-610-3246,Cloud Solutions,"Miami, FL",31847.49,2025-08-24,2,-7.8,inactive
+CUST-00439,Sarah,Rodriguez,sarah.rodriguez@yahoo.com,+1-338-793-3673,Web Services LLC,"Atlanta, GA",98062.61,2025-04-22,2,1.1,active
+CUST-00440,William,Anderson,william.anderson@gmail.com,+1-284-907-4241,Cloud Solutions,"Portland, OR",56605.57,2025-05-25,2,-3.4,pending
+CUST-00441,David,Thomas,david.thomas@outlook.com,+1-358-353-1848,Platform Inc,"Miami, FL",3759.06,2025-09-01,3,-7.9,churned
+CUST-00442,Nicole,Martinez,nicole.martinez@company.com,+1-914-971-1099,Platform Inc,"Boston, MA",48296.32,2025-07-04,5,17.7,churned
+CUST-00443,Michael,Anderson,,+1-572-813-6476,Digital Media Co,"Portland, OR",68034.97,2025-05-29,1,-3.6,churned
+CUST-00444,Jennifer,Gonzalez,jennifer.gonzalez@business.net,+1-849-702-8343,Analytics Group,"Boston, MA",99487.55,2025-05-21,5,12.2,pending
+CUST-00445,Sarah,Brown,sarah.brown@outlook.com,+1-219-810-3374,Cloud Solutions,"New York, NY",91946.4,2025-07-21,1,-7.2,active
+CUST-00446,Stephanie,Johnson,stephanie.johnson@gmail.com,+1-879-797-4657,Software Partners,"Nashville, TN",75124.56,2025-06-18,3,3.8,churned
+CUST-00447,Lisa,Thomas,lisa.thomas@outlook.com,+1-647-478-3731,,"Austin, TX",11140.53,2025-08-23,4,23.9,pending
+CUST-00448,Christopher,Martinez,christopher.martinez@company.com,+1-726-469-5871,Data Systems Inc,"Miami, FL",67197.3,2025-10-01,3,10.6,inactive
+CUST-00449,Lisa,Jones,lisa.jones@business.net,+1-566-583-8718,Tech Corp,"Seattle, WA",28892.96,2025-07-17,3,-0.2,active
+CUST-00450,Amanda,Thomas,amanda.thomas@company.com,+1-713-631-7914,Cloud Solutions,"San Diego, CA",84353.24,2025-07-23,5,-5.0,churned
+CUST-00451,Lisa,Brown,lisa.brown@business.net,+1-572-469-4278,AI Innovations,"Boston, MA",62385.16,2025-09-04,2,23.2,churned
+CUST-00452,Amanda,Smith,amanda.smith@business.net,,AI Innovations,"Denver, CO",89411.34,2025-04-24,4,5.3,inactive
+CUST-00453,Amanda,Rodriguez,amanda.rodriguez@gmail.com,+1-604-662-7796,Data Systems Inc,"San Diego, CA",48521.46,2025-04-29,1,-4.5,pending
+CUST-00454,Emily,Jackson,emily.jackson@gmail.com,+1-821-536-5099,Network Solutions,"Phoenix, AZ",20830.84,2025-06-05,1,23.7,active
+CUST-00455,William,Anderson,william.anderson@gmail.com,+1-244-393-7388,Data Systems Inc,"Miami, FL",36267.38,2025-09-17,4,2.2,inactive
+CUST-00456,David,Martinez,david.martinez@yahoo.com,+1-454-223-5079,Software Partners,"Denver, CO",11488.72,2025-07-13,5,13.9,pending
+CUST-00457,Michelle,Garcia,michelle.garcia@yahoo.com,+1-480-238-3240,Software Partners,"New York, NY",3790.26,2025-07-11,3,-8.2,inactive
+CUST-00458,Nicole,Jackson,nicole.jackson@outlook.com,+1-646-969-2781,Data Systems Inc,"Phoenix, AZ",50561.2,2025-08-22,5,6.7,pending
+CUST-00459,Emily,Thomas,emily.thomas@yahoo.com,+1-724-425-8217,Digital Media Co,"Seattle, WA",87613.86,2025-05-23,5,16.1,churned
+CUST-00460,Lisa,Taylor,lisa.taylor@yahoo.com,+1-363-950-7327,Analytics Group,"New York, NY",18252.08,2025-09-13,5,15.8,churned
+CUST-00461,Jennifer,Wilson,jennifer.wilson@yahoo.com,+1-948-720-6731,Platform Inc,"Seattle, WA",81261.59,2025-05-05,2,19.6,pending
+CUST-00462,Robert,Wilson,robert.wilson@outlook.com,+1-984-695-4126,Data Systems Inc,"Portland, OR",66713.06,2025-05-19,4,-7.9,churned
+CUST-00463,Andrew,Williams,andrew.williams@business.net,+1-741-572-1516,Analytics Group,"Miami, FL",92398.89,2025-10-04,1,-4.1,active
+CUST-00464,Sarah,Rodriguez,sarah.rodriguez@company.com,+1-396-860-7594,Data Systems Inc,"Charlotte, NC",13863.2,2025-07-19,1,7.9,inactive
+CUST-00465,Ashley,Wilson,ashley.wilson@business.net,+1-537-635-4977,Web Services LLC,"San Diego, CA",79476.82,2025-06-30,1,-1.2,churned
+CUST-00466,Emily,Garcia,emily.garcia@outlook.com,+1-885-166-4352,Analytics Group,"Seattle, WA",29509.28,2025-07-20,1,7.0,churned
+CUST-00467,James,Rodriguez,james.rodriguez@business.net,+1-548-511-8200,Digital Media Co,"Nashville, TN",82029.09,2025-08-20,3,15.6,inactive
+CUST-00468,Matthew,Moore,matthew.moore@yahoo.com,+1-593-350-7554,AI Innovations,"Los Angeles, CA",24205.77,2025-05-08,1,12.2,churned
+CUST-00469,Michael,Taylor,michael.taylor@outlook.com,+1-817-402-4092,Network Solutions,"Nashville, TN",93529.33,2025-06-02,3,-5.7,pending
+CUST-00470,James,Gonzalez,james.gonzalez@business.net,+1-620-364-3074,Web Services LLC,"San Diego, CA",30225.47,2025-08-27,5,20.9,pending
+CUST-00471,Michael,Wilson,michael.wilson@company.com,+1-677-356-1098,Platform Inc,"Boston, MA",63281.2,2025-07-13,2,14.7,pending
+CUST-00472,Emily,Anderson,emily.anderson@outlook.com,+1-292-927-3816,Platform Inc,"Charlotte, NC",63053.11,2025-09-17,3,1.8,churned
+CUST-00473,Matthew,Rodriguez,matthew.rodriguez@outlook.com,+1-703-580-2703,Platform Inc,"Phoenix, AZ",12578.41,2025-07-28,1,-2.3,pending
+CUST-00474,Michael,Garcia,michael.garcia@company.com,+1-415-508-6380,AI Innovations,"Phoenix, AZ",92335.54,2025-07-20,3,5.4,inactive
+CUST-00475,Daniel,Thomas,daniel.thomas@gmail.com,+1-840-438-6699,Data Systems Inc,"Los Angeles, CA",54463.31,2025-06-17,1,21.1,churned
+CUST-00476,Ashley,Brown,ashley.brown@outlook.com,+1-430-607-4892,AI Innovations,"Atlanta, GA",26200.19,2025-04-22,4,12.9,pending
+CUST-00477,Michelle,Johnson,michelle.johnson@company.com,+1-894-439-9434,Analytics Group,"Chicago, IL",21860.87,2025-07-24,4,-1.4,inactive
+CUST-00478,Jennifer,Thomas,jennifer.thomas@outlook.com,+1-852-282-7913,Data Systems Inc,"Boston, MA",44052.94,2025-09-14,3,16.1,inactive
+CUST-00479,Joshua,Johnson,joshua.johnson@yahoo.com,+1-801-192-3375,AI Innovations,"Austin, TX",58000.84,2025-06-06,4,11.2,inactive
+CUST-00480,William,Brown,william.brown@company.com,+1-319-490-9347,Cloud Solutions,"Denver, CO",14453.81,2025-07-08,5,-4.8,active
+CUST-00481,Ashley,Rodriguez,ashley.rodriguez@yahoo.com,+1-318-972-8281,Software Partners,"New York, NY",29799.96,2025-05-12,3,23.8,inactive
+CUST-00482,Ashley,Jones,ashley.jones@company.com,+1-306-275-6843,Data Systems Inc,"New York, NY",87442.99,2025-07-02,2,-6.6,active
+CUST-00483,Lisa,Anderson,lisa.anderson@company.com,+1-358-866-8149,Analytics Group,"Atlanta, GA",54123.72,2025-06-13,3,17.0,active
+CUST-00484,Lisa,Martinez,lisa.martinez@business.net,+1-999-522-9447,Data Systems Inc,"Miami, FL",89448.21,2025-05-18,4,9.9,inactive
+CUST-00485,Christopher,Gonzalez,christopher.gonzalez@gmail.com,+1-804-276-9725,Cloud Solutions,"Seattle, WA",42048.19,2025-09-22,4,15.0,active
+CUST-00486,David,Anderson,david.anderson@company.com,+1-804-240-3661,Digital Media Co,"Seattle, WA",65897.1,2025-08-16,2,-3.8,active
+CUST-00487,Nicole,Miller,,+1-599-821-9178,Software Partners,"Austin, TX",98284.18,2025-07-27,2,1.2,inactive
+CUST-00488,James,Lopez,james.lopez@yahoo.com,+1-786-747-9261,Cloud Solutions,"Austin, TX",5737.52,2025-06-03,3,15.5,churned
+CUST-00489,Sarah,Thomas,sarah.thomas@company.com,+1-972-850-8749,Platform Inc,"Atlanta, GA",11319.65,2025-08-01,2,20.2,pending
+CUST-00490,Andrew,Davis,andrew.davis@company.com,+1-455-343-6179,Network Solutions,"Charlotte, NC",56234.18,2025-10-01,4,0.9,active
+CUST-00491,Lisa,Lopez,lisa.lopez@business.net,+1-564-863-6445,Digital Media Co,"Nashville, TN",49244.9,2025-06-02,3,14.1,inactive
+CUST-00492,Michael,Hernandez,michael.hernandez@outlook.com,+1-399-303-3487,,"Charlotte, NC",55015.21,2025-08-08,1,4.3,inactive
+CUST-00493,Joshua,Davis,joshua.davis@outlook.com,+1-629-677-5805,Platform Inc,"Phoenix, AZ",14803.51,2025-09-16,2,-8.6,inactive
+CUST-00494,Michael,Martin,michael.martin@company.com,+1-369-503-8503,Platform Inc,"Atlanta, GA",84213.15,2025-06-07,3,22.0,active
+CUST-00495,Jessica,Williams,jessica.williams@gmail.com,+1-269-715-9135,Cloud Solutions,"Phoenix, AZ",42455.68,2025-04-11,4,-8.5,inactive
+CUST-00496,Jennifer,Martinez,jennifer.martinez@gmail.com,+1-460-905-7038,Data Systems Inc,"Austin, TX",27692.12,2025-07-02,3,11.1,active
+CUST-00497,Michelle,Gonzalez,michelle.gonzalez@outlook.com,+1-689-917-3434,Network Solutions,"Charlotte, NC",66817.26,2025-04-19,1,-6.3,churned
+CUST-00498,Jennifer,Smith,jennifer.smith@company.com,+1-452-934-6141,Software Partners,"Denver, CO",54707.74,2025-08-27,5,13.6,inactive
+CUST-00499,Christopher,Davis,christopher.davis@company.com,+1-374-856-7485,AI Innovations,"Phoenix, AZ",88858.91,2025-08-08,2,-4.8,churned
+CUST-00500,Ashley,Davis,ashley.davis@yahoo.com,+1-539-603-7170,Platform Inc,"Denver, CO",75198.94,2025-05-24,2,11.0,churned
+CUST-00501,William,Gonzalez,william.gonzalez@business.net,+1-348-396-6586,AI Innovations,"Chicago, IL",20656.94,2025-08-22,2,21.1,pending
+CUST-00502,Daniel,Martinez,daniel.martinez@business.net,+1-740-100-8983,AI Innovations,"Charlotte, NC",78613.24,2025-07-10,4,1.7,churned
+CUST-00503,William,Williams,william.williams@yahoo.com,+1-390-282-1727,Cloud Solutions,"Nashville, TN",97278.85,2025-09-22,4,-4.1,active
+CUST-00504,Michael,Johnson,michael.johnson@yahoo.com,+1-985-319-8719,Tech Corp,"Seattle, WA",67565.46,2025-07-31,1,22.2,pending
+CUST-00505,Stephanie,Rodriguez,stephanie.rodriguez@gmail.com,,Tech Corp,"Nashville, TN",68251.89,2025-07-09,3,15.8,inactive
+CUST-00506,Joshua,Anderson,joshua.anderson@business.net,+1-386-772-9109,Digital Media Co,"Seattle, WA",63256.48,2025-05-05,5,0.7,pending
+CUST-00507,Jessica,Williams,jessica.williams@gmail.com,+1-461-288-6185,AI Innovations,"San Diego, CA",60129.9,2025-07-01,5,6.8,churned
+CUST-00508,James,Smith,james.smith@outlook.com,+1-616-835-5064,Platform Inc,"Seattle, WA",5819.11,2025-09-04,2,22.7,inactive
+CUST-00509,Christopher,Johnson,christopher.johnson@yahoo.com,+1-338-236-1052,Platform Inc,"San Diego, CA",27419.25,2025-08-20,1,23.1,active
+CUST-00510,Nicole,Moore,nicole.moore@business.net,+1-641-335-9535,Cloud Solutions,"Portland, OR",17207.75,2025-06-21,2,18.4,active
+CUST-00511,David,Moore,david.moore@outlook.com,+1-687-847-2256,AI Innovations,"Charlotte, NC",2376.64,2025-07-28,1,24.8,pending
+CUST-00512,Jessica,Martin,jessica.martin@business.net,+1-318-453-8243,Tech Corp,"Nashville, TN",15887.78,2025-10-02,5,-6.6,inactive
+CUST-00513,Matthew,Miller,matthew.miller@yahoo.com,+1-702-760-1126,Network Solutions,"Chicago, IL",50108.97,2025-08-22,1,0.7,inactive
+CUST-00514,Lisa,Martin,lisa.martin@yahoo.com,+1-493-698-7306,Platform Inc,"Los Angeles, CA",18190.87,2025-08-27,5,-9.5,churned
+CUST-00515,Emily,Lopez,emily.lopez@yahoo.com,+1-626-770-7219,Cloud Solutions,"Denver, CO",69126.13,2025-09-17,2,-4.4,inactive
+CUST-00516,James,Lopez,james.lopez@company.com,+1-869-958-2699,Data Systems Inc,"Portland, OR",33679.01,2025-08-07,3,24.0,active
+CUST-00517,David,Garcia,david.garcia@business.net,+1-478-334-1515,Network Solutions,"Charlotte, NC",81871.94,2025-06-21,1,23.3,active
+CUST-00518,Joshua,Rodriguez,joshua.rodriguez@outlook.com,+1-461-858-6880,Data Systems Inc,"Miami, FL",69164.96,2025-08-19,2,-7.9,pending
+CUST-00519,Jessica,Jackson,jessica.jackson@outlook.com,+1-483-555-7162,,"Atlanta, GA",51269.39,2025-06-21,1,1.3,active
+CUST-00520,Robert,Brown,robert.brown@gmail.com,+1-668-495-2163,AI Innovations,"Seattle, WA",25830.49,2025-07-24,4,16.8,inactive
+CUST-00521,Christopher,Martinez,christopher.martinez@yahoo.com,+1-860-696-4294,Digital Media Co,"Miami, FL",14128.45,2025-10-04,5,7.3,churned
+CUST-00522,Joshua,Davis,,+1-468-616-1810,Web Services LLC,"Seattle, WA",70743.58,2025-08-16,2,18.6,active
+CUST-00523,Ashley,Wilson,ashley.wilson@yahoo.com,+1-737-373-9967,AI Innovations,"Portland, OR",38702.35,2025-07-08,2,24.3,active
+CUST-00524,Emily,Davis,,+1-597-115-8965,Cloud Solutions,"Charlotte, NC",63723.41,2025-06-18,3,15.5,pending
+CUST-00525,Christopher,Martin,christopher.martin@yahoo.com,+1-594-230-7949,Data Systems Inc,"Miami, FL",9377.8,2025-04-19,4,7.0,active
+CUST-00526,David,Hernandez,david.hernandez@outlook.com,+1-426-421-3328,Digital Media Co,"Portland, OR",8091.36,2025-06-29,1,-3.5,inactive
+CUST-00527,Jessica,Taylor,jessica.taylor@business.net,+1-837-683-9229,Data Systems Inc,"Nashville, TN",83930.42,2025-08-05,1,-4.5,churned
+CUST-00528,Joshua,Garcia,,+1-217-653-7436,Network Solutions,"Chicago, IL",88533.01,2025-07-02,4,1.7,inactive
+CUST-00529,Amanda,Garcia,amanda.garcia@outlook.com,+1-243-548-6992,Platform Inc,"Denver, CO",8552.9,2025-10-08,3,14.5,pending
+CUST-00530,Emily,Miller,emily.miller@business.net,+1-858-642-3792,,"Seattle, WA",53446.86,2025-05-16,4,-7.2,active
+CUST-00531,Christopher,Brown,christopher.brown@yahoo.com,+1-374-944-6672,Web Services LLC,"Charlotte, NC",99331.33,2025-05-04,3,0.4,pending
+CUST-00532,Matthew,Anderson,matthew.anderson@business.net,+1-539-532-3530,Digital Media Co,"Denver, CO",83263.08,2025-06-18,2,6.5,active
+CUST-00533,Michelle,Jones,michelle.jones@gmail.com,+1-984-610-5629,Tech Corp,"Miami, FL",7625.35,2025-07-12,4,-3.4,pending
+CUST-00534,Joshua,Lopez,joshua.lopez@business.net,+1-441-501-8256,Platform Inc,"Boston, MA",70661.89,2025-04-27,1,7.0,pending
+CUST-00535,David,Jones,david.jones@yahoo.com,+1-516-894-9439,Platform Inc,"Nashville, TN",69518.29,2025-08-31,4,-5.3,active
+CUST-00536,David,Miller,david.miller@company.com,+1-850-441-4961,AI Innovations,"Miami, FL",6583.1,2025-08-27,2,-6.9,active
+CUST-00537,Michael,Moore,michael.moore@business.net,+1-415-435-1309,Platform Inc,"Seattle, WA",92756.35,2025-05-08,2,6.2,churned
+CUST-00538,Stephanie,Brown,stephanie.brown@business.net,+1-652-909-5659,Data Systems Inc,"Charlotte, NC",77679.89,2025-06-05,4,-5.7,churned
+CUST-00539,Joshua,Thomas,joshua.thomas@outlook.com,+1-878-348-3758,Platform Inc,"Boston, MA",28297.97,2025-07-09,1,-10.0,pending
+CUST-00540,Amanda,Jackson,,+1-618-922-7461,Network Solutions,"Portland, OR",45446.95,2025-07-20,3,19.8,inactive
+CUST-00541,Sarah,Smith,sarah.smith@business.net,+1-545-256-1060,Platform Inc,"Los Angeles, CA",5700.42,2025-05-20,5,17.3,churned
+CUST-00542,Jennifer,Williams,jennifer.williams@yahoo.com,+1-272-185-3106,AI Innovations,"Chicago, IL",55208.98,2025-04-20,5,-9.0,inactive
+CUST-00543,Michelle,Martinez,michelle.martinez@company.com,+1-209-473-8617,Tech Corp,"Miami, FL",43622.4,2025-08-24,2,23.8,pending
+CUST-00544,Nicole,Taylor,nicole.taylor@gmail.com,+1-700-697-2501,Analytics Group,"San Diego, CA",97992.1,2025-09-02,5,-2.0,pending
+CUST-00545,Michael,Lopez,michael.lopez@outlook.com,,Digital Media Co,"Nashville, TN",2512.25,2025-04-25,5,7.0,inactive
+CUST-00546,Jennifer,Thomas,jennifer.thomas@outlook.com,+1-647-185-6430,Platform Inc,"Denver, CO",72358.19,2025-04-25,3,2.3,inactive
+CUST-00547,Jessica,Rodriguez,jessica.rodriguez@company.com,+1-646-347-4504,Software Partners,"Miami, FL",32805.54,2025-04-14,1,-1.1,churned
+CUST-00548,Michelle,Miller,michelle.miller@yahoo.com,+1-584-995-1463,Cloud Solutions,"Seattle, WA",41831.03,2025-05-26,1,-8.4,inactive
+CUST-00549,David,Thomas,david.thomas@yahoo.com,+1-574-316-7576,,"Seattle, WA",96180.73,2025-07-12,5,9.6,active
+CUST-00550,Emily,Jackson,emily.jackson@outlook.com,+1-502-554-1921,AI Innovations,"Denver, CO",50846.52,2025-09-17,3,-4.8,inactive
+CUST-00551,Michael,Brown,michael.brown@outlook.com,,Software Partners,"Nashville, TN",72391.6,2025-05-14,2,20.5,active
+CUST-00552,Lisa,Martin,lisa.martin@yahoo.com,+1-433-315-6987,Digital Media Co,"Los Angeles, CA",94019.97,2025-05-20,2,23.0,active
+CUST-00553,Lisa,Miller,,+1-673-453-1093,Cloud Solutions,"Denver, CO",12251.48,2025-07-22,3,-0.3,active
+CUST-00554,Joshua,Rodriguez,joshua.rodriguez@business.net,+1-544-774-8685,Analytics Group,"Phoenix, AZ",80957.16,2025-07-03,3,23.5,active
+CUST-00555,Jennifer,Miller,jennifer.miller@business.net,+1-688-269-1136,Web Services LLC,"Atlanta, GA",21774.55,2025-06-14,5,11.0,active
+CUST-00556,Sarah,Moore,sarah.moore@company.com,+1-551-689-9505,Network Solutions,"Boston, MA",95724.97,2025-07-27,1,1.3,active
+CUST-00557,James,Martinez,james.martinez@company.com,,,"Chicago, IL",69721.7,2025-05-18,2,19.7,inactive
+CUST-00558,Christopher,Jackson,christopher.jackson@company.com,+1-388-789-2658,Analytics Group,"Los Angeles, CA",52886.82,2025-08-23,1,4.6,churned
+CUST-00559,Jessica,Anderson,,+1-456-399-2893,Data Systems Inc,"Austin, TX",3674.46,2025-08-16,3,-1.2,churned
+CUST-00560,Ashley,Moore,ashley.moore@yahoo.com,+1-667-149-5793,,"Charlotte, NC",6285.41,2025-09-12,3,13.0,churned
+CUST-00561,Sarah,Jackson,sarah.jackson@company.com,+1-939-577-3224,Cloud Solutions,"Nashville, TN",94946.51,2025-07-30,2,13.1,pending
+CUST-00562,Daniel,Wilson,daniel.wilson@business.net,+1-337-637-4682,Software Partners,"Charlotte, NC",57593.2,2025-10-03,3,11.2,active
+CUST-00563,Michael,Smith,michael.smith@company.com,+1-944-849-2090,Software Partners,"Denver, CO",26680.92,2025-06-29,5,20.8,churned
+CUST-00564,Christopher,Miller,christopher.miller@outlook.com,,Analytics Group,"San Diego, CA",55567.99,2025-06-24,2,11.8,inactive
+CUST-00565,Christopher,Miller,christopher.miller@business.net,+1-658-521-6786,Cloud Solutions,"Phoenix, AZ",53379.74,2025-06-18,3,11.1,churned
+CUST-00566,Michelle,Moore,michelle.moore@yahoo.com,+1-571-134-4912,Platform Inc,"Portland, OR",45120.06,2025-07-26,2,-6.0,inactive
+CUST-00567,Amanda,Hernandez,amanda.hernandez@yahoo.com,+1-571-369-1220,Cloud Solutions,"New York, NY",9857.87,2025-09-30,2,22.6,pending
+CUST-00568,William,Miller,william.miller@gmail.com,+1-496-525-9094,Network Solutions,"Portland, OR",27801.47,2025-06-16,1,-9.6,inactive
+CUST-00569,Jennifer,Hernandez,jennifer.hernandez@business.net,+1-535-217-9564,Analytics Group,"Portland, OR",77395.74,2025-05-27,4,13.1,inactive
+CUST-00570,Ashley,Taylor,ashley.taylor@company.com,+1-294-869-2576,Analytics Group,"Charlotte, NC",77922.22,2025-05-26,3,17.4,inactive
+CUST-00571,Andrew,Miller,andrew.miller@business.net,+1-505-633-7767,Cloud Solutions,"Phoenix, AZ",68264.87,2025-06-16,4,10.6,churned
+CUST-00572,Nicole,Rodriguez,nicole.rodriguez@company.com,+1-952-377-2624,Software Partners,"San Diego, CA",82647.53,2025-05-24,5,15.7,inactive
+CUST-00573,Michael,Hernandez,michael.hernandez@outlook.com,+1-851-491-6823,Network Solutions,"Chicago, IL",61700.06,2025-07-21,1,13.5,pending
+CUST-00574,Matthew,Williams,matthew.williams@outlook.com,+1-362-608-9906,Web Services LLC,"Los Angeles, CA",49239.32,2025-06-18,1,19.7,churned
+CUST-00575,Jessica,Brown,jessica.brown@company.com,+1-712-491-8112,Cloud Solutions,"Seattle, WA",32323.56,2025-07-29,3,15.3,pending
+CUST-00576,Matthew,Jackson,matthew.jackson@gmail.com,+1-639-664-4827,Cloud Solutions,"Nashville, TN",13141.75,2025-08-06,1,22.1,pending
+CUST-00577,Michael,Taylor,michael.taylor@company.com,+1-774-304-4985,Data Systems Inc,"Phoenix, AZ",86738.79,2025-06-01,2,24.9,churned
+CUST-00578,Sarah,Martinez,sarah.martinez@gmail.com,+1-605-625-7837,Tech Corp,"Chicago, IL",85427.13,2025-09-08,2,18.3,pending
+CUST-00579,Amanda,Taylor,amanda.taylor@yahoo.com,+1-418-271-9135,Software Partners,"Miami, FL",5742.33,2025-07-12,3,2.4,churned
+CUST-00580,David,Jackson,david.jackson@gmail.com,+1-625-617-1981,Web Services LLC,"Charlotte, NC",67815.57,2025-09-11,2,18.4,pending
+CUST-00581,David,Taylor,david.taylor@company.com,,Software Partners,"Portland, OR",25843.27,2025-04-11,1,-1.4,pending
+CUST-00582,Robert,Martin,robert.martin@business.net,+1-493-710-6285,Cloud Solutions,"Boston, MA",99481.44,2025-09-18,5,-0.6,inactive
+CUST-00583,Lisa,Martinez,lisa.martinez@yahoo.com,+1-322-530-4619,Platform Inc,"Boston, MA",92779.6,2025-06-12,1,-4.8,pending
+CUST-00584,Jessica,Davis,jessica.davis@gmail.com,+1-619-832-9705,Tech Corp,"Chicago, IL",59342.1,2025-05-07,5,13.7,inactive
+CUST-00585,Nicole,Brown,nicole.brown@business.net,,Tech Corp,"Los Angeles, CA",47738.69,2025-06-16,5,16.7,active
+CUST-00586,Sarah,Davis,sarah.davis@company.com,+1-869-979-8314,AI Innovations,"New York, NY",74051.68,2025-06-26,2,17.3,churned
+CUST-00587,Daniel,Jones,daniel.jones@yahoo.com,+1-883-355-7246,Cloud Solutions,"Miami, FL",45200.82,2025-08-23,5,23.3,pending
+CUST-00588,James,Martin,james.martin@business.net,+1-970-557-8145,Network Solutions,"Austin, TX",96506.29,2025-09-01,1,16.2,inactive
+CUST-00589,James,Moore,james.moore@yahoo.com,+1-830-158-7210,Platform Inc,"Denver, CO",24286.0,2025-05-27,3,20.4,pending
+CUST-00590,Nicole,Rodriguez,nicole.rodriguez@business.net,+1-435-566-3195,Digital Media Co,"Portland, OR",59302.72,2025-04-24,1,13.4,inactive
+CUST-00591,Daniel,Williams,daniel.williams@outlook.com,+1-556-197-9261,Software Partners,"Los Angeles, CA",92136.81,2025-05-08,1,21.2,active
+CUST-00592,Jennifer,Gonzalez,jennifer.gonzalez@business.net,+1-620-810-3583,Software Partners,"Miami, FL",24429.8,2025-08-03,1,-5.5,inactive
+CUST-00593,Amanda,Anderson,amanda.anderson@company.com,+1-673-519-7657,Analytics Group,"Charlotte, NC",54384.67,2025-04-29,1,5.5,inactive
+CUST-00594,Robert,Rodriguez,robert.rodriguez@business.net,+1-491-321-8066,Digital Media Co,"Phoenix, AZ",94187.48,2025-05-12,2,8.1,pending
+CUST-00595,Amanda,Johnson,amanda.johnson@yahoo.com,+1-271-833-9354,Data Systems Inc,"San Diego, CA",34570.51,2025-10-05,1,-6.9,pending
+CUST-00596,Joshua,Martinez,joshua.martinez@gmail.com,+1-351-761-3904,Software Partners,"New York, NY",98326.88,2025-06-02,5,19.1,churned
+CUST-00597,Jennifer,Thomas,jennifer.thomas@gmail.com,+1-990-323-7916,Data Systems Inc,"Chicago, IL",68861.95,2025-06-28,1,13.9,inactive
+CUST-00598,William,Davis,william.davis@gmail.com,+1-255-662-3200,Software Partners,"Denver, CO",44692.92,2025-08-23,4,-6.4,active
+CUST-00599,Joshua,Anderson,joshua.anderson@yahoo.com,+1-416-726-4495,Data Systems Inc,"Boston, MA",23211.05,2025-07-30,1,16.5,churned
+CUST-00600,James,Hernandez,james.hernandez@gmail.com,+1-590-249-6539,Software Partners,"San Diego, CA",80102.67,2025-09-14,2,21.0,pending
+CUST-00601,Daniel,Martinez,daniel.martinez@business.net,+1-324-999-7454,Web Services LLC,"Atlanta, GA",68642.97,2025-07-20,5,21.8,pending
+CUST-00602,Robert,Martinez,robert.martinez@outlook.com,+1-903-841-3842,Analytics Group,"Los Angeles, CA",37734.47,2025-06-19,1,15.4,churned
+CUST-00603,Amanda,Thomas,amanda.thomas@gmail.com,+1-697-784-7782,Tech Corp,"Boston, MA",56763.67,2025-06-08,3,14.5,pending
+CUST-00604,Jennifer,Jackson,jennifer.jackson@business.net,+1-893-241-8264,Network Solutions,"Atlanta, GA",93268.26,2025-09-07,3,7.6,active
+CUST-00605,William,Miller,william.miller@company.com,+1-494-946-4895,Digital Media Co,"Chicago, IL",92064.87,2025-09-27,5,14.0,churned
+CUST-00606,Ashley,Taylor,ashley.taylor@gmail.com,+1-561-241-5235,Cloud Solutions,"New York, NY",77730.47,2025-07-10,3,13.3,inactive
+CUST-00607,Emily,Jones,emily.jones@company.com,+1-981-127-9785,Platform Inc,"Phoenix, AZ",29931.41,2025-07-23,3,-0.7,active
+CUST-00608,Nicole,Miller,nicole.miller@company.com,+1-350-588-3534,Software Partners,"Los Angeles, CA",16049.27,2025-07-20,4,23.8,pending
+CUST-00609,Christopher,Taylor,christopher.taylor@gmail.com,+1-315-957-6780,Web Services LLC,"Los Angeles, CA",84267.47,2025-08-21,5,8.5,pending
+CUST-00610,Sarah,Gonzalez,sarah.gonzalez@yahoo.com,+1-948-375-6684,Digital Media Co,"Miami, FL",84444.13,2025-09-30,3,1.5,churned
+CUST-00611,William,Garcia,william.garcia@gmail.com,+1-523-743-4688,Network Solutions,"Phoenix, AZ",3622.06,2025-06-03,5,-6.0,churned
+CUST-00612,Lisa,Gonzalez,lisa.gonzalez@gmail.com,+1-723-314-3558,Tech Corp,"Charlotte, NC",41538.79,2025-09-07,3,-6.6,active
+CUST-00613,James,Davis,james.davis@company.com,+1-231-387-4852,Software Partners,"Austin, TX",13156.18,2025-05-22,1,10.6,active
+CUST-00614,Stephanie,Martinez,stephanie.martinez@yahoo.com,+1-409-637-7432,Tech Corp,"Atlanta, GA",20977.04,2025-05-07,4,24.0,churned
+CUST-00615,Amanda,Moore,,+1-571-779-8138,Cloud Solutions,"San Diego, CA",22353.34,2025-07-26,2,12.7,churned
+CUST-00616,Robert,Lopez,robert.lopez@company.com,+1-809-344-7041,AI Innovations,"Atlanta, GA",53409.84,2025-08-06,2,-5.2,active
+CUST-00617,Daniel,Moore,daniel.moore@yahoo.com,+1-280-808-7159,Cloud Solutions,"San Diego, CA",12424.08,2025-08-03,4,-3.5,churned
+CUST-00618,Amanda,Jones,amanda.jones@company.com,,Data Systems Inc,"Austin, TX",82819.33,2025-05-09,3,0.5,inactive
+CUST-00619,Nicole,Brown,nicole.brown@business.net,+1-296-789-2576,Network Solutions,"Los Angeles, CA",87655.23,2025-08-22,3,7.3,active
+CUST-00620,Emily,Anderson,emily.anderson@gmail.com,+1-536-246-2737,Digital Media Co,"Portland, OR",72128.84,2025-08-16,1,-5.9,active
+CUST-00621,Michael,Brown,michael.brown@yahoo.com,+1-422-581-6261,Digital Media Co,"Portland, OR",84367.81,2025-07-19,2,23.5,inactive
+CUST-00622,Andrew,Taylor,andrew.taylor@business.net,+1-825-429-3614,Software Partners,"Seattle, WA",3463.61,2025-08-22,3,1.8,active
+CUST-00623,Daniel,Hernandez,daniel.hernandez@gmail.com,+1-238-182-6210,Software Partners,"Austin, TX",77105.08,2025-07-16,4,14.7,pending
+CUST-00624,Sarah,Taylor,sarah.taylor@yahoo.com,+1-878-402-3731,Tech Corp,"Boston, MA",40349.03,2025-09-03,4,5.7,pending
+CUST-00625,Nicole,Smith,nicole.smith@outlook.com,+1-333-370-4073,Tech Corp,"San Diego, CA",68541.9,2025-04-22,3,7.4,churned
+CUST-00626,Sarah,Martinez,sarah.martinez@gmail.com,+1-994-804-5275,Digital Media Co,"Austin, TX",98625.78,2025-07-25,2,-1.7,inactive
+CUST-00627,Michelle,Hernandez,,+1-259-405-7347,Web Services LLC,"Atlanta, GA",41447.54,2025-06-29,2,2.7,inactive
+CUST-00628,Sarah,Brown,sarah.brown@outlook.com,+1-807-724-4774,Digital Media Co,"New York, NY",68117.83,2025-05-15,3,18.1,churned
+CUST-00629,James,Martin,james.martin@gmail.com,+1-230-184-3798,Platform Inc,"Charlotte, NC",96963.49,2025-06-10,1,1.4,churned
+CUST-00630,Amanda,Lopez,amanda.lopez@yahoo.com,+1-516-802-2198,Cloud Solutions,"Nashville, TN",91656.32,2025-09-19,4,-6.1,pending
+CUST-00631,Amanda,Thomas,amanda.thomas@business.net,+1-206-348-1521,Data Systems Inc,"Denver, CO",40939.48,2025-10-01,3,-2.5,pending
+CUST-00632,Robert,Smith,robert.smith@outlook.com,+1-830-525-8760,Platform Inc,"New York, NY",22497.45,2025-08-13,3,-8.3,active
+CUST-00633,Lisa,Thomas,lisa.thomas@yahoo.com,+1-411-891-6770,Data Systems Inc,"Boston, MA",69223.29,2025-09-09,4,13.6,pending
+CUST-00634,Ashley,Thomas,ashley.thomas@outlook.com,+1-484-908-6561,Cloud Solutions,"Phoenix, AZ",69086.01,2025-06-26,3,17.7,active
+CUST-00635,Amanda,Brown,amanda.brown@outlook.com,+1-511-579-2375,AI Innovations,"Boston, MA",88318.5,2025-07-09,3,2.9,pending
+CUST-00636,Nicole,Moore,nicole.moore@company.com,+1-794-834-1962,AI Innovations,"San Diego, CA",15557.25,2025-07-17,1,23.3,active
+CUST-00637,Andrew,Moore,andrew.moore@outlook.com,+1-563-523-2267,Data Systems Inc,"Boston, MA",75556.69,2025-06-12,3,5.2,pending
+CUST-00638,Andrew,Taylor,andrew.taylor@yahoo.com,+1-249-533-2595,Analytics Group,"Boston, MA",71651.14,2025-10-02,2,24.0,inactive
+CUST-00639,Lisa,Brown,lisa.brown@yahoo.com,+1-542-159-9649,Network Solutions,"Denver, CO",60016.92,2025-06-21,1,-3.7,inactive
+CUST-00640,James,Davis,james.davis@company.com,,Cloud Solutions,"Austin, TX",42193.85,2025-04-16,3,-3.3,churned
+CUST-00641,Ashley,Miller,ashley.miller@gmail.com,+1-641-380-2874,Cloud Solutions,"Atlanta, GA",89229.84,2025-07-24,1,24.6,active
+CUST-00642,Michelle,Wilson,michelle.wilson@yahoo.com,,Tech Corp,"Atlanta, GA",49765.56,2025-06-28,3,-1.3,churned
+CUST-00643,Sarah,Anderson,sarah.anderson@gmail.com,+1-831-860-4947,Cloud Solutions,"Atlanta, GA",26406.77,2025-04-11,4,14.8,pending
+CUST-00644,Michael,Smith,michael.smith@business.net,+1-875-471-2703,Software Partners,"Atlanta, GA",90998.46,2025-06-03,3,2.4,churned
+CUST-00645,Christopher,Lopez,christopher.lopez@yahoo.com,+1-783-933-7971,Analytics Group,"Chicago, IL",81249.17,2025-04-16,2,22.3,churned
+CUST-00646,Michael,Martinez,michael.martinez@yahoo.com,+1-466-186-7529,Network Solutions,"Atlanta, GA",2453.6,2025-06-13,5,1.3,pending
+CUST-00647,Emily,Jackson,emily.jackson@business.net,+1-313-836-3748,Software Partners,"Denver, CO",42424.16,2025-09-27,2,2.0,churned
+CUST-00648,Michelle,Hernandez,michelle.hernandez@gmail.com,+1-476-123-8270,AI Innovations,"New York, NY",19865.59,2025-07-28,4,12.5,pending
+CUST-00649,Robert,Wilson,robert.wilson@business.net,+1-675-999-2331,Analytics Group,"Chicago, IL",17416.03,2025-06-07,1,18.3,pending
+CUST-00650,Robert,Hernandez,robert.hernandez@gmail.com,+1-552-839-5024,Web Services LLC,"Phoenix, AZ",17025.72,2025-05-10,3,1.0,active
+CUST-00651,Christopher,Martin,christopher.martin@company.com,+1-597-768-7430,Network Solutions,"Austin, TX",65330.56,2025-04-22,2,21.4,churned
+CUST-00652,Matthew,Johnson,matthew.johnson@gmail.com,+1-825-712-8670,Software Partners,"Atlanta, GA",81979.25,2025-07-10,1,2.7,inactive
+CUST-00653,William,Hernandez,william.hernandez@company.com,+1-215-193-2662,Platform Inc,"Los Angeles, CA",86315.15,2025-05-02,1,14.7,active
+CUST-00654,Nicole,Anderson,nicole.anderson@outlook.com,,Platform Inc,"Chicago, IL",97868.7,2025-08-25,3,-3.0,inactive
+CUST-00655,Andrew,Martinez,andrew.martinez@outlook.com,+1-522-384-6899,Web Services LLC,"Los Angeles, CA",70926.8,2025-05-16,2,21.3,pending
+CUST-00656,Amanda,Jackson,amanda.jackson@gmail.com,+1-468-995-3151,Digital Media Co,"Portland, OR",23408.08,2025-05-12,4,15.6,inactive
+CUST-00657,Sarah,Taylor,sarah.taylor@gmail.com,+1-641-917-8822,Digital Media Co,"Phoenix, AZ",2867.57,2025-07-09,1,-7.9,pending
+CUST-00658,Michael,Rodriguez,michael.rodriguez@gmail.com,+1-331-523-4303,Digital Media Co,"Denver, CO",94913.14,2025-10-02,3,5.7,churned
+CUST-00659,James,Thomas,james.thomas@gmail.com,+1-966-813-6442,Digital Media Co,"Nashville, TN",10924.83,2025-09-12,5,19.2,inactive
+CUST-00660,Matthew,Brown,matthew.brown@business.net,+1-601-206-4752,Web Services LLC,"Boston, MA",23196.47,2025-07-11,1,-3.9,churned
+CUST-00661,Ashley,Moore,ashley.moore@outlook.com,+1-886-351-2959,Cloud Solutions,"New York, NY",24215.65,2025-05-24,3,8.4,churned
+CUST-00662,William,Martinez,william.martinez@yahoo.com,+1-395-108-9053,Platform Inc,"Seattle, WA",94794.71,2025-07-01,3,18.5,active
+CUST-00663,Ashley,Garcia,ashley.garcia@outlook.com,+1-594-708-3409,AI Innovations,"Los Angeles, CA",95911.37,2025-07-23,5,-8.1,pending
+CUST-00664,Sarah,Moore,sarah.moore@outlook.com,+1-543-415-5801,Tech Corp,"Miami, FL",46161.2,2025-07-03,1,7.5,churned
+CUST-00665,Stephanie,Smith,stephanie.smith@outlook.com,+1-976-340-9882,Software Partners,"Atlanta, GA",70482.81,2025-07-27,5,2.9,active
+CUST-00666,Andrew,Moore,andrew.moore@business.net,+1-228-486-8570,Network Solutions,"Chicago, IL",64879.59,2025-07-05,2,15.3,active
+CUST-00667,Nicole,Williams,nicole.williams@company.com,+1-220-619-6624,Network Solutions,"Austin, TX",56811.87,2025-07-07,5,21.2,active
+CUST-00668,William,Jones,william.jones@company.com,+1-849-644-4789,Analytics Group,"Miami, FL",18325.52,2025-06-24,1,6.5,pending
+CUST-00669,Michael,Garcia,michael.garcia@yahoo.com,+1-819-578-3885,Software Partners,"Portland, OR",85451.43,2025-08-30,5,-0.4,active
+CUST-00670,James,Smith,james.smith@gmail.com,+1-902-848-4397,AI Innovations,"New York, NY",1334.22,2025-08-02,1,-3.3,inactive
+CUST-00671,Stephanie,Gonzalez,stephanie.gonzalez@business.net,+1-777-325-7239,AI Innovations,"Phoenix, AZ",27447.12,2025-06-05,5,9.5,active
+CUST-00672,Christopher,Martin,christopher.martin@business.net,+1-387-718-8609,Digital Media Co,"Seattle, WA",4050.45,2025-08-17,3,16.8,inactive
+CUST-00673,Christopher,Rodriguez,christopher.rodriguez@business.net,+1-290-207-3547,Software Partners,"Boston, MA",86852.99,2025-06-10,1,18.5,inactive
+CUST-00674,Christopher,Jones,christopher.jones@yahoo.com,+1-706-498-8750,AI Innovations,"Seattle, WA",93714.95,2025-09-13,4,-9.3,pending
+CUST-00675,Andrew,Moore,andrew.moore@yahoo.com,+1-784-322-7985,Web Services LLC,"Chicago, IL",28397.84,2025-05-29,5,1.3,active
+CUST-00676,Sarah,Wilson,sarah.wilson@business.net,+1-622-588-8652,Tech Corp,"New York, NY",63935.05,2025-07-13,5,-4.1,pending
+CUST-00677,Robert,Lopez,robert.lopez@yahoo.com,+1-426-120-2887,Software Partners,"Nashville, TN",97640.47,2025-04-27,2,0.8,churned
+CUST-00678,William,Anderson,william.anderson@business.net,+1-756-982-4283,Web Services LLC,"San Diego, CA",12298.13,2025-07-15,5,1.8,pending
+CUST-00679,Joshua,Wilson,joshua.wilson@outlook.com,+1-975-778-8808,Tech Corp,"Denver, CO",42418.35,2025-04-27,3,14.0,pending
+CUST-00680,Lisa,Garcia,lisa.garcia@yahoo.com,,Digital Media Co,"Seattle, WA",35914.05,2025-07-07,4,-2.9,pending
+CUST-00681,Nicole,Miller,nicole.miller@gmail.com,+1-266-691-3037,AI Innovations,"Austin, TX",58757.76,2025-08-11,2,9.4,active
+CUST-00682,Nicole,Wilson,nicole.wilson@gmail.com,+1-922-588-8719,Cloud Solutions,"Chicago, IL",74806.69,2025-07-08,2,-5.9,inactive
+CUST-00683,William,Davis,william.davis@gmail.com,+1-818-228-2167,Platform Inc,"Charlotte, NC",73788.55,2025-09-21,4,-9.7,churned
+CUST-00684,Jennifer,Taylor,jennifer.taylor@outlook.com,,AI Innovations,"San Diego, CA",66412.4,2025-07-14,2,17.0,active
+CUST-00685,Jessica,Gonzalez,jessica.gonzalez@gmail.com,+1-992-618-7622,,"Phoenix, AZ",3171.25,2025-07-23,5,3.3,active
+CUST-00686,Jennifer,Brown,jennifer.brown@business.net,+1-332-409-6026,Cloud Solutions,"Nashville, TN",2900.92,2025-05-11,3,-0.3,active
+CUST-00687,Michael,Martinez,michael.martinez@company.com,+1-873-219-9768,Network Solutions,"Chicago, IL",76682.46,2025-07-15,4,10.2,pending
+CUST-00688,James,Wilson,james.wilson@company.com,+1-301-462-7333,Platform Inc,"Seattle, WA",68628.54,2025-04-24,5,6.0,pending
+CUST-00689,Sarah,Brown,sarah.brown@business.net,+1-313-173-2670,Platform Inc,"Austin, TX",46614.24,2025-07-05,4,-5.0,pending
+CUST-00690,Lisa,Martinez,lisa.martinez@gmail.com,+1-561-234-1213,AI Innovations,"Austin, TX",80855.36,2025-05-15,1,-2.5,inactive
+CUST-00691,Michael,Davis,michael.davis@yahoo.com,+1-592-346-6381,Data Systems Inc,"San Diego, CA",93899.44,2025-06-15,5,5.4,churned
+CUST-00692,Amanda,Lopez,amanda.lopez@gmail.com,+1-427-243-8926,AI Innovations,"Denver, CO",60119.79,2025-08-08,3,3.0,active
+CUST-00693,Andrew,Garcia,andrew.garcia@outlook.com,+1-965-132-9459,Tech Corp,"Denver, CO",78000.85,2025-05-24,1,4.1,churned
+CUST-00694,Michelle,Wilson,michelle.wilson@outlook.com,+1-748-538-1903,Network Solutions,"Atlanta, GA",26210.32,2025-05-15,3,16.7,pending
+CUST-00695,Daniel,Jones,daniel.jones@outlook.com,+1-407-529-7981,Network Solutions,"Atlanta, GA",48705.62,2025-05-20,2,-5.6,pending
+CUST-00696,Emily,Thomas,emily.thomas@yahoo.com,+1-975-893-2795,Digital Media Co,"New York, NY",54361.19,2025-04-14,1,-6.1,pending
+CUST-00697,Matthew,Thomas,matthew.thomas@gmail.com,+1-834-839-2133,Analytics Group,"Seattle, WA",17079.45,2025-06-03,4,5.5,active
+CUST-00698,Nicole,Hernandez,nicole.hernandez@company.com,+1-992-593-7901,Data Systems Inc,"Charlotte, NC",15903.68,2025-07-20,3,-6.8,active
+CUST-00699,Jessica,Wilson,jessica.wilson@outlook.com,+1-810-899-8259,Network Solutions,"Phoenix, AZ",23631.92,2025-05-31,4,9.1,pending
+CUST-00700,Robert,Brown,robert.brown@gmail.com,+1-692-285-6643,,"Denver, CO",77500.38,2025-10-08,2,23.3,pending
+CUST-00701,Christopher,Anderson,christopher.anderson@outlook.com,+1-469-646-4877,Analytics Group,"Austin, TX",67657.19,2025-07-23,4,16.1,pending
+CUST-00702,Robert,Lopez,robert.lopez@business.net,+1-450-733-3742,Tech Corp,"Denver, CO",85432.03,2025-06-13,4,-4.1,churned
+CUST-00703,William,Gonzalez,william.gonzalez@company.com,+1-935-855-2524,Data Systems Inc,"Phoenix, AZ",11017.18,2025-05-15,3,7.0,inactive
+CUST-00704,Nicole,Johnson,nicole.johnson@business.net,+1-426-486-1218,Cloud Solutions,"New York, NY",40334.48,2025-05-03,3,24.5,inactive
+CUST-00705,William,Gonzalez,william.gonzalez@business.net,+1-937-691-5612,Software Partners,"Nashville, TN",29288.74,2025-08-28,5,15.2,pending
+CUST-00706,David,Smith,david.smith@company.com,+1-345-433-2779,Data Systems Inc,"Portland, OR",98545.77,2025-08-31,5,13.3,pending
+CUST-00707,Matthew,Martinez,matthew.martinez@company.com,+1-517-632-1823,Data Systems Inc,"Seattle, WA",60239.64,2025-05-12,5,-8.0,churned
+CUST-00708,Robert,Hernandez,robert.hernandez@gmail.com,+1-806-596-9833,Network Solutions,"Phoenix, AZ",18891.54,2025-05-18,3,6.7,pending
+CUST-00709,Jennifer,Davis,jennifer.davis@yahoo.com,+1-605-933-1182,Tech Corp,"Charlotte, NC",79258.6,2025-06-05,5,21.4,inactive
+CUST-00710,Emily,Miller,emily.miller@outlook.com,+1-239-739-5333,Cloud Solutions,"Los Angeles, CA",13728.15,2025-08-06,2,20.7,churned
+CUST-00711,Christopher,Taylor,christopher.taylor@gmail.com,+1-705-394-9350,Data Systems Inc,"New York, NY",6824.97,2025-09-16,1,-7.6,active
+CUST-00712,Nicole,Garcia,nicole.garcia@gmail.com,+1-408-964-2227,Cloud Solutions,"New York, NY",8804.43,2025-07-09,4,20.4,inactive
+CUST-00713,Amanda,Taylor,amanda.taylor@business.net,+1-590-192-4852,Network Solutions,"Austin, TX",25539.05,2025-10-06,1,5.4,churned
+CUST-00714,Stephanie,Anderson,stephanie.anderson@company.com,+1-688-821-7275,Cloud Solutions,"Seattle, WA",19391.91,2025-07-06,5,20.1,pending
+CUST-00715,Matthew,Williams,matthew.williams@business.net,+1-765-892-1511,Platform Inc,"San Diego, CA",4968.47,2025-06-07,2,-7.6,churned
+CUST-00716,Sarah,Brown,sarah.brown@company.com,+1-436-777-8005,Web Services LLC,"Miami, FL",58316.66,2025-07-20,4,23.1,active
+CUST-00717,Joshua,Thomas,joshua.thomas@business.net,+1-662-268-8512,Network Solutions,"San Diego, CA",11906.66,2025-06-23,5,22.8,pending
+CUST-00718,Ashley,Martinez,ashley.martinez@business.net,+1-296-899-2634,AI Innovations,"San Diego, CA",43234.6,2025-10-08,3,-0.9,churned
+CUST-00719,Nicole,Garcia,nicole.garcia@business.net,+1-358-818-3723,Software Partners,"Portland, OR",48019.07,2025-09-28,2,6.1,pending
+CUST-00720,Robert,Williams,robert.williams@business.net,+1-316-183-5570,Network Solutions,"Miami, FL",75876.31,2025-08-11,4,23.6,pending
+CUST-00721,Nicole,Lopez,nicole.lopez@outlook.com,,Network Solutions,"Portland, OR",37274.58,2025-06-26,2,6.6,churned
+CUST-00722,Jessica,Wilson,jessica.wilson@business.net,+1-408-985-4864,Cloud Solutions,"New York, NY",11852.95,2025-10-05,2,23.5,pending
+CUST-00723,Daniel,Brown,daniel.brown@business.net,+1-551-134-7643,Digital Media Co,"New York, NY",97235.55,2025-07-21,3,19.2,churned
+CUST-00724,David,Garcia,david.garcia@outlook.com,+1-457-411-1998,Platform Inc,"Austin, TX",72251.59,2025-10-01,1,-2.9,pending
+CUST-00725,Ashley,Martin,ashley.martin@company.com,+1-838-568-9122,Cloud Solutions,"Charlotte, NC",87932.43,2025-05-13,1,-7.7,churned
+CUST-00726,Emily,Moore,emily.moore@company.com,+1-515-946-1253,Cloud Solutions,"San Diego, CA",91233.39,2025-10-01,1,15.3,active
+CUST-00727,Andrew,Thomas,andrew.thomas@company.com,+1-515-587-5263,Analytics Group,"Atlanta, GA",35726.99,2025-05-26,5,11.6,inactive
+CUST-00728,Nicole,Martinez,nicole.martinez@gmail.com,+1-703-140-7094,Analytics Group,"San Diego, CA",84624.6,2025-05-08,1,17.1,pending
+CUST-00729,Andrew,Moore,andrew.moore@outlook.com,+1-358-147-5475,Data Systems Inc,"Austin, TX",89917.62,2025-05-31,1,14.3,active
+CUST-00730,Lisa,Thomas,lisa.thomas@outlook.com,,Network Solutions,"Phoenix, AZ",42175.0,2025-05-11,2,22.8,inactive
+CUST-00731,Emily,Garcia,emily.garcia@outlook.com,+1-558-153-7149,Cloud Solutions,"Denver, CO",24403.92,2025-05-06,3,1.1,churned
+CUST-00732,William,Rodriguez,william.rodriguez@gmail.com,+1-400-339-1743,Analytics Group,"San Diego, CA",98889.07,2025-05-15,4,19.1,active
+CUST-00733,Jessica,Johnson,jessica.johnson@outlook.com,,Web Services LLC,"Austin, TX",77920.44,2025-08-09,4,24.6,pending
+CUST-00734,Andrew,Rodriguez,,+1-684-718-5077,Tech Corp,"Miami, FL",92480.96,2025-06-27,3,19.6,churned
+CUST-00735,Joshua,Moore,,+1-851-355-5435,AI Innovations,"Los Angeles, CA",97322.89,2025-10-06,1,21.2,active
+CUST-00736,Joshua,Johnson,joshua.johnson@gmail.com,+1-907-936-5279,Analytics Group,"Seattle, WA",43531.89,2025-10-05,3,-7.0,churned
+CUST-00737,Joshua,Smith,joshua.smith@business.net,+1-485-492-2233,Web Services LLC,"Seattle, WA",97617.29,2025-08-30,2,14.9,churned
+CUST-00738,Daniel,Miller,daniel.miller@company.com,+1-885-434-5207,Software Partners,"Chicago, IL",81394.73,2025-07-02,1,16.6,active
+CUST-00739,Emily,Jones,emily.jones@yahoo.com,+1-569-582-9063,Web Services LLC,"Portland, OR",6827.41,2025-05-29,1,22.1,active
+CUST-00740,Jessica,Garcia,jessica.garcia@outlook.com,+1-394-467-6421,Digital Media Co,"Portland, OR",5021.67,2025-07-25,3,2.7,churned
+CUST-00741,Daniel,Anderson,daniel.anderson@company.com,+1-888-577-2669,Web Services LLC,"San Diego, CA",54168.84,2025-06-09,1,13.7,active
+CUST-00742,Jessica,Williams,jessica.williams@gmail.com,+1-618-124-7970,Digital Media Co,"Los Angeles, CA",64074.81,2025-10-06,1,21.8,churned
+CUST-00743,Nicole,Rodriguez,nicole.rodriguez@gmail.com,+1-602-249-2266,Platform Inc,"Atlanta, GA",20413.61,2025-09-07,1,8.3,inactive
+CUST-00744,Matthew,Wilson,matthew.wilson@business.net,+1-201-818-7753,AI Innovations,"Phoenix, AZ",11804.34,2025-05-13,1,6.4,inactive
+CUST-00745,Michael,Anderson,michael.anderson@company.com,+1-648-207-9437,AI Innovations,"Denver, CO",19021.63,2025-06-12,4,14.7,active
+CUST-00746,Stephanie,Garcia,stephanie.garcia@yahoo.com,+1-586-866-7576,Digital Media Co,"Miami, FL",7486.08,2025-05-16,2,10.8,active
+CUST-00747,Joshua,Martinez,joshua.martinez@company.com,+1-493-429-9504,Analytics Group,"Nashville, TN",14644.19,2025-07-18,2,19.7,inactive
+CUST-00748,Daniel,Miller,daniel.miller@company.com,+1-401-687-6887,Analytics Group,"Phoenix, AZ",98101.62,2025-08-10,3,21.4,churned
+CUST-00749,Nicole,Miller,nicole.miller@business.net,+1-513-900-4869,AI Innovations,"Seattle, WA",20913.85,2025-09-29,5,-0.4,pending
+CUST-00750,Michael,Lopez,michael.lopez@gmail.com,+1-619-135-4071,Software Partners,"Los Angeles, CA",56162.59,2025-09-10,2,-4.6,pending
+CUST-00751,Robert,Wilson,robert.wilson@business.net,+1-723-251-3740,Software Partners,"Charlotte, NC",53385.36,2025-04-22,5,5.4,pending
+CUST-00752,Stephanie,Jones,stephanie.jones@gmail.com,+1-634-964-2069,Analytics Group,"Chicago, IL",94108.49,2025-05-01,5,15.7,pending
+CUST-00753,Michelle,Miller,michelle.miller@company.com,+1-378-461-4228,Tech Corp,"Denver, CO",80013.69,2025-10-07,1,19.3,pending
+CUST-00754,Robert,Gonzalez,robert.gonzalez@gmail.com,+1-967-924-1422,Web Services LLC,"Boston, MA",31220.37,2025-08-30,2,22.6,pending
+CUST-00755,Joshua,Johnson,joshua.johnson@gmail.com,+1-319-481-5858,Data Systems Inc,"Miami, FL",81608.6,2025-04-21,5,-3.0,active
+CUST-00756,Amanda,Brown,amanda.brown@business.net,+1-406-826-8973,Software Partners,"Los Angeles, CA",72822.53,2025-06-04,2,12.4,inactive
+CUST-00757,Ashley,Gonzalez,ashley.gonzalez@gmail.com,+1-288-859-4894,Platform Inc,"Atlanta, GA",38706.55,2025-07-22,4,3.0,churned
+CUST-00758,Christopher,Hernandez,christopher.hernandez@business.net,,Platform Inc,"Miami, FL",84838.9,2025-06-20,4,18.7,pending
+CUST-00759,Lisa,Martin,lisa.martin@outlook.com,+1-557-631-1848,Tech Corp,"San Diego, CA",47470.1,2025-05-15,3,18.3,active
+CUST-00760,Matthew,Martinez,matthew.martinez@yahoo.com,+1-776-384-6307,Network Solutions,"Portland, OR",13545.78,2025-04-21,4,-6.7,pending
+CUST-00761,Ashley,Davis,ashley.davis@business.net,+1-642-341-7285,Analytics Group,"New York, NY",29088.59,2025-06-25,1,16.7,churned
+CUST-00762,Matthew,Taylor,matthew.taylor@company.com,+1-450-828-3018,Analytics Group,"Atlanta, GA",54078.8,2025-08-02,4,9.2,pending
+CUST-00763,Stephanie,Wilson,stephanie.wilson@company.com,+1-219-182-9993,Software Partners,"Atlanta, GA",2925.93,2025-05-11,4,-1.0,active
+CUST-00764,Jennifer,Smith,jennifer.smith@yahoo.com,+1-306-636-1079,Tech Corp,"Charlotte, NC",76394.66,2025-09-20,2,22.9,active
+CUST-00765,Robert,Martin,robert.martin@business.net,+1-427-392-6877,Analytics Group,"San Diego, CA",81173.66,2025-05-29,3,21.7,inactive
+CUST-00766,Andrew,Jackson,andrew.jackson@business.net,+1-691-984-1941,Web Services LLC,"Atlanta, GA",22807.6,2025-09-02,1,19.1,pending
+CUST-00767,Michael,Smith,,+1-507-444-6162,Cloud Solutions,"Atlanta, GA",20118.98,2025-05-31,1,23.3,churned
+CUST-00768,Lisa,Davis,lisa.davis@business.net,+1-540-791-8262,Platform Inc,"San Diego, CA",71753.43,2025-08-01,3,1.5,active
+CUST-00769,Emily,Lopez,emily.lopez@company.com,+1-280-222-4964,Tech Corp,"Atlanta, GA",73904.22,2025-09-10,3,24.4,inactive
+CUST-00770,Stephanie,Hernandez,,+1-227-172-2135,Web Services LLC,"Nashville, TN",83118.83,2025-09-03,3,24.2,active
+CUST-00771,William,Lopez,william.lopez@outlook.com,+1-958-411-5827,Digital Media Co,"New York, NY",43537.32,2025-06-21,4,7.8,churned
+CUST-00772,Lisa,Rodriguez,lisa.rodriguez@company.com,+1-855-536-8701,Platform Inc,"Nashville, TN",51494.33,2025-05-08,3,3.4,churned
+CUST-00773,Jessica,Jones,jessica.jones@business.net,+1-837-567-1796,Platform Inc,"New York, NY",78351.13,2025-05-17,5,11.2,pending
+CUST-00774,Michael,Anderson,michael.anderson@yahoo.com,+1-212-622-2597,Cloud Solutions,"Charlotte, NC",71024.86,2025-06-14,4,-7.5,pending
+CUST-00775,Ashley,Jones,ashley.jones@gmail.com,+1-904-418-5859,Platform Inc,"Seattle, WA",85549.02,2025-10-03,3,10.5,churned
+CUST-00776,Andrew,Brown,andrew.brown@yahoo.com,+1-823-978-9937,Web Services LLC,"Nashville, TN",14450.05,2025-07-01,4,4.9,inactive
+CUST-00777,Lisa,Brown,lisa.brown@gmail.com,+1-258-412-7101,AI Innovations,"Phoenix, AZ",21768.54,2025-07-05,3,7.7,pending
+CUST-00778,Daniel,Jones,daniel.jones@outlook.com,+1-262-728-4128,Web Services LLC,"New York, NY",71469.05,2025-08-27,3,11.0,inactive
+CUST-00779,Jessica,Martin,jessica.martin@gmail.com,+1-848-642-4823,AI Innovations,"Atlanta, GA",52038.72,2025-04-30,3,-6.0,active
+CUST-00780,Andrew,Rodriguez,andrew.rodriguez@company.com,+1-836-955-9393,Cloud Solutions,"Seattle, WA",66780.89,2025-05-28,1,17.5,inactive
+CUST-00781,Matthew,Garcia,matthew.garcia@gmail.com,+1-787-988-5648,Digital Media Co,"San Diego, CA",53548.12,2025-05-28,3,19.4,active
+CUST-00782,Michelle,Miller,michelle.miller@company.com,+1-209-880-2954,AI Innovations,"Boston, MA",75273.87,2025-04-18,2,4.6,active
+CUST-00783,Jennifer,Martinez,jennifer.martinez@yahoo.com,+1-767-357-6914,AI Innovations,"New York, NY",58049.62,2025-06-18,3,2.1,inactive
+CUST-00784,James,Williams,james.williams@outlook.com,+1-991-866-6251,Platform Inc,"Los Angeles, CA",41871.88,2025-08-12,4,13.0,pending
+CUST-00785,Stephanie,Anderson,stephanie.anderson@business.net,+1-551-398-6475,Cloud Solutions,"New York, NY",72533.87,2025-06-17,1,-4.3,inactive
+CUST-00786,Daniel,Martinez,daniel.martinez@gmail.com,+1-398-879-1836,Platform Inc,"Denver, CO",92943.55,2025-06-21,5,5.1,churned
+CUST-00787,Jessica,Miller,jessica.miller@business.net,+1-355-582-6952,Analytics Group,"Boston, MA",56566.0,2025-05-12,5,21.0,pending
+CUST-00788,Stephanie,Garcia,stephanie.garcia@business.net,+1-640-641-4274,Network Solutions,"Charlotte, NC",21750.07,2025-06-10,3,-0.0,inactive
+CUST-00789,William,Smith,william.smith@gmail.com,+1-578-307-4398,Network Solutions,"Austin, TX",40263.21,2025-04-26,1,-4.8,pending
+CUST-00790,Nicole,Rodriguez,nicole.rodriguez@yahoo.com,+1-532-612-1452,Software Partners,"Austin, TX",51341.59,2025-08-30,5,18.7,inactive
+CUST-00791,Christopher,Garcia,christopher.garcia@yahoo.com,+1-793-465-7133,Network Solutions,"Atlanta, GA",45833.12,2025-06-26,4,10.0,churned
+CUST-00792,Ashley,Miller,ashley.miller@outlook.com,+1-791-117-5345,Network Solutions,"Chicago, IL",71061.39,2025-04-23,2,17.4,pending
+CUST-00793,James,Johnson,james.johnson@outlook.com,+1-730-388-5398,AI Innovations,"New York, NY",33563.56,2025-05-04,5,-4.5,churned
+CUST-00794,Daniel,Wilson,daniel.wilson@gmail.com,+1-708-246-2104,Web Services LLC,"Los Angeles, CA",62085.22,2025-07-24,1,3.0,pending
+CUST-00795,Lisa,Miller,lisa.miller@company.com,+1-657-683-9616,Digital Media Co,"Seattle, WA",93336.96,2025-07-29,3,20.6,churned
+CUST-00796,Andrew,Moore,andrew.moore@gmail.com,+1-427-337-8471,AI Innovations,"Atlanta, GA",64501.67,2025-08-30,3,20.8,pending
+CUST-00797,Jennifer,Martinez,jennifer.martinez@business.net,+1-262-423-7969,Software Partners,"Austin, TX",38279.51,2025-05-22,3,-5.8,churned
+CUST-00798,Andrew,Williams,andrew.williams@company.com,+1-227-920-7266,Software Partners,"Chicago, IL",56460.78,2025-04-22,2,24.2,active
+CUST-00799,Stephanie,Martin,stephanie.martin@outlook.com,+1-799-355-9830,Digital Media Co,"Portland, OR",10179.54,2025-08-07,3,-9.2,churned
+CUST-00800,Jennifer,Moore,jennifer.moore@company.com,+1-429-335-5376,Digital Media Co,"Charlotte, NC",85819.29,2025-06-04,5,23.1,active
+CUST-00801,Joshua,Lopez,joshua.lopez@yahoo.com,+1-308-134-1884,Network Solutions,"Nashville, TN",68918.2,2025-05-07,5,18.0,pending
+CUST-00802,Amanda,Jones,amanda.jones@business.net,+1-801-578-5801,Network Solutions,"Austin, TX",81391.65,2025-07-20,3,10.0,inactive
+CUST-00803,Amanda,Taylor,amanda.taylor@outlook.com,+1-677-124-3596,AI Innovations,"Charlotte, NC",5571.93,2025-05-21,5,20.1,inactive
+CUST-00804,Andrew,Gonzalez,andrew.gonzalez@company.com,+1-500-469-8745,Analytics Group,"Charlotte, NC",7402.45,2025-09-26,2,15.7,pending
+CUST-00805,Joshua,Miller,joshua.miller@business.net,+1-586-408-9848,Tech Corp,"Boston, MA",64750.44,2025-08-11,5,0.1,inactive
+CUST-00806,Lisa,Johnson,lisa.johnson@yahoo.com,+1-726-487-4044,AI Innovations,"Boston, MA",75944.74,2025-08-03,5,19.3,churned
+CUST-00807,Andrew,Gonzalez,andrew.gonzalez@company.com,,Network Solutions,"Miami, FL",17600.19,2025-04-23,5,21.3,active
+CUST-00808,Emily,Miller,emily.miller@business.net,+1-977-932-7317,Digital Media Co,"New York, NY",22634.68,2025-04-19,1,5.3,inactive
+CUST-00809,David,Hernandez,david.hernandez@gmail.com,+1-217-351-3203,Network Solutions,"Denver, CO",21568.39,2025-08-13,1,18.6,active
+CUST-00810,Andrew,Thomas,andrew.thomas@outlook.com,+1-382-457-2712,Software Partners,"Atlanta, GA",75149.2,2025-10-02,5,21.5,inactive
+CUST-00811,Lisa,Jackson,lisa.jackson@business.net,+1-486-506-4950,Software Partners,"Phoenix, AZ",11693.06,2025-08-07,2,18.3,churned
+CUST-00812,Ashley,Jones,ashley.jones@business.net,+1-567-805-9263,Cloud Solutions,"Phoenix, AZ",84188.42,2025-06-17,4,-9.2,active
+CUST-00813,Matthew,Taylor,,+1-283-278-8596,Platform Inc,"San Diego, CA",80407.68,2025-06-29,4,5.7,pending
+CUST-00814,Ashley,Garcia,ashley.garcia@outlook.com,+1-922-721-8197,Tech Corp,"Denver, CO",85425.35,2025-06-12,3,17.6,inactive
+CUST-00815,Christopher,Williams,christopher.williams@company.com,+1-886-870-9307,Platform Inc,"Chicago, IL",64753.74,2025-06-09,4,-3.2,inactive
+CUST-00816,Christopher,Lopez,christopher.lopez@yahoo.com,+1-969-524-7571,AI Innovations,"Miami, FL",87596.0,2025-05-04,1,-5.2,churned
+CUST-00817,Nicole,Martinez,nicole.martinez@gmail.com,+1-249-646-3314,Tech Corp,"Los Angeles, CA",79755.93,2025-10-06,3,21.6,active
+CUST-00818,William,Wilson,william.wilson@business.net,+1-618-110-3241,Analytics Group,"Chicago, IL",96364.11,2025-05-13,4,20.9,active
+CUST-00819,Daniel,Jackson,daniel.jackson@business.net,+1-533-576-7223,Network Solutions,"Boston, MA",23083.8,2025-05-11,1,-5.2,pending
+CUST-00820,David,Rodriguez,david.rodriguez@company.com,+1-545-215-3447,Cloud Solutions,"Phoenix, AZ",30176.63,2025-05-17,5,19.2,churned
+CUST-00821,David,Johnson,david.johnson@business.net,+1-280-279-8594,Platform Inc,"Phoenix, AZ",64654.9,2025-05-13,2,-3.8,active
+CUST-00822,Emily,Jackson,emily.jackson@gmail.com,+1-388-711-1747,Analytics Group,"Los Angeles, CA",22991.57,2025-08-15,3,9.2,churned
+CUST-00823,Christopher,Miller,christopher.miller@outlook.com,+1-860-954-6668,Platform Inc,"Nashville, TN",47519.79,2025-08-21,5,-9.6,inactive
+CUST-00824,David,Lopez,david.lopez@gmail.com,+1-210-437-2048,Cloud Solutions,"Austin, TX",46437.79,2025-05-02,5,4.3,active
+CUST-00825,Jessica,Moore,jessica.moore@business.net,+1-409-908-8455,Data Systems Inc,"Charlotte, NC",8264.26,2025-08-12,4,-9.3,pending
+CUST-00826,David,Garcia,david.garcia@outlook.com,+1-707-772-8803,Network Solutions,"Seattle, WA",26220.63,2025-07-13,4,1.5,inactive
+CUST-00827,Jennifer,Jackson,jennifer.jackson@outlook.com,+1-920-504-6628,AI Innovations,"Charlotte, NC",9232.81,2025-05-17,4,13.1,pending
+CUST-00828,Christopher,Williams,christopher.williams@outlook.com,+1-454-325-4890,AI Innovations,"Los Angeles, CA",34182.05,2025-05-27,4,20.9,inactive
+CUST-00829,Amanda,Garcia,amanda.garcia@business.net,+1-720-924-3786,Software Partners,"Charlotte, NC",49485.56,2025-06-26,4,-3.8,pending
+CUST-00830,Lisa,Hernandez,lisa.hernandez@business.net,+1-834-630-9992,AI Innovations,"Charlotte, NC",65623.63,2025-06-03,2,-3.7,inactive
+CUST-00831,Ashley,Wilson,ashley.wilson@business.net,+1-995-674-3506,Platform Inc,"New York, NY",72922.73,2025-04-11,5,-6.1,churned
+CUST-00832,Jennifer,Johnson,jennifer.johnson@yahoo.com,+1-499-706-5794,Cloud Solutions,"Austin, TX",60162.12,2025-09-05,5,22.4,inactive
+CUST-00833,Amanda,Hernandez,amanda.hernandez@gmail.com,+1-208-972-9362,Platform Inc,"Atlanta, GA",49181.53,2025-05-25,3,-3.6,churned
+CUST-00834,Jessica,Moore,jessica.moore@business.net,+1-998-604-1728,Web Services LLC,"Charlotte, NC",49843.45,2025-04-14,5,11.9,inactive
+CUST-00835,Robert,Davis,robert.davis@outlook.com,+1-888-625-8030,Network Solutions,"Austin, TX",53823.59,2025-06-07,2,-2.4,churned
+CUST-00836,Daniel,Hernandez,daniel.hernandez@outlook.com,+1-818-429-1450,Web Services LLC,"Portland, OR",66436.01,2025-05-23,4,8.8,active
+CUST-00837,Daniel,Jackson,daniel.jackson@business.net,+1-554-283-7240,Cloud Solutions,"Los Angeles, CA",74003.22,2025-08-26,3,-3.0,churned
+CUST-00838,Stephanie,Martin,stephanie.martin@business.net,+1-570-623-4195,Platform Inc,"Chicago, IL",73418.43,2025-04-29,3,-1.6,active
+CUST-00839,Amanda,Smith,amanda.smith@business.net,+1-406-585-7848,Digital Media Co,"Charlotte, NC",66856.94,2025-04-12,4,23.3,churned
+CUST-00840,Daniel,Garcia,,+1-373-316-5689,Digital Media Co,"Atlanta, GA",59170.88,2025-07-22,5,20.9,churned
+CUST-00841,Michelle,Martinez,michelle.martinez@gmail.com,,Platform Inc,"Denver, CO",64145.5,2025-07-03,1,-5.3,pending
+CUST-00842,Michelle,Brown,michelle.brown@yahoo.com,+1-585-118-2498,Software Partners,"Boston, MA",13923.24,2025-09-10,1,20.0,active
+CUST-00843,Nicole,Wilson,nicole.wilson@company.com,+1-371-330-3496,Web Services LLC,"Phoenix, AZ",15883.72,2025-06-02,3,4.0,pending
+CUST-00844,Matthew,Brown,matthew.brown@company.com,+1-900-709-6320,Software Partners,"Phoenix, AZ",22089.36,2025-09-23,5,4.3,active
+CUST-00845,James,Wilson,james.wilson@yahoo.com,+1-858-896-5417,Data Systems Inc,"Nashville, TN",71661.14,2025-10-07,1,12.4,active
+CUST-00846,Sarah,Moore,,+1-424-887-1178,Digital Media Co,"Nashville, TN",82379.06,2025-09-10,5,3.8,inactive
+CUST-00847,Stephanie,Davis,stephanie.davis@outlook.com,+1-665-625-4464,Analytics Group,"Phoenix, AZ",51945.28,2025-05-24,4,4.9,pending
+CUST-00848,David,Davis,david.davis@outlook.com,+1-794-148-6868,Digital Media Co,"Atlanta, GA",38838.35,2025-05-03,1,-4.3,inactive
+CUST-00849,Andrew,Brown,andrew.brown@yahoo.com,+1-981-753-7368,Network Solutions,"Boston, MA",73901.5,2025-09-21,3,2.6,active
+CUST-00850,Ashley,Rodriguez,ashley.rodriguez@yahoo.com,+1-638-416-8557,Data Systems Inc,"Portland, OR",69342.4,2025-04-16,3,23.4,active
+CUST-00851,Daniel,Rodriguez,daniel.rodriguez@outlook.com,,Cloud Solutions,"Chicago, IL",15450.49,2025-04-20,4,10.9,inactive
+CUST-00852,Jennifer,Wilson,jennifer.wilson@business.net,+1-944-748-8286,Platform Inc,"San Diego, CA",32298.43,2025-09-20,3,-8.0,inactive
+CUST-00853,Lisa,Johnson,lisa.johnson@yahoo.com,+1-857-273-9719,Software Partners,"Phoenix, AZ",24500.82,2025-06-13,3,22.4,active
+CUST-00854,Sarah,Anderson,sarah.anderson@outlook.com,+1-887-142-7207,Digital Media Co,"Portland, OR",72687.8,2025-07-10,3,-2.4,pending
+CUST-00855,Ashley,Rodriguez,ashley.rodriguez@company.com,+1-221-903-6144,,"New York, NY",88159.54,2025-05-13,4,19.1,active
+CUST-00856,Lisa,Rodriguez,lisa.rodriguez@business.net,+1-808-106-2430,AI Innovations,"Charlotte, NC",55476.86,2025-07-01,4,16.7,active
+CUST-00857,Emily,Moore,emily.moore@outlook.com,+1-431-350-6984,Data Systems Inc,"Miami, FL",5775.47,2025-05-30,2,14.6,inactive
+CUST-00858,James,Garcia,james.garcia@yahoo.com,+1-343-533-6604,Cloud Solutions,"New York, NY",33136.13,2025-09-25,3,21.3,active
+CUST-00859,Jennifer,Lopez,jennifer.lopez@gmail.com,+1-428-578-3188,Web Services LLC,"Charlotte, NC",41130.59,2025-06-25,1,18.7,active
+CUST-00860,Joshua,Wilson,joshua.wilson@gmail.com,,AI Innovations,"Boston, MA",9804.24,2025-09-25,1,20.8,pending
+CUST-00861,Nicole,Johnson,nicole.johnson@gmail.com,+1-715-226-5478,Tech Corp,"Boston, MA",76657.54,2025-09-21,4,8.2,active
+CUST-00862,Andrew,Thomas,andrew.thomas@business.net,+1-926-334-9679,Digital Media Co,"Seattle, WA",82226.31,2025-04-15,1,-7.2,pending
+CUST-00863,Andrew,Wilson,andrew.wilson@outlook.com,+1-914-890-4874,Network Solutions,"Portland, OR",47027.94,2025-04-26,3,-2.0,pending
+CUST-00864,Michelle,Gonzalez,michelle.gonzalez@outlook.com,+1-837-929-7410,Analytics Group,"New York, NY",6020.06,2025-08-16,3,15.7,pending
+CUST-00865,Amanda,Hernandez,amanda.hernandez@company.com,+1-341-152-4506,Web Services LLC,"Portland, OR",16600.33,2025-06-30,4,4.5,inactive
+CUST-00866,Andrew,Garcia,andrew.garcia@outlook.com,+1-591-609-8360,Tech Corp,"Phoenix, AZ",58891.06,2025-09-04,5,21.0,inactive
+CUST-00867,Stephanie,Wilson,stephanie.wilson@business.net,+1-201-959-2064,Digital Media Co,"Charlotte, NC",93453.85,2025-05-13,3,12.8,pending
+CUST-00868,Stephanie,Rodriguez,,+1-269-405-6211,Platform Inc,"Nashville, TN",71881.09,2025-06-18,4,19.9,pending
+CUST-00869,David,Garcia,david.garcia@company.com,+1-676-266-1826,Network Solutions,"Nashville, TN",85604.07,2025-07-09,1,1.0,pending
+CUST-00870,Jessica,Rodriguez,jessica.rodriguez@yahoo.com,+1-893-572-2603,Analytics Group,"San Diego, CA",19365.51,2025-04-22,5,-6.1,inactive
+CUST-00871,Jennifer,Taylor,jennifer.taylor@gmail.com,+1-806-544-5531,Digital Media Co,"Portland, OR",10004.78,2025-04-29,5,-2.5,active
+CUST-00872,Michelle,Taylor,michelle.taylor@yahoo.com,+1-441-826-5521,Platform Inc,"New York, NY",8077.62,2025-09-06,3,-3.2,active
+CUST-00873,Matthew,Moore,matthew.moore@outlook.com,+1-992-853-4157,Web Services LLC,"San Diego, CA",79894.41,2025-09-19,4,-3.2,pending
+CUST-00874,Sarah,Miller,sarah.miller@outlook.com,+1-884-174-9733,Data Systems Inc,"Charlotte, NC",40234.6,2025-06-19,4,-6.5,active
+CUST-00875,Michelle,Martin,michelle.martin@company.com,+1-584-671-6761,Data Systems Inc,"San Diego, CA",99233.99,2025-06-25,4,5.9,churned
+CUST-00876,William,Lopez,william.lopez@outlook.com,+1-812-894-3135,Analytics Group,"San Diego, CA",19880.07,2025-09-30,3,13.9,inactive
+CUST-00877,Andrew,Martin,andrew.martin@company.com,+1-650-489-9143,Web Services LLC,"Portland, OR",95399.68,2025-04-23,4,-7.9,churned
+CUST-00878,Joshua,Williams,joshua.williams@outlook.com,+1-910-949-5572,Analytics Group,"Boston, MA",18680.74,2025-05-09,4,-8.5,pending
+CUST-00879,Sarah,Gonzalez,sarah.gonzalez@business.net,+1-419-342-5443,AI Innovations,"Atlanta, GA",33404.55,2025-07-03,4,3.5,churned
+CUST-00880,Michael,Jackson,michael.jackson@business.net,,Digital Media Co,"San Diego, CA",6250.46,2025-08-14,4,-9.2,pending
+CUST-00881,Michael,Gonzalez,michael.gonzalez@gmail.com,+1-429-219-5604,Network Solutions,"Austin, TX",96965.89,2025-08-19,4,24.1,pending
+CUST-00882,Matthew,Johnson,matthew.johnson@outlook.com,+1-571-959-9096,AI Innovations,"Los Angeles, CA",67255.5,2025-09-06,3,13.2,active
+CUST-00883,Christopher,Miller,christopher.miller@yahoo.com,,Software Partners,"Portland, OR",40598.0,2025-06-13,3,19.8,churned
+CUST-00884,Daniel,Hernandez,daniel.hernandez@company.com,+1-229-556-6563,Analytics Group,"Boston, MA",1768.43,2025-07-11,5,3.1,inactive
+CUST-00885,Ashley,Moore,ashley.moore@gmail.com,+1-955-478-9529,Cloud Solutions,"Denver, CO",53007.17,2025-07-26,1,3.8,pending
+CUST-00886,Jessica,Martin,jessica.martin@yahoo.com,+1-241-131-8736,Cloud Solutions,"Charlotte, NC",84651.2,2025-06-03,4,-2.0,pending
+CUST-00887,Daniel,Anderson,daniel.anderson@business.net,+1-811-127-6973,Web Services LLC,"Charlotte, NC",73097.24,2025-06-19,2,10.9,inactive
+CUST-00888,Matthew,Thomas,matthew.thomas@company.com,+1-487-186-4175,Network Solutions,"Miami, FL",18671.9,2025-05-26,5,-7.5,churned
+CUST-00889,Joshua,Anderson,joshua.anderson@company.com,+1-712-647-1299,,"Nashville, TN",97093.59,2025-05-23,4,-4.2,pending
+CUST-00890,Emily,Martin,emily.martin@gmail.com,+1-500-578-9289,Software Partners,"New York, NY",3391.11,2025-09-22,3,-2.1,inactive
+CUST-00891,Andrew,Brown,andrew.brown@yahoo.com,+1-349-232-1736,,"New York, NY",86529.69,2025-07-21,3,21.1,churned
+CUST-00892,William,Martin,william.martin@gmail.com,+1-742-796-2339,Platform Inc,"Atlanta, GA",23882.61,2025-08-09,1,24.8,active
+CUST-00893,Amanda,Moore,amanda.moore@yahoo.com,+1-210-145-6546,,"Charlotte, NC",74777.08,2025-04-19,1,17.9,pending
+CUST-00894,Amanda,Taylor,amanda.taylor@company.com,+1-455-793-7729,Tech Corp,"Austin, TX",54128.96,2025-04-17,5,15.1,churned
+CUST-00895,James,Martin,james.martin@company.com,+1-436-836-5118,Software Partners,"Seattle, WA",51983.38,2025-05-01,2,-2.1,pending
+CUST-00896,Robert,Williams,robert.williams@gmail.com,+1-239-458-7910,Web Services LLC,"Miami, FL",43606.61,2025-07-16,4,24.1,churned
+CUST-00897,Jennifer,Anderson,jennifer.anderson@yahoo.com,+1-667-985-9285,Web Services LLC,"Nashville, TN",9321.13,2025-04-26,2,-5.5,inactive
+CUST-00898,Jessica,Davis,jessica.davis@business.net,+1-816-148-7093,Platform Inc,"Denver, CO",26830.67,2025-07-21,3,-9.2,churned
+CUST-00899,Jessica,Lopez,jessica.lopez@yahoo.com,+1-320-829-2329,AI Innovations,"Atlanta, GA",96011.77,2025-07-12,4,5.6,active
+CUST-00900,David,Anderson,david.anderson@outlook.com,+1-429-381-5548,Network Solutions,"Seattle, WA",74307.76,2025-09-08,2,0.6,pending
+CUST-00901,Stephanie,Smith,stephanie.smith@business.net,+1-909-514-3367,Software Partners,"Austin, TX",62043.71,2025-06-17,5,19.8,active
+CUST-00902,Robert,Garcia,robert.garcia@gmail.com,,Software Partners,"Phoenix, AZ",48272.39,2025-07-20,5,22.3,inactive
+CUST-00903,Emily,Wilson,emily.wilson@outlook.com,+1-494-187-7065,Platform Inc,"Atlanta, GA",83357.79,2025-05-29,5,-9.1,churned
+CUST-00904,Lisa,Johnson,lisa.johnson@company.com,+1-361-134-8934,Digital Media Co,"San Diego, CA",9547.11,2025-07-11,4,16.4,inactive
+CUST-00905,Stephanie,Martinez,stephanie.martinez@company.com,+1-698-431-7620,Analytics Group,"Boston, MA",52199.01,2025-04-13,3,-5.2,inactive
+CUST-00906,Matthew,Wilson,matthew.wilson@company.com,+1-277-576-1719,Analytics Group,"Miami, FL",32150.03,2025-06-17,3,11.3,inactive
+CUST-00907,Daniel,Jackson,daniel.jackson@business.net,,AI Innovations,"Seattle, WA",77653.61,2025-09-14,3,-7.9,churned
+CUST-00908,Joshua,Gonzalez,joshua.gonzalez@yahoo.com,+1-961-489-8490,AI Innovations,"Phoenix, AZ",72325.28,2025-08-28,5,15.9,pending
+CUST-00909,Michelle,Wilson,michelle.wilson@company.com,+1-988-291-2356,Network Solutions,"Chicago, IL",79286.56,2025-07-06,1,19.7,active
+CUST-00910,Michelle,Taylor,michelle.taylor@outlook.com,+1-605-941-2049,Web Services LLC,"Boston, MA",85123.86,2025-05-25,3,-3.9,churned
+CUST-00911,Emily,Martinez,emily.martinez@business.net,+1-742-813-4893,Tech Corp,"Atlanta, GA",36248.19,2025-05-09,1,4.7,inactive
+CUST-00912,Ashley,Martinez,ashley.martinez@yahoo.com,+1-531-760-8657,Cloud Solutions,"Portland, OR",90516.73,2025-07-08,4,5.2,pending
+CUST-00913,Daniel,Hernandez,daniel.hernandez@business.net,+1-938-475-9226,Cloud Solutions,"New York, NY",58758.33,2025-07-08,4,15.8,churned
+CUST-00914,Emily,Smith,emily.smith@gmail.com,+1-834-442-7371,Data Systems Inc,"Austin, TX",30562.13,2025-09-24,4,12.8,churned
+CUST-00915,David,Thomas,david.thomas@gmail.com,+1-797-858-4991,Platform Inc,"Miami, FL",38740.74,2025-08-01,4,8.1,pending
+CUST-00916,Ashley,Brown,ashley.brown@gmail.com,+1-356-382-6806,Digital Media Co,"Charlotte, NC",31814.17,2025-09-08,3,4.9,inactive
+CUST-00917,Jennifer,Garcia,jennifer.garcia@gmail.com,+1-457-601-1541,Analytics Group,"Austin, TX",75143.09,2025-07-10,2,-0.5,churned
+CUST-00918,Lisa,Johnson,lisa.johnson@business.net,+1-513-527-7038,Platform Inc,"Charlotte, NC",85502.32,2025-06-24,3,5.0,active
+CUST-00919,Robert,Jackson,robert.jackson@business.net,+1-500-794-4641,Software Partners,"San Diego, CA",57451.19,2025-08-30,5,-6.0,churned
+CUST-00920,Nicole,Williams,nicole.williams@outlook.com,+1-606-792-7215,Analytics Group,"Nashville, TN",46796.18,2025-09-01,4,11.4,churned
+CUST-00921,Michelle,Taylor,michelle.taylor@business.net,,Software Partners,"New York, NY",16689.83,2025-09-18,5,-5.0,inactive
+CUST-00922,Jessica,Garcia,jessica.garcia@company.com,+1-740-319-1670,Cloud Solutions,"Seattle, WA",14234.55,2025-07-19,5,-8.4,churned
+CUST-00923,Daniel,Rodriguez,,+1-388-203-2337,Software Partners,"Atlanta, GA",2440.83,2025-04-25,2,24.0,inactive
+CUST-00924,Ashley,Williams,ashley.williams@yahoo.com,+1-262-523-9763,Web Services LLC,"Austin, TX",74071.38,2025-08-03,1,-2.8,inactive
+CUST-00925,Stephanie,Garcia,stephanie.garcia@gmail.com,+1-668-104-6431,Data Systems Inc,"Denver, CO",95616.66,2025-06-06,4,11.3,inactive
+CUST-00926,Jessica,Jackson,jessica.jackson@company.com,+1-728-237-5098,Platform Inc,"Denver, CO",58872.64,2025-05-23,1,-0.3,pending
+CUST-00927,Lisa,Jackson,lisa.jackson@yahoo.com,+1-846-873-8451,Platform Inc,"Los Angeles, CA",82181.19,2025-09-29,1,17.3,active
+CUST-00928,Jessica,Thomas,jessica.thomas@company.com,+1-727-332-2027,Analytics Group,"Denver, CO",86789.68,2025-05-28,2,20.4,active
+CUST-00929,Robert,Lopez,robert.lopez@company.com,+1-706-353-2763,Analytics Group,"Miami, FL",62007.3,2025-07-13,1,10.7,active
+CUST-00930,Nicole,Moore,nicole.moore@gmail.com,+1-447-400-3224,Analytics Group,"Nashville, TN",78081.53,2025-07-06,3,-9.1,churned
+CUST-00931,Sarah,Rodriguez,sarah.rodriguez@business.net,+1-738-168-8743,Tech Corp,"Miami, FL",25283.13,2025-08-31,4,17.7,inactive
+CUST-00932,Daniel,Smith,daniel.smith@yahoo.com,+1-701-321-5364,Analytics Group,"Charlotte, NC",37245.47,2025-07-17,1,10.8,active
+CUST-00933,Michael,Davis,michael.davis@outlook.com,+1-754-581-9541,Analytics Group,"Denver, CO",96386.23,2025-09-21,4,19.0,churned
+CUST-00934,Andrew,Anderson,andrew.anderson@yahoo.com,+1-497-987-2279,Tech Corp,"Phoenix, AZ",7548.31,2025-05-18,3,-0.6,churned
+CUST-00935,David,Thomas,david.thomas@yahoo.com,+1-976-490-1668,Web Services LLC,"Portland, OR",92625.6,2025-04-24,1,18.5,churned
+CUST-00936,Jennifer,Rodriguez,jennifer.rodriguez@gmail.com,+1-648-201-7843,Platform Inc,"Portland, OR",46108.98,2025-04-24,4,8.0,pending
+CUST-00937,Robert,Moore,robert.moore@gmail.com,+1-903-308-3458,Platform Inc,"Seattle, WA",4644.55,2025-09-27,1,-6.7,churned
+CUST-00938,Jessica,Gonzalez,jessica.gonzalez@yahoo.com,+1-215-954-2903,Web Services LLC,"Denver, CO",62157.96,2025-06-09,5,13.9,active
+CUST-00939,Nicole,Miller,nicole.miller@company.com,+1-961-785-5464,Web Services LLC,"New York, NY",55947.69,2025-09-10,1,11.3,pending
+CUST-00940,Michael,Wilson,michael.wilson@outlook.com,+1-663-550-9846,AI Innovations,"Portland, OR",57279.29,2025-06-26,4,7.3,pending
+CUST-00941,Stephanie,Moore,stephanie.moore@business.net,+1-264-925-4898,Data Systems Inc,"Los Angeles, CA",48337.7,2025-05-07,1,6.5,inactive
+CUST-00942,Amanda,Miller,amanda.miller@business.net,+1-311-504-5067,Platform Inc,"Nashville, TN",67496.71,2025-05-02,2,10.1,churned
+CUST-00943,William,Jackson,william.jackson@outlook.com,+1-909-949-2122,Web Services LLC,"Los Angeles, CA",76318.04,2025-09-21,3,21.7,churned
+CUST-00944,Daniel,Hernandez,daniel.hernandez@company.com,+1-992-482-7460,Cloud Solutions,"Phoenix, AZ",35758.17,2025-07-05,2,22.1,churned
+CUST-00945,Lisa,Brown,lisa.brown@outlook.com,+1-782-706-4888,Platform Inc,"Seattle, WA",70473.54,2025-07-22,3,22.5,inactive
+CUST-00946,Emily,Taylor,emily.taylor@yahoo.com,+1-659-527-6723,,"Boston, MA",17588.99,2025-06-06,1,-2.3,churned
+CUST-00947,Andrew,Miller,andrew.miller@gmail.com,+1-395-869-9463,Digital Media Co,"Austin, TX",37683.63,2025-08-01,5,20.8,pending
+CUST-00948,Emily,Jackson,emily.jackson@gmail.com,+1-891-215-5757,Tech Corp,"Phoenix, AZ",48260.61,2025-08-17,3,14.0,pending
+CUST-00949,William,Thomas,william.thomas@outlook.com,+1-770-727-8381,Cloud Solutions,"Boston, MA",18077.82,2025-08-21,5,11.9,active
+CUST-00950,Jennifer,Taylor,jennifer.taylor@yahoo.com,+1-822-971-9773,AI Innovations,"Nashville, TN",58912.82,2025-05-28,5,-4.7,inactive
+CUST-00951,Ashley,Martin,ashley.martin@gmail.com,+1-356-387-9794,Analytics Group,"Boston, MA",71897.34,2025-04-30,4,0.8,churned
+CUST-00952,Joshua,Smith,joshua.smith@business.net,+1-950-283-7933,Tech Corp,"Boston, MA",31905.23,2025-08-01,4,19.3,pending
+CUST-00953,Jennifer,Davis,jennifer.davis@company.com,+1-985-347-4590,Analytics Group,"Chicago, IL",48917.07,2025-04-30,4,23.2,active
+CUST-00954,Daniel,Martin,daniel.martin@company.com,+1-893-768-4157,Software Partners,"New York, NY",84853.39,2025-09-02,3,19.3,pending
+CUST-00955,Christopher,Brown,christopher.brown@business.net,+1-569-303-6784,Cloud Solutions,"Seattle, WA",38310.98,2025-07-23,3,18.0,pending
+CUST-00956,Joshua,Anderson,joshua.anderson@company.com,+1-596-160-6688,Platform Inc,"San Diego, CA",88815.99,2025-07-16,2,-2.8,active
+CUST-00957,Andrew,Garcia,andrew.garcia@outlook.com,+1-647-502-4385,AI Innovations,"Nashville, TN",31176.13,2025-04-26,4,-9.8,pending
+CUST-00958,Michelle,Garcia,michelle.garcia@business.net,+1-597-288-1194,Analytics Group,"Portland, OR",48264.55,2025-05-25,5,1.5,pending
+CUST-00959,Nicole,Moore,nicole.moore@gmail.com,+1-629-940-7127,Digital Media Co,"San Diego, CA",30518.96,2025-10-05,2,-5.6,churned
+CUST-00960,Robert,Jones,robert.jones@business.net,+1-329-808-1399,Analytics Group,"Seattle, WA",65245.68,2025-09-21,2,0.5,pending
+CUST-00961,Ashley,Jones,ashley.jones@yahoo.com,+1-887-717-5170,Tech Corp,"Charlotte, NC",40887.66,2025-05-02,1,10.4,active
+CUST-00962,Matthew,Thomas,matthew.thomas@outlook.com,+1-570-982-6782,Web Services LLC,"New York, NY",61043.76,2025-09-20,2,-0.0,churned
+CUST-00963,Amanda,Martinez,amanda.martinez@yahoo.com,+1-478-807-9242,Web Services LLC,"New York, NY",91307.49,2025-06-07,4,17.1,churned
+CUST-00964,Amanda,Smith,amanda.smith@yahoo.com,+1-388-547-4656,Platform Inc,"Los Angeles, CA",10387.93,2025-06-16,4,-6.3,active
+CUST-00965,Matthew,Miller,matthew.miller@yahoo.com,+1-581-485-3082,Data Systems Inc,"Boston, MA",74009.89,2025-09-22,1,22.8,churned
+CUST-00966,Nicole,Martin,nicole.martin@business.net,+1-394-691-8046,Tech Corp,"Los Angeles, CA",83105.6,2025-10-02,3,-7.3,pending
+CUST-00967,David,Smith,david.smith@yahoo.com,+1-795-430-4781,Network Solutions,"Atlanta, GA",85735.49,2025-05-22,4,-8.7,churned
+CUST-00968,Amanda,Taylor,amanda.taylor@outlook.com,+1-410-624-8103,Network Solutions,"Austin, TX",33409.64,2025-07-08,2,15.0,churned
+CUST-00969,Daniel,Rodriguez,daniel.rodriguez@gmail.com,+1-793-881-4953,Data Systems Inc,"Austin, TX",88046.45,2025-08-19,1,-9.2,pending
+CUST-00970,Robert,Rodriguez,robert.rodriguez@outlook.com,+1-514-656-7563,Analytics Group,"Portland, OR",57513.77,2025-10-05,1,0.1,inactive
+CUST-00971,Stephanie,Anderson,stephanie.anderson@company.com,+1-705-157-8951,Platform Inc,"Boston, MA",20158.9,2025-05-07,1,9.8,active
+CUST-00972,Daniel,Wilson,daniel.wilson@business.net,+1-291-220-2659,Digital Media Co,"San Diego, CA",20564.13,2025-09-21,3,-9.9,inactive
+CUST-00973,James,Lopez,james.lopez@gmail.com,+1-928-364-1687,Network Solutions,"Charlotte, NC",6459.17,2025-05-08,5,2.4,inactive
+CUST-00974,Jennifer,Rodriguez,jennifer.rodriguez@company.com,+1-495-748-4643,Cloud Solutions,"Atlanta, GA",99733.63,2025-08-03,4,23.1,pending
+CUST-00975,James,Taylor,james.taylor@company.com,+1-504-783-5686,Tech Corp,"Nashville, TN",74821.29,2025-06-03,2,3.5,pending
+CUST-00976,Stephanie,Martin,stephanie.martin@yahoo.com,+1-411-484-6987,Network Solutions,"Chicago, IL",65950.72,2025-07-11,3,22.1,inactive
+CUST-00977,Emily,Jackson,emily.jackson@outlook.com,,Network Solutions,"Los Angeles, CA",58573.72,2025-07-31,2,2.3,churned
+CUST-00978,Matthew,Garcia,matthew.garcia@business.net,+1-491-963-5767,Cloud Solutions,"Miami, FL",78208.85,2025-07-21,3,-5.2,churned
+CUST-00979,Robert,Rodriguez,robert.rodriguez@business.net,+1-570-595-2910,Network Solutions,"Seattle, WA",62050.78,2025-05-13,1,-1.7,active
+CUST-00980,James,Rodriguez,james.rodriguez@outlook.com,+1-654-126-1880,Analytics Group,"Denver, CO",19030.84,2025-07-22,1,6.7,pending
+CUST-00981,Joshua,Taylor,joshua.taylor@outlook.com,+1-765-577-5791,Data Systems Inc,"Chicago, IL",42459.76,2025-06-26,4,-2.9,active
+CUST-00982,Emily,Jackson,emily.jackson@yahoo.com,+1-956-263-9763,Web Services LLC,"Miami, FL",12536.94,2025-06-02,5,10.0,inactive
+CUST-00983,James,Davis,james.davis@company.com,+1-426-580-5402,Web Services LLC,"Phoenix, AZ",20881.43,2025-08-24,2,11.4,churned
+CUST-00984,Amanda,Jones,amanda.jones@outlook.com,+1-977-109-9519,Platform Inc,"Los Angeles, CA",34432.7,2025-05-06,2,2.6,pending
+CUST-00985,Daniel,Garcia,daniel.garcia@yahoo.com,+1-323-868-1931,AI Innovations,"Chicago, IL",53887.65,2025-06-21,2,-7.1,inactive
+CUST-00986,Michael,Gonzalez,michael.gonzalez@company.com,+1-820-989-1649,Software Partners,"Nashville, TN",66605.28,2025-09-14,1,11.6,inactive
+CUST-00987,Sarah,Williams,sarah.williams@outlook.com,+1-959-115-7733,Digital Media Co,"Atlanta, GA",43090.92,2025-05-06,1,-4.7,churned
+CUST-00988,Robert,Martinez,robert.martinez@business.net,+1-828-770-3088,Software Partners,"Denver, CO",65283.44,2025-04-28,5,9.4,pending
+CUST-00989,Jennifer,Jackson,jennifer.jackson@company.com,+1-311-313-8815,Software Partners,"New York, NY",57635.81,2025-05-26,5,-7.3,active
+CUST-00990,Nicole,Lopez,nicole.lopez@gmail.com,+1-491-246-1895,Data Systems Inc,"Miami, FL",43598.35,2025-06-27,3,2.1,pending
+CUST-00991,Matthew,Moore,matthew.moore@outlook.com,+1-606-794-4439,Network Solutions,"New York, NY",79704.98,2025-08-31,2,-10.0,active
+CUST-00992,Robert,Brown,robert.brown@company.com,+1-425-717-1221,Software Partners,"Miami, FL",64930.78,2025-04-23,4,15.3,inactive
+CUST-00993,Amanda,Lopez,amanda.lopez@gmail.com,+1-277-152-4349,Web Services LLC,"Atlanta, GA",98131.72,2025-08-12,5,19.7,inactive
+CUST-00994,Matthew,Anderson,matthew.anderson@outlook.com,+1-304-933-5034,Network Solutions,"Phoenix, AZ",77526.62,2025-04-28,2,15.3,active
+CUST-00995,Matthew,Garcia,,+1-809-767-4602,AI Innovations,"Miami, FL",78257.53,2025-07-04,5,11.8,churned
+CUST-00996,Jennifer,Gonzalez,jennifer.gonzalez@gmail.com,,AI Innovations,"Portland, OR",41403.87,2025-04-13,4,24.9,inactive
+CUST-00997,William,Johnson,william.johnson@yahoo.com,+1-304-465-3085,Data Systems Inc,"Portland, OR",69657.8,2025-05-03,2,-9.1,pending
+CUST-00998,Michelle,Jones,michelle.jones@company.com,+1-704-372-7667,Network Solutions,"Boston, MA",91904.8,2025-08-25,4,6.0,pending
+CUST-00999,Michelle,Jackson,michelle.jackson@yahoo.com,+1-526-519-6680,AI Innovations,"San Diego, CA",40723.07,2025-10-08,4,-9.6,pending
+CUST-01000,Michael,Wilson,,+1-286-116-3543,Data Systems Inc,"Austin, TX",25888.85,2025-07-11,2,-6.7,active

@@ -10,7 +10,7 @@ import time
 import logging
 
 from api.config import settings
-from api.routes import upload, clean, profile, health
+from api.routes import upload, clean, profile, health, customers
 
 # Setup logging
 logging.basicConfig(
@@ -86,6 +86,7 @@ app.include_router(health.router, prefix="/api/v1", tags=["Health"])
 app.include_router(upload.router, prefix="/api/v1", tags=["Upload"])
 app.include_router(clean.router, prefix="/api/v1", tags=["Clean"])
 app.include_router(profile.router, prefix="/api/v1", tags=["Profile"])
+app.include_router(customers.router, prefix="/api/v1", tags=["Customers"])
 
 
 # Root endpoint

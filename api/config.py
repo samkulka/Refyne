@@ -22,6 +22,7 @@ class Settings(BaseSettings):
     api_key_prefix: str = "refyne_"
     algorithm: str = "HS256"
     access_token_expire_minutes: int = 30
+    disable_auth: bool = True  # Set to False in production
     
     # Storage
     upload_dir: Path = Path("storage/uploads")
