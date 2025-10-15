@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: refyne-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/v1/health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: PYTHON_VERSION
+        value: 3.11
+    autoDeploy: true
