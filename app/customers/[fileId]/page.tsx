@@ -337,19 +337,15 @@ export default function CustomersPage() {
         </div>
 
         <motion.div
-          className="mb-8 text-center"
+          className="mb-12 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <Users className="h-4 w-4" />
-            AI-Powered Customer Intelligence
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 bg-clip-text text-transparent">
-            Customer Intelligence Dashboard
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-slate-900">
+            Customer Insights
           </h1>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            {data.total} customers analyzed with AI-powered insights
+          <p className="text-2xl text-slate-700 font-medium">
+            {data.total} customers analyzed
           </p>
         </motion.div>
 
@@ -361,59 +357,39 @@ export default function CustomersPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
           >
-            <Card className="border-2 hover:shadow-lg transition-all bg-gradient-to-br from-purple-50 to-white">
-              <CardHeader className="pb-2">
-                <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
-                  <DollarSign className="h-5 w-5" />
-                  Total Account Value
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-purple-600">
+            <Card className="border-2 border-slate-200 shadow-lg">
+              <CardContent className="pt-8 pb-8 text-center">
+                <p className="text-lg text-slate-700 mb-3 font-semibold">Total Value</p>
+                <p className="text-5xl font-bold text-purple-600">
                   ${data.summary.total_account_value.toLocaleString()}
                 </p>
               </CardContent>
             </Card>
-            <Card className="border-2 hover:shadow-lg transition-all bg-gradient-to-br from-green-50 to-white">
-              <CardHeader className="pb-2">
-                <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
-                  <Target className="h-5 w-5" />
-                  Avg Engagement Score
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-green-600">
+            <Card className="border-2 border-slate-200 shadow-lg">
+              <CardContent className="pt-8 pb-8 text-center">
+                <p className="text-lg text-slate-700 mb-3 font-semibold">Engagement</p>
+                <p className="text-5xl font-bold text-green-600">
                   {data.summary.average_engagement_score}
                 </p>
-                <p className="text-sm text-slate-700 mt-1 font-medium">out of 100</p>
+                <p className="text-base text-slate-700 mt-2">out of 100</p>
               </CardContent>
             </Card>
-            <Card className="border-2 hover:shadow-lg transition-all bg-gradient-to-br from-blue-50 to-white">
-              <CardHeader className="pb-2">
-                <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
-                  <Award className="h-5 w-5" />
-                  Champions
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-blue-600">
+            <Card className="border-2 border-slate-200 shadow-lg">
+              <CardContent className="pt-8 pb-8 text-center">
+                <p className="text-lg text-slate-700 mb-3 font-semibold">Champions</p>
+                <p className="text-5xl font-bold text-blue-600">
                   {data.summary.champion_customers}
                 </p>
-                <p className="text-sm text-slate-700 mt-1 font-medium">highly engaged</p>
+                <p className="text-base text-slate-700 mt-2">highly engaged</p>
               </CardContent>
             </Card>
-            <Card className="border-2 hover:shadow-lg transition-all bg-gradient-to-br from-red-50 to-white">
-              <CardHeader className="pb-2">
-                <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
-                  <AlertTriangle className="h-5 w-5" />
-                  High Churn Risk
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-4xl font-bold text-red-600">
+            <Card className="border-2 border-slate-200 shadow-lg">
+              <CardContent className="pt-8 pb-8 text-center">
+                <p className="text-lg text-slate-700 mb-3 font-semibold">At Risk</p>
+                <p className="text-5xl font-bold text-red-600">
                   {data.summary.high_risk_customers}
                 </p>
-                <p className="text-sm text-slate-700 mt-1 font-medium">need attention</p>
+                <p className="text-base text-slate-700 mt-2">need attention</p>
               </CardContent>
             </Card>
           </motion.div>
@@ -427,10 +403,9 @@ export default function CustomersPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
           >
-            <Card className="border-2">
+            <Card className="border-2 border-slate-200 shadow-lg">
               <CardHeader>
-                <CardTitle className="text-slate-900">Engagement Distribution</CardTitle>
-                <CardDescription className="text-slate-700 font-medium">Customer segmentation by engagement level</CardDescription>
+                <CardTitle className="text-2xl text-slate-900 font-bold">Engagement Distribution</CardTitle>
               </CardHeader>
               <CardContent>
                 <ResponsiveContainer width="100%" height={250}>
@@ -455,20 +430,19 @@ export default function CustomersPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-2">
+            <Card className="border-2 border-slate-200 shadow-lg">
               <CardHeader>
-                <CardTitle className="text-slate-900">Quick Stats</CardTitle>
-                <CardDescription className="text-slate-700 font-medium">Key metrics at a glance</CardDescription>
+                <CardTitle className="text-2xl text-slate-900 font-bold">Breakdown</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   {engagementData.map((item, idx) => (
-                    <div key={idx} className="flex items-center justify-between p-3 bg-slate-50 rounded-lg">
+                    <div key={idx} className="flex items-center justify-between p-4 bg-slate-50 rounded-lg">
                       <div className="flex items-center gap-3">
-                        <div className="h-5 w-5 rounded" style={{ backgroundColor: item.color }}></div>
-                        <span className="font-semibold text-slate-800">{item.name}</span>
+                        <div className="h-6 w-6 rounded" style={{ backgroundColor: item.color }}></div>
+                        <span className="text-lg font-bold text-slate-900">{item.name}</span>
                       </div>
-                      <span className="text-3xl font-bold" style={{ color: item.color }}>
+                      <span className="text-4xl font-bold" style={{ color: item.color }}>
                         {item.value}
                       </span>
                     </div>
@@ -485,7 +459,7 @@ export default function CustomersPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">All Customers</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-6">All Customers</h2>
           <div className="grid gap-4">
             {data.customers.map((customer, idx) => (
               <motion.div
@@ -522,41 +496,37 @@ export default function CustomersPage() {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <div className="grid md:grid-cols-5 gap-4 mb-3">
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-4">
                       {customer.account_value !== undefined && (
                         <div>
-                          <p className="text-xs text-slate-600 mb-1 font-semibold uppercase tracking-wide">Account Value</p>
-                          <p className="font-bold text-purple-600 text-lg">
+                          <p className="text-sm text-slate-700 mb-2 font-semibold">Value</p>
+                          <p className="font-bold text-purple-600 text-2xl">
                             ${customer.account_value.toLocaleString()}
                           </p>
                         </div>
                       )}
                       {customer.engagement_score !== undefined && (
                         <div>
-                          <p className="text-xs text-slate-600 mb-1 font-semibold uppercase tracking-wide">Engagement</p>
-                          <p className="font-bold text-green-600 text-lg">{customer.engagement_score}/100</p>
+                          <p className="text-sm text-slate-700 mb-2 font-semibold">Engagement</p>
+                          <p className="font-bold text-green-600 text-2xl">{customer.engagement_score}/100</p>
                         </div>
                       )}
                       {customer.total_orders !== undefined && (
                         <div>
-                          <p className="text-xs text-slate-600 mb-1 font-semibold uppercase tracking-wide">Total Orders</p>
-                          <p className="font-bold text-blue-600 text-lg">{customer.total_orders}</p>
+                          <p className="text-sm text-slate-700 mb-2 font-semibold">Orders</p>
+                          <p className="font-bold text-blue-600 text-2xl">{customer.total_orders}</p>
                         </div>
                       )}
-                      {customer.nps_score !== undefined && (
+                      {customer.insights.length > 0 && (
                         <div>
-                          <p className="text-xs text-slate-600 mb-1 font-semibold uppercase tracking-wide">NPS Score</p>
-                          <p className="font-bold text-slate-900 text-lg">{customer.nps_score}/10</p>
+                          <p className="text-sm text-slate-700 mb-2 font-semibold">Insights</p>
+                          <p className="font-bold text-slate-900 text-2xl">{customer.insights.length}</p>
                         </div>
                       )}
-                      <div>
-                        <p className="text-xs text-slate-600 mb-1 font-semibold uppercase tracking-wide">AI Insights</p>
-                        <p className="font-bold text-slate-900 text-lg">{customer.insights.length}</p>
-                      </div>
                     </div>
-                    <div className="flex items-center gap-2 text-sm text-slate-700 font-medium">
-                      <TrendingUp className="h-4 w-4" />
-                      Click to view detailed profile and insights
+                    <div className="flex items-center gap-2 text-base text-slate-700 font-semibold">
+                      <TrendingUp className="h-5 w-5" />
+                      Click for details
                     </div>
                   </CardContent>
                 </Card>
