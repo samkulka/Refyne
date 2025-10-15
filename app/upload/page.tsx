@@ -204,7 +204,7 @@ export default function UploadPage() {
                     {Object.entries(profile.issues_summary).map(([issue, count], idx) => (
                       <li key={idx} className="flex items-start gap-2 text-sm">
                         <Sparkles className="h-4 w-4 mt-0.5 text-blue-500" />
-                        {issue.replace(/_/g, ' ')}: {count}
+                        {issue.replace(/_/g, ' ')}: {String(count)}
                       </li>
                     ))}
                   </ul>
