@@ -120,153 +120,154 @@ export default function UploadPage() {
           </p>
         </div>
 
-      {error && (
-        <Card className="mb-6 border-red-500">
-          <CardContent className="pt-6">
-            <p className="text-red-600">{error}</p>
-          </CardContent>
-        </Card>
-      )}
+        {error && (
+          <Card className="mb-6 border-red-500">
+            <CardContent className="pt-6">
+              <p className="text-red-600">{error}</p>
+            </CardContent>
+          </Card>
+        )}
 
-      {/* Upload Section */}
-      <Card className="mb-6 border-2 hover:border-purple-200 transition-all hover:shadow-lg">
-        <CardHeader>
-          <div className="h-12 w-12 bg-purple-100 rounded-lg flex items-center justify-center mb-2">
-            <UploadCloud className="h-6 w-6 text-purple-600" />
-          </div>
-          <CardTitle className="text-slate-900">Upload File</CardTitle>
-          <CardDescription className="text-slate-600">
-            Upload a CSV, Excel, JSON, or Parquet file
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="flex items-center gap-4">
-            <input
-              type="file"
-              accept=".csv,.xlsx,.xls,.json,.parquet"
-              onChange={handleFileChange}
-              className="flex-1"
-              disabled={uploading}
-            />
-            <Button
-              onClick={handleUpload}
-              disabled={!file || uploading}
-              className="bg-purple-600 hover:bg-purple-700"
-            >
-              {uploading ? "Uploading..." : "Upload & Profile"}
-            </Button>
-          </div>
-          {file && (
-            <p className="text-sm text-muted-foreground mt-2">
-              Selected: {file.name} ({(file.size / 1024).toFixed(2)} KB)
-            </p>
-          )}
-        </CardContent>
-      </Card>
-
-      {/* Profile Results */}
-      {profile && (
-        <Card className="mb-6 border-2 hover:border-blue-200 transition-all hover:shadow-lg">
+        {/* Upload Section */}
+        <Card className="mb-6 border-2 hover:border-purple-200 transition-all hover:shadow-lg">
           <CardHeader>
-            <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-2">
-              <FileText className="h-6 w-6 text-blue-600" />
+            <div className="h-12 w-12 bg-purple-100 rounded-lg flex items-center justify-center mb-2">
+              <UploadCloud className="h-6 w-6 text-purple-600" />
             </div>
-            <CardTitle className="text-slate-900">Data Profile</CardTitle>
+            <CardTitle className="text-slate-900">Upload File</CardTitle>
             <CardDescription className="text-slate-600">
-              Quality analysis of your uploaded file
+              Upload a CSV, Excel, JSON, or Parquet file
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <div className="space-y-4">
-              <div>
-                <div className="flex justify-between items-center mb-2">
-                  <span className="text-sm font-medium">Overall Quality</span>
-                  <Badge>{Math.round(profile.quality_score)}%</Badge>
-                </div>
-                <Progress value={profile.quality_score} />
+            <div className="flex items-center gap-4">
+              <input
+                type="file"
+                accept=".csv,.xlsx,.xls,.json,.parquet"
+                onChange={handleFileChange}
+                className="flex-1"
+                disabled={uploading}
+              />
+              <Button
+                onClick={handleUpload}
+                disabled={!file || uploading}
+                className="bg-purple-600 hover:bg-purple-700"
+              >
+                {uploading ? "Uploading..." : "Upload & Profile"}
+              </Button>
+            </div>
+            {file && (
+              <p className="text-sm text-muted-foreground mt-2">
+                Selected: {file.name} ({(file.size / 1024).toFixed(2)} KB)
+              </p>
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Profile Results */}
+        {profile && (
+          <Card className="mb-6 border-2 hover:border-blue-200 transition-all hover:shadow-lg">
+            <CardHeader>
+              <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-2">
+                <FileText className="h-6 w-6 text-blue-600" />
               </div>
+              <CardTitle className="text-slate-900">Data Profile</CardTitle>
+              <CardDescription className="text-slate-600">
+                Quality analysis of your uploaded file
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div>
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-sm font-medium">Overall Quality</span>
+                    <Badge>{Math.round(profile.quality_score)}%</Badge>
+                  </div>
+                  <Progress value={profile.quality_score} />
+                </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <p className="text-sm text-slate-600 font-medium">Rows</p>
-                  <p className="text-2xl font-bold text-slate-900">{profile.total_rows}</p>
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <p className="text-sm text-slate-600 font-medium">Rows</p>
+                    <p className="text-2xl font-bold text-slate-900">{profile.total_rows}</p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-600 font-medium">Columns</p>
+                    <p className="text-2xl font-bold text-slate-900">{profile.total_columns}</p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-600 font-medium">Duplicates</p>
+                    <p className="text-2xl font-bold text-slate-900">{profile.duplicate_rows}</p>
+                  </div>
+                  <div>
+                    <p className="text-sm text-slate-600 font-medium">Memory Usage</p>
+                    <p className="text-2xl font-bold text-slate-900">{profile.memory_usage_mb.toFixed(2)} MB</p>
+                  </div>
                 </div>
-                <div>
-                  <p className="text-sm text-slate-600 font-medium">Columns</p>
-                  <p className="text-2xl font-bold text-slate-900">{profile.total_columns}</p>
-                </div>
-                <div>
-                  <p className="text-sm text-slate-600 font-medium">Duplicates</p>
-                  <p className="text-2xl font-bold text-slate-900">{profile.duplicate_rows}</p>
-                </div>
-                <div>
-                  <p className="text-sm text-slate-600 font-medium">Memory Usage</p>
-                  <p className="text-2xl font-bold text-slate-900">{profile.memory_usage_mb.toFixed(2)} MB</p>
-                </div>
-              </div>
 
-              {profile.issues_summary && Object.keys(profile.issues_summary).length > 0 && (
-                <div className="mt-4">
-                  <p className="text-sm font-medium mb-2">Issues Found:</p>
-                  <ul className="space-y-2">
-                    {Object.entries(profile.issues_summary).map(([issue, count], idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm">
-                        <Sparkles className="h-4 w-4 mt-0.5 text-blue-500" />
-                        {issue.replace(/_/g, ' ')}: {String(count)}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+                {profile.issues_summary && Object.keys(profile.issues_summary).length > 0 && (
+                  <div className="mt-4">
+                    <p className="text-sm font-medium mb-2">Issues Found:</p>
+                    <ul className="space-y-2">
+                      {Object.entries(profile.issues_summary).map(([issue, count], idx) => (
+                        <li key={idx} className="flex items-start gap-2 text-sm">
+                          <Sparkles className="h-4 w-4 mt-0.5 text-blue-500" />
+                          {issue.replace(/_/g, ' ')}: {String(count)}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-              <div className="grid grid-cols-2 gap-3 mt-4">
-                <Button
-                  onClick={handleClean}
-                  disabled={cleaning}
-                  className="bg-purple-600 hover:bg-purple-700"
-                >
-                  {cleaning ? `Cleaning... ${jobStatus?.progress || 0}%` : "Clean Data"}
-                </Button>
-                <Link href={`/customers/${fileId}`}>
-                  <Button variant="outline" className="w-full border-purple-200 text-purple-700 hover:bg-purple-50">
-                    <Users className="h-4 w-4 mr-2" />
-                    View Customers
+                <div className="grid grid-cols-2 gap-3 mt-4">
+                  <Button
+                    onClick={handleClean}
+                    disabled={cleaning}
+                    className="bg-purple-600 hover:bg-purple-700"
+                  >
+                    {cleaning ? `Cleaning... ${jobStatus?.progress || 0}%` : "Clean Data"}
                   </Button>
-                </Link>
+                  <Link href={`/customers/${fileId}`}>
+                    <Button variant="outline" className="w-full border-purple-200 text-purple-700 hover:bg-purple-50">
+                      <Users className="h-4 w-4 mr-2" />
+                      View Customers
+                    </Button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          </CardContent>
-        </Card>
-      )}
+            </CardContent>
+          </Card>
+        )}
 
-      {/* Clean Results */}
-      {jobStatus?.status === 'completed' && (
-        <Card className="border-2 border-green-200 hover:shadow-lg transition-all">
-          <CardHeader>
-            <div className="h-12 w-12 bg-green-100 rounded-lg flex items-center justify-center mb-2">
-              <Download className="h-6 w-6 text-green-600" />
-            </div>
-            <CardTitle className="text-slate-900">Cleaned Data Ready</CardTitle>
-            <CardDescription className="text-slate-600">
-              Cleaning completed successfully
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="mb-4">
-              <p className="text-sm text-slate-600">Job ID: {jobId}</p>
-              {jobStatus.completed_at && (
-                <p className="text-sm text-slate-600">
-                  Completed: {new Date(jobStatus.completed_at).toLocaleString()}
-                </p>
-              )}
-            </div>
-            <Button onClick={handleDownload} className="w-full bg-green-600 hover:bg-green-700">
-              <Download className="h-4 w-4 mr-2" />
-              Download Cleaned File
-            </Button>
-          </CardContent>
-        </Card>
-      )}
+        {/* Clean Results */}
+        {jobStatus?.status === 'completed' && (
+          <Card className="border-2 border-green-200 hover:shadow-lg transition-all">
+            <CardHeader>
+              <div className="h-12 w-12 bg-green-100 rounded-lg flex items-center justify-center mb-2">
+                <Download className="h-6 w-6 text-green-600" />
+              </div>
+              <CardTitle className="text-slate-900">Cleaned Data Ready</CardTitle>
+              <CardDescription className="text-slate-600">
+                Cleaning completed successfully
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="mb-4">
+                <p className="text-sm text-slate-600">Job ID: {jobId}</p>
+                {jobStatus.completed_at && (
+                  <p className="text-sm text-slate-600">
+                    Completed: {new Date(jobStatus.completed_at).toLocaleString()}
+                  </p>
+                )}
+              </div>
+              <Button onClick={handleDownload} className="w-full bg-green-600 hover:bg-green-700">
+                <Download className="h-4 w-4 mr-2" />
+                Download Cleaned File
+              </Button>
+            </CardContent>
+          </Card>
+        )}
+      </div>
     </div>
   );
 }
