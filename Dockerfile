@@ -37,6 +37,10 @@ COPY --from=builder /usr/local/bin /usr/local/bin
 COPY --chown=refyne:refyne src/ ./src/
 COPY --chown=refyne:refyne api/ ./api/
 COPY --chown=refyne:refyne data/sample/ ./data/sample/
+COPY --chown=refyne:refyne start.sh ./start.sh
+
+# Make start script executable
+RUN chmod +x start.sh
 
 # Switch to non-root user
 USER refyne
@@ -44,5 +48,5 @@ USER refyne
 # Expose port (Railway sets PORT dynamically)
 EXPOSE 8000
 
-# Run the API (use PORT env var for Railway compatibility)
-CMD sh -c "uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}"
+# Run the API using start script
+CMD ["./start.sh"]
