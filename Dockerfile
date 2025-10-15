@@ -41,12 +41,8 @@ COPY --chown=refyne:refyne data/sample/ ./data/sample/
 # Switch to non-root user
 USER refyne
 
-# Expose port
+# Expose port (Railway sets PORT dynamically)
 EXPOSE 8000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:8000/api/v1/health')"
-
-# Run the API
-CMD ["uvicorn", "api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the API (use PORT env var for Railway compatibility)
+CMD sh -c "uvicorn api.main:app --host 0.0.0.0 --port ${PORT:-8000}"
