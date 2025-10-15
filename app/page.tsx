@@ -106,15 +106,15 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          <h2 className="text-3xl font-bold text-center mb-12">How It Works</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-slate-900">How It Works</h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="h-16 w-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
-              <h3 className="text-xl font-semibold mb-2">Upload Your CSV</h3>
-              <p className="text-slate-600">
+              <h3 className="text-xl font-semibold mb-2 text-slate-900">Upload Your CSV</h3>
+              <p className="text-slate-700 font-medium">
                 Export customer data from your CRM, Stripe, or any system. We handle messy data automatically.
               </p>
             </div>
@@ -123,8 +123,8 @@ export default function Home() {
               <div className="h-16 w-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
-              <h3 className="text-xl font-semibold mb-2">AI Analyzes Everything</h3>
-              <p className="text-slate-600">
+              <h3 className="text-xl font-semibold mb-2 text-slate-900">AI Analyzes Everything</h3>
+              <p className="text-slate-700 font-medium">
                 Our AI profiles each customer, calculates health scores, and identifies patterns in seconds.
               </p>
             </div>
@@ -133,8 +133,8 @@ export default function Home() {
               <div className="h-16 w-16 bg-purple-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
-              <h3 className="text-xl font-semibold mb-2">Get Actionable Insights</h3>
-              <p className="text-slate-600">
+              <h3 className="text-xl font-semibold mb-2 text-slate-900">Get Actionable Insights</h3>
+              <p className="text-slate-700 font-medium">
                 See which customers to prioritize, who's at risk, and where to expand revenue.
               </p>
             </div>
@@ -171,8 +171,8 @@ export default function Home() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          <h2 className="text-3xl font-bold mb-4">Ready to understand your customers?</h2>
-          <p className="text-xl text-slate-600 mb-8">
+          <h2 className="text-3xl font-bold mb-4 text-slate-900">Ready to understand your customers?</h2>
+          <p className="text-xl text-slate-700 mb-8 font-medium">
             Start analyzing customer data in under 60 seconds. No credit card required.
           </p>
           <Link href="/upload">
