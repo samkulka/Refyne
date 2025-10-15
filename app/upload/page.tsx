@@ -105,13 +105,20 @@ export default function UploadPage() {
   };
 
   return (
-    <div className="container mx-auto py-8 max-w-4xl">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold">Refyne Data Cleanser</h1>
-        <p className="text-muted-foreground mt-2">
-          Upload, profile, and clean your customer data
-        </p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <div className="container mx-auto py-12 px-4 max-w-4xl">
+        <div className="mb-8 text-center">
+          <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+            <Sparkles className="h-4 w-4" />
+            AI-Powered Data Processing
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 bg-clip-text text-transparent">
+            Refyne Data Cleanser
+          </h1>
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+            Upload, profile, and clean your customer data instantly
+          </p>
+        </div>
 
       {error && (
         <Card className="mb-6 border-red-500">
@@ -122,13 +129,13 @@ export default function UploadPage() {
       )}
 
       {/* Upload Section */}
-      <Card className="mb-6">
+      <Card className="mb-6 border-2 hover:border-purple-200 transition-all hover:shadow-lg">
         <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <UploadCloud className="h-5 w-5" />
-            Upload File
-          </CardTitle>
-          <CardDescription>
+          <div className="h-12 w-12 bg-purple-100 rounded-lg flex items-center justify-center mb-2">
+            <UploadCloud className="h-6 w-6 text-purple-600" />
+          </div>
+          <CardTitle className="text-slate-900">Upload File</CardTitle>
+          <CardDescription className="text-slate-600">
             Upload a CSV, Excel, JSON, or Parquet file
           </CardDescription>
         </CardHeader>
@@ -144,6 +151,7 @@ export default function UploadPage() {
             <Button
               onClick={handleUpload}
               disabled={!file || uploading}
+              className="bg-purple-600 hover:bg-purple-700"
             >
               {uploading ? "Uploading..." : "Upload & Profile"}
             </Button>
@@ -158,13 +166,13 @@ export default function UploadPage() {
 
       {/* Profile Results */}
       {profile && (
-        <Card className="mb-6">
+        <Card className="mb-6 border-2 hover:border-blue-200 transition-all hover:shadow-lg">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <FileText className="h-5 w-5" />
-              Data Profile
-            </CardTitle>
-            <CardDescription>
+            <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-2">
+              <FileText className="h-6 w-6 text-blue-600" />
+            </div>
+            <CardTitle className="text-slate-900">Data Profile</CardTitle>
+            <CardDescription className="text-slate-600">
               Quality analysis of your uploaded file
             </CardDescription>
           </CardHeader>
@@ -180,20 +188,20 @@ export default function UploadPage() {
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <p className="text-sm text-muted-foreground">Rows</p>
-                  <p className="text-2xl font-bold">{profile.total_rows}</p>
+                  <p className="text-sm text-slate-600 font-medium">Rows</p>
+                  <p className="text-2xl font-bold text-slate-900">{profile.total_rows}</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Columns</p>
-                  <p className="text-2xl font-bold">{profile.total_columns}</p>
+                  <p className="text-sm text-slate-600 font-medium">Columns</p>
+                  <p className="text-2xl font-bold text-slate-900">{profile.total_columns}</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Duplicates</p>
-                  <p className="text-2xl font-bold">{profile.duplicate_rows}</p>
+                  <p className="text-sm text-slate-600 font-medium">Duplicates</p>
+                  <p className="text-2xl font-bold text-slate-900">{profile.duplicate_rows}</p>
                 </div>
                 <div>
-                  <p className="text-sm text-muted-foreground">Memory Usage</p>
-                  <p className="text-2xl font-bold">{profile.memory_usage_mb.toFixed(2)} MB</p>
+                  <p className="text-sm text-slate-600 font-medium">Memory Usage</p>
+                  <p className="text-2xl font-bold text-slate-900">{profile.memory_usage_mb.toFixed(2)} MB</p>
                 </div>
               </div>
 
@@ -215,11 +223,12 @@ export default function UploadPage() {
                 <Button
                   onClick={handleClean}
                   disabled={cleaning}
+                  className="bg-purple-600 hover:bg-purple-700"
                 >
                   {cleaning ? `Cleaning... ${jobStatus?.progress || 0}%` : "Clean Data"}
                 </Button>
                 <Link href={`/customers/${fileId}`}>
-                  <Button variant="outline" className="w-full">
+                  <Button variant="outline" className="w-full border-purple-200 text-purple-700 hover:bg-purple-50">
                     <Users className="h-4 w-4 mr-2" />
                     View Customers
                   </Button>
@@ -232,26 +241,26 @@ export default function UploadPage() {
 
       {/* Clean Results */}
       {jobStatus?.status === 'completed' && (
-        <Card>
+        <Card className="border-2 border-green-200 hover:shadow-lg transition-all">
           <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Download className="h-5 w-5" />
-              Cleaned Data Ready
-            </CardTitle>
-            <CardDescription>
+            <div className="h-12 w-12 bg-green-100 rounded-lg flex items-center justify-center mb-2">
+              <Download className="h-6 w-6 text-green-600" />
+            </div>
+            <CardTitle className="text-slate-900">Cleaned Data Ready</CardTitle>
+            <CardDescription className="text-slate-600">
               Cleaning completed successfully
             </CardDescription>
           </CardHeader>
           <CardContent>
             <div className="mb-4">
-              <p className="text-sm text-muted-foreground">Job ID: {jobId}</p>
+              <p className="text-sm text-slate-600">Job ID: {jobId}</p>
               {jobStatus.completed_at && (
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-slate-600">
                   Completed: {new Date(jobStatus.completed_at).toLocaleString()}
                 </p>
               )}
             </div>
-            <Button onClick={handleDownload} className="w-full">
+            <Button onClick={handleDownload} className="w-full bg-green-600 hover:bg-green-700">
               <Download className="h-4 w-4 mr-2" />
               Download Cleaned File
             </Button>

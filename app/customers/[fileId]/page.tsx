@@ -179,8 +179,8 @@ export default function CustomersPage() {
               <CardHeader>
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
-                    <CardTitle className="text-3xl mb-2">{selectedCustomer.name}</CardTitle>
-                    <CardDescription className="text-base">
+                    <CardTitle className="text-3xl mb-2 text-slate-900">{selectedCustomer.name}</CardTitle>
+                    <CardDescription className="text-base text-slate-700 font-medium">
                       {selectedCustomer.job_title && `${selectedCustomer.job_title} · `}
                       {selectedCustomer.company}
                     </CardDescription>
@@ -227,8 +227,8 @@ export default function CustomersPage() {
               {selectedCustomer.account_value !== undefined && (
                 <Card className="border-2 hover:shadow-lg transition-shadow">
                   <CardHeader className="pb-2">
-                    <CardDescription className="flex items-center gap-2">
-                      <DollarSign className="h-4 w-4" />
+                    <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
+                      <DollarSign className="h-5 w-5" />
                       Account Value
                     </CardDescription>
                   </CardHeader>
@@ -242,21 +242,21 @@ export default function CustomersPage() {
               {selectedCustomer.engagement_score !== undefined && (
                 <Card className="border-2 hover:shadow-lg transition-shadow">
                   <CardHeader className="pb-2">
-                    <CardDescription className="flex items-center gap-2">
-                      <Target className="h-4 w-4" />
+                    <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
+                      <Target className="h-5 w-5" />
                       Engagement Score
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="text-3xl font-bold text-green-600">{selectedCustomer.engagement_score}</p>
-                    <p className="text-xs text-slate-500 mt-1">out of 100</p>
+                    <p className="text-xs text-slate-600 mt-1 font-medium">out of 100</p>
                   </CardContent>
                 </Card>
               )}
               {selectedCustomer.total_orders !== undefined && (
                 <Card className="border-2 hover:shadow-lg transition-shadow">
                   <CardHeader className="pb-2">
-                    <CardDescription>Total Orders</CardDescription>
+                    <CardDescription className="text-slate-700 font-semibold">Total Orders</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <p className="text-3xl font-bold text-blue-600">{selectedCustomer.total_orders}</p>
@@ -266,7 +266,7 @@ export default function CustomersPage() {
               {selectedCustomer.churn_risk && (
                 <Card className="border-2 hover:shadow-lg transition-shadow">
                   <CardHeader className="pb-2">
-                    <CardDescription>Churn Risk</CardDescription>
+                    <CardDescription className="text-slate-700 font-semibold">Churn Risk</CardDescription>
                   </CardHeader>
                   <CardContent>
                     <Badge className={`${getRiskColor(selectedCustomer.churn_risk)} border text-base px-3 py-1`}>
@@ -280,11 +280,11 @@ export default function CustomersPage() {
             {/* Insights */}
             <Card className="border-2">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
+                <CardTitle className="flex items-center gap-2 text-slate-900">
                   <TrendingUp className="h-5 w-5" />
                   AI-Generated Insights
                 </CardTitle>
-                <CardDescription>
+                <CardDescription className="text-slate-700 font-medium">
                   Auto-detected patterns and recommendations based on customer data
                 </CardDescription>
               </CardHeader>
@@ -337,14 +337,18 @@ export default function CustomersPage() {
         </div>
 
         <motion.div
-          className="mb-8"
+          className="mb-8 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <h1 className="text-4xl font-bold text-slate-900">
+          <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
+            <Users className="h-4 w-4" />
+            AI-Powered Customer Intelligence
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 bg-clip-text text-transparent">
             Customer Intelligence Dashboard
           </h1>
-          <p className="text-slate-700 mt-2 text-lg font-medium">
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             {data.total} customers analyzed with AI-powered insights
           </p>
         </motion.div>
@@ -359,8 +363,8 @@ export default function CustomersPage() {
           >
             <Card className="border-2 hover:shadow-lg transition-all bg-gradient-to-br from-purple-50 to-white">
               <CardHeader className="pb-2">
-                <CardDescription className="flex items-center gap-2">
-                  <DollarSign className="h-4 w-4" />
+                <CardDescription className="flex items-center gap-2 text-slate-700 font-semibold">
+                  <DollarSign className="h-5 w-5" />
                   Total Account Value
                 </CardDescription>
               </CardHeader>
@@ -501,7 +505,7 @@ export default function CustomersPage() {
                           <User className="h-5 w-5 text-purple-600" />
                           {customer.name}
                         </CardTitle>
-                        <CardDescription className="mt-2 text-base">
+                        <CardDescription className="mt-2 text-base text-slate-700 font-medium">
                           {customer.company} {customer.industry && `· ${customer.industry}`}
                         </CardDescription>
                       </div>
