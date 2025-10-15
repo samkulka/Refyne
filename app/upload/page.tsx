@@ -107,16 +107,12 @@ export default function UploadPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       <div className="container mx-auto py-12 px-4 max-w-4xl">
-        <div className="mb-8 text-center">
-          <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <Sparkles className="h-4 w-4" />
-            AI-Powered Data Processing
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 bg-clip-text text-transparent">
-            Refyne Data Cleanser
+        <div className="mb-12 text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 text-slate-900">
+            Upload Your Data
           </h1>
-          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-            Upload, profile, and clean your customer data instantly
+          <p className="text-2xl text-slate-700 max-w-2xl mx-auto font-medium">
+            Get instant AI-powered insights
           </p>
         </div>
 
@@ -129,111 +125,83 @@ export default function UploadPage() {
         )}
 
         {/* Upload Section */}
-        <Card className="mb-6 border-2 hover:border-purple-200 transition-all hover:shadow-lg">
-          <CardHeader>
-            <div className="h-12 w-12 bg-purple-100 rounded-lg flex items-center justify-center mb-2">
-              <UploadCloud className="h-6 w-6 text-purple-600" />
+        <Card className="mb-8 border-2 border-slate-200 shadow-xl">
+          <CardContent className="pt-12 pb-12">
+            <div className="text-center mb-8">
+              <div className="inline-flex h-20 w-20 bg-purple-100 rounded-full items-center justify-center mb-4">
+                <UploadCloud className="h-10 w-10 text-purple-600" />
+              </div>
+              <h2 className="text-2xl font-bold text-slate-900 mb-2">Choose a file to analyze</h2>
+              <p className="text-lg text-slate-700">
+                CSV, Excel, JSON, or Parquet
+              </p>
             </div>
-            <CardTitle className="text-slate-900">Upload File</CardTitle>
-            <CardDescription className="text-slate-600">
-              Upload a CSV, Excel, JSON, or Parquet file
-            </CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="flex items-center gap-4">
+            <div className="max-w-md mx-auto">
               <input
                 type="file"
                 accept=".csv,.xlsx,.xls,.json,.parquet"
                 onChange={handleFileChange}
-                className="flex-1"
+                className="w-full mb-4 text-base file:mr-4 file:py-3 file:px-6 file:rounded-lg file:border-0 file:text-base file:font-semibold file:bg-purple-50 file:text-purple-700 hover:file:bg-purple-100 file:cursor-pointer"
                 disabled={uploading}
               />
+              {file && (
+                <p className="text-base text-slate-700 mb-4 font-medium">
+                  Selected: {file.name} ({(file.size / 1024).toFixed(2)} KB)
+                </p>
+              )}
               <Button
                 onClick={handleUpload}
                 disabled={!file || uploading}
-                className="bg-purple-600 hover:bg-purple-700"
+                className="w-full bg-purple-600 hover:bg-purple-700 text-white py-6 text-lg font-semibold"
+                size="lg"
               >
-                {uploading ? "Uploading..." : "Upload & Profile"}
+                {uploading ? "Analyzing..." : "Analyze File"}
               </Button>
             </div>
-            {file && (
-              <p className="text-sm text-muted-foreground mt-2">
-                Selected: {file.name} ({(file.size / 1024).toFixed(2)} KB)
-              </p>
-            )}
           </CardContent>
         </Card>
 
         {/* Profile Results */}
         {profile && (
-          <Card className="mb-6 border-2 hover:border-blue-200 transition-all hover:shadow-lg">
-            <CardHeader>
-              <div className="h-12 w-12 bg-blue-100 rounded-lg flex items-center justify-center mb-2">
-                <FileText className="h-6 w-6 text-blue-600" />
+          <Card className="mb-8 border-2 border-slate-200 shadow-xl">
+            <CardContent className="pt-10 pb-10">
+              <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold text-slate-900 mb-4">File Analysis Complete</h2>
+                <div className="inline-flex items-center gap-3 bg-green-50 px-6 py-3 rounded-full">
+                  <div className="h-3 w-3 bg-green-500 rounded-full"></div>
+                  <span className="text-xl font-bold text-green-700">{Math.round(profile.quality_score)}% Quality</span>
+                </div>
               </div>
-              <CardTitle className="text-slate-900">Data Profile</CardTitle>
-              <CardDescription className="text-slate-600">
-                Quality analysis of your uploaded file
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div>
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm font-medium">Overall Quality</span>
-                    <Badge>{Math.round(profile.quality_score)}%</Badge>
-                  </div>
-                  <Progress value={profile.quality_score} />
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                <div className="text-center">
+                  <p className="text-lg text-slate-700 mb-2">Rows</p>
+                  <p className="text-4xl font-bold text-slate-900">{profile.total_rows.toLocaleString()}</p>
                 </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <p className="text-sm text-slate-600 font-medium">Rows</p>
-                    <p className="text-2xl font-bold text-slate-900">{profile.total_rows}</p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-slate-600 font-medium">Columns</p>
-                    <p className="text-2xl font-bold text-slate-900">{profile.total_columns}</p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-slate-600 font-medium">Duplicates</p>
-                    <p className="text-2xl font-bold text-slate-900">{profile.duplicate_rows}</p>
-                  </div>
-                  <div>
-                    <p className="text-sm text-slate-600 font-medium">Memory Usage</p>
-                    <p className="text-2xl font-bold text-slate-900">{profile.memory_usage_mb.toFixed(2)} MB</p>
-                  </div>
+                <div className="text-center">
+                  <p className="text-lg text-slate-700 mb-2">Columns</p>
+                  <p className="text-4xl font-bold text-slate-900">{profile.total_columns}</p>
                 </div>
+                <div className="text-center">
+                  <p className="text-lg text-slate-700 mb-2">Duplicates</p>
+                  <p className="text-4xl font-bold text-slate-900">{profile.duplicate_rows}</p>
+                </div>
+                <div className="text-center">
+                  <p className="text-lg text-slate-700 mb-2">Size</p>
+                  <p className="text-4xl font-bold text-slate-900">{profile.memory_usage_mb.toFixed(1)}<span className="text-2xl">MB</span></p>
+                </div>
+              </div>
 
-                {profile.issues_summary && Object.keys(profile.issues_summary).length > 0 && (
-                  <div className="mt-4">
-                    <p className="text-sm font-medium mb-2">Issues Found:</p>
-                    <ul className="space-y-2">
-                      {Object.entries(profile.issues_summary).map(([issue, count], idx) => (
-                        <li key={idx} className="flex items-start gap-2 text-sm">
-                          <Sparkles className="h-4 w-4 mt-0.5 text-blue-500" />
-                          {issue.replace(/_/g, ' ')}: {String(count)}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                <div className="grid grid-cols-2 gap-3 mt-4">
-                  <Button
-                    onClick={handleClean}
-                    disabled={cleaning}
-                    className="bg-purple-600 hover:bg-purple-700"
-                  >
-                    {cleaning ? `Cleaning... ${jobStatus?.progress || 0}%` : "Clean Data"}
+              <div className="max-w-md mx-auto">
+                <Link href={`/customers/${fileId}`} className="block mb-3">
+                  <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-6 text-lg font-semibold" size="lg">
+                    <Users className="h-6 w-6 mr-2" />
+                    View Customer Insights
                   </Button>
-                  <Link href={`/customers/${fileId}`}>
-                    <Button variant="outline" className="w-full border-purple-200 text-purple-700 hover:bg-purple-50">
-                      <Users className="h-4 w-4 mr-2" />
-                      View Customers
-                    </Button>
-                  </Link>
-                </div>
+                </Link>
+                <p className="text-center text-sm text-slate-600">
+                  Note: Files are stored temporarily and may be lost on server restarts
+                </p>
               </div>
             </CardContent>
           </Card>
