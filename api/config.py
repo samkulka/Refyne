@@ -41,13 +41,8 @@ class Settings(BaseSettings):
     # Redis (Optional for MVP)
     redis_url: str = "redis://localhost:6379/0"
     
-    # CORS
-    cors_origins: List[str] = [
-        "http://localhost:3000",
-        "http://localhost:8000",
-        "http://127.0.0.1:3000",
-        "http://127.0.0.1:8000"
-    ]
+    # CORS - Allow all origins in production, specific origins in dev
+    cors_origins: List[str] = ["*"]  # Allow all origins for now
     
     # Cleaning Options
     default_aggressive: bool = False
