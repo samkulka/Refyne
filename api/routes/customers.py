@@ -90,9 +90,17 @@ async def get_customer_profiles(file_id: str, limit: int = 100):
         raise
     except Exception as e:
         logger.error(f"Customer profiling error: {e}", exc_info=True)
+
+        # Provide more helpful error message
+        error_msg = str(e)
+        if "customer_id" in error_msg.lower() or "name" in error_msg.lower():
+            detail = "This file doesn't appear to contain customer data. Please upload a CSV with customer information (names, emails, etc.)"
+        else:
+            detail = f"Failed to generate customer profiles. The file may not be in the expected format. Error: {error_msg}"
+
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Failed to generate customer profiles: {str(e)}"
+            detail=detail
         )
 
 

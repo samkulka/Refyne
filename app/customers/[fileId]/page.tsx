@@ -135,12 +135,24 @@ export default function CustomersPage() {
 
   if (error) {
     return (
-      <div className="container mx-auto py-8">
-        <Card className="border-red-500">
-          <CardContent className="pt-6">
-            <p className="text-red-600">{error}</p>
-          </CardContent>
-        </Card>
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
+        <div className="container mx-auto py-12 px-4 max-w-2xl">
+          <Card className="border-2 border-red-500 shadow-xl">
+            <CardContent className="pt-12 pb-12 text-center">
+              <div className="inline-flex h-20 w-20 bg-red-100 rounded-full items-center justify-center mb-6">
+                <AlertTriangle className="h-10 w-10 text-red-600" />
+              </div>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Unable to Load Customers</h2>
+              <p className="text-lg text-slate-700 mb-8">{error}</p>
+              <Link href="/upload">
+                <Button className="bg-purple-600 hover:bg-purple-700 text-white" size="lg">
+                  <ArrowLeft className="h-5 w-5 mr-2" />
+                  Upload a Different File
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     );
   }
